@@ -1,0 +1,49 @@
+# ENDGAME runtime (Python 3.11 recommended)
+# Keep Transformers on v4: historical Jina code is not compatible with transformers v5.
+
+# Core scientific stack
+numpy>=1.26,<3
+scipy>=1.11,<2
+pandas>=2.1,<3
+scikit-learn>=1.4,<2
+tqdm>=4.66
+joblib>=1.3
+
+# Retrieval / ranking
+rank-bm25>=0.2.2
+lightgbm>=4.3,<5
+xgboost>=2.0,<4
+catboost>=1.2,<2
+
+# PyTorch CUDA 12.6
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.7.1+cu126
+
+# Hugging Face
+transformers>=4.51,<5
+sentence-transformers>=3.0,<6
+accelerate>=0.30
+safetensors>=0.4
+huggingface_hub>=0.23
+datasets>=2.19
+peft>=0.11
+sentencepiece>=0.2
+protobuf>=4.25
+einops>=0.8
+
+# Approximate-nearest-neighbour / vector indexes
+faiss-cpu>=1.8
+hnswlib>=0.8
+
+# Text / utilities
+regex>=2024.5.15
+PyYAML>=6.0
+orjson>=3.10
+unidecode>=1.3
+psutil>=5.9
+
+# Download / experiment utilities
+gdown>=5.0
+
+# Tests
+pytest>=8.0

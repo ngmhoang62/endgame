@@ -1,0 +1,54 @@
+# Python / venv
+/.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets / local config
+.env
+.env.*
+!.env.example
+
+# Heavy generated caches and model weights
+cache/
+models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.onnx
+*.npy
+*.npz
+*.pkl
+*.pickle
+*.faiss
+*.index
+
+# Large databases / temporary files
+*.sqlite
+*.sqlite3
+*.db
+*.tmp
+*.temp
+
+# Generated submission archives are immutable locally but ZIP bytes are not useful in git.
+submissions/**/*.zip
+
+# IMPORTANT: keep lightweight scientific evidence versioned.
+# Do NOT ignore:
+#   private-official.json
+#   reports/**/*.json, *.jsonl, *.csv, *.md
+#   results/**/MANIFEST.json, REPORT*.json, REPORT*.md, metrics/config files
+#   submissions/**/submission.json, MANIFEST.json, README.md, HYPOTHESIS.md
+#
+# If a results/ artifact becomes large, add that exact path here rather than
+# ignoring the entire results/ tree.

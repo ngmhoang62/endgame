@@ -1,0 +1,105 @@
+{
+  "generated_at_utc": "2026-09-19T05:49:33.048066+00:00",
+  "input_path": "D:\\Study\\DSC2026\\endgame\\private-official.json",
+  "input_sha256": "9da4e0cb84204fed924251c35744c93879556e67a440332015ea3b62f3c355bc",
+  "top_level_type": "dict",
+  "n_queries": 2080,
+  "schema": {
+    "record_keys_frequency": {
+      "question": 2080,
+      "answer": 2080,
+      "qid": 2080
+    },
+    "qid_keys_detected": {
+      "qid": 2080
+    },
+    "text_keys_detected": {
+      "question": 2080
+    }
+  },
+  "length": {
+    "chars": {
+      "min": 10.0,
+      "p25": 66.0,
+      "median": 84.0,
+      "mean": 87.29038461538461,
+      "p75": 106.0,
+      "p90": 127.0,
+      "p95": 140.0,
+      "max": 242.0
+    },
+    "words": {
+      "min": 3.0,
+      "p25": 15.0,
+      "median": 19.0,
+      "mean": 19.526923076923076,
+      "p75": 24.0,
+      "p90": 28.0,
+      "p95": 31.0,
+      "max": 51.0
+    }
+  },
+  "legal_reference": {
+    "explicit_locator_queries": 0,
+    "instrument_number_queries": 5,
+    "year_queries": 58,
+    "version_cue_queries": 58,
+    "cross_reference_cue_queries": 180,
+    "explicit_locator_queries_rate": 0.0,
+    "instrument_number_queries_rate": 0.002403846153846154,
+    "year_queries_rate": 0.027884615384615386,
+    "version_cue_queries_rate": 0.027884615384615386,
+    "cross_reference_cue_queries_rate": 0.08653846153846154
+  },
+  "query_signals": {
+    "numeric_expression_queries": 144,
+    "entity_hint_queries": 482,
+    "numeric_expression_queries_rate": 0.06923076923076923,
+    "entity_hint_queries_rate": 0.23173076923076924
+  },
+  "instrument_types": {
+    "luat": 97,
+    "quyet_dinh": 49,
+    "nghi_dinh": 5,
+    "nghi_quyet": 5,
+    "thong_tu": 5,
+    "phap_lenh": 1,
+    "hien_phap": 1,
+    "bo_luat": 1
+  },
+  "archetypes": {
+    "GENERAL_SEMANTIC": 863,
+    "PROCEDURE": 569,
+    "CONDITION": 246,
+    "SANCTION": 129,
+    "NUMERICAL_THRESHOLD": 95,
+    "DEFINITION": 87,
+    "ELIGIBILITY": 63,
+    "CROSS_REFERENCE": 28
+  },
+  "duplicates": {
+    "exact_normalized_duplicate_groups": 0,
+    "queries_inside_duplicate_groups": 0,
+    "groups": []
+  },
+  "archetype_rates": {
+    "GENERAL_SEMANTIC": 0.4149038461538462,
+    "CONDITION": 0.11826923076923077,
+    "CROSS_REFERENCE": 0.013461538461538462,
+    "DEFINITION": 0.041826923076923074,
+    "PROCEDURE": 0.27355769230769234,
+    "ELIGIBILITY": 0.03028846153846154,
+    "NUMERICAL_THRESHOLD": 0.04567307692307692,
+    "SANCTION": 0.06201923076923077
+  },
+  "instrument_type_rates": {
+    "luat": 0.046634615384615385,
+    "quyet_dinh": 0.023557692307692307,
+    "nghi_dinh": 0.002403846153846154,
+    "nghi_quyet": 0.002403846153846154,
+    "thong_tu": 0.002403846153846154,
+    "phap_lenh": 0.0004807692307692308,
+    "hien_phap": 0.0004807692307692308,
+    "bo_luat": 0.0004807692307692308
+  }
+}
