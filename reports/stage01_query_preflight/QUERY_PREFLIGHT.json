@@ -1,0 +1,443 @@
+{
+  "schema_version": "dsc2026.endgame.stage01b_query_preflight.v2.1",
+  "status": "PASS",
+  "private_labels_used": false,
+  "normalization_contract": {
+    "model_text": "NFC + whitespace compaction only",
+    "strict_match": "model_text + casefold; diagnostics only",
+    "punctuation_match": "NFKC + casefold + punctuation/symbol folding; diagnostics only",
+    "accent_match": "punctuation_match + Vietnamese accent folding; diagnostics only",
+    "prohibition": "diagnostic keys MUST NOT replace model text or collapse query identities"
+  },
+  "inputs": {
+    "PRIVATE": {
+      "path": "D:\\Study\\DSC2026\\endgame\\private-official.json",
+      "sha256": "9da4e0cb84204fed924251c35744c93879556e67a440332015ea3b62f3c355bc"
+    },
+    "TRAIN": {
+      "path": "D:\\Study\\DSC2026\\sota\\DSC2026-LegalIR-main\\v4_run\\public_test_dataset\\train.json",
+      "sha256": "c39cde9e74977e350f1456e7d487aafe67d2bcbaa4fa26fcabd557fe635635b7"
+    },
+    "PUBLIC": {
+      "path": "D:\\Study\\DSC2026\\sota\\DSC2026-LegalIR-main\\v4_run\\public_test_dataset\\public-official.json",
+      "sha256": "adaa250c5469a5ddb37c3875e0aa311cb4545f0a1710903a158b25d67b7f9d89"
+    }
+  },
+  "datasets": {
+    "PRIVATE": {
+      "name": "PRIVATE",
+      "n": 2080,
+      "question_chars": {
+        "min": 10,
+        "median": 84.0,
+        "p95": 140.0,
+        "max": 242,
+        "mean": 87.29038461538461
+      },
+      "question_words": {
+        "min": 3,
+        "median": 19.0,
+        "p95": 31.0,
+        "max": 51,
+        "mean": 19.526923076923076
+      },
+      "answer_sizes": {},
+      "null_answers": 2080,
+      "nonnull_answers": 0,
+      "issues": {
+        "leading_or_trailing_ws": 111,
+        "non_nfc": 7
+      },
+      "within_duplicates": {
+        "strict": 0,
+        "punctuation": 0,
+        "accent": 0
+      }
+    },
+    "TRAIN": {
+      "name": "TRAIN",
+      "n": 7000,
+      "question_chars": {
+        "min": 12,
+        "median": 86.0,
+        "p95": 141.04999999999927,
+        "max": 233,
+        "mean": 88.54242857142857
+      },
+      "question_words": {
+        "min": 4,
+        "median": 19.0,
+        "p95": 31.0,
+        "max": 50,
+        "mean": 19.818571428571428
+      },
+      "answer_sizes": {
+        "min": 1,
+        "median": 1.0,
+        "p95": 2.0,
+        "max": 5,
+        "mean": 1.091
+      },
+      "null_answers": 0,
+      "nonnull_answers": 7000,
+      "issues": {
+        "leading_or_trailing_ws": 385,
+        "non_nfc": 34
+      },
+      "within_duplicates": {
+        "strict": 16,
+        "punctuation": 16,
+        "accent": 16
+      }
+    },
+    "PUBLIC": {
+      "name": "PUBLIC",
+      "n": 1000,
+      "question_chars": {
+        "min": 14,
+        "median": 84.0,
+        "p95": 140.0,
+        "max": 240,
+        "mean": 87.112
+      },
+      "question_words": {
+        "min": 4,
+        "median": 19.0,
+        "p95": 31.0,
+        "max": 52,
+        "mean": 19.506
+      },
+      "answer_sizes": {},
+      "null_answers": 1000,
+      "nonnull_answers": 0,
+      "issues": {
+        "leading_or_trailing_ws": 59
+      },
+      "within_duplicates": {
+        "strict": 0,
+        "punctuation": 0,
+        "accent": 0
+      }
+    }
+  },
+  "cross_population_overlap": {
+    "PRIVATE_vs_TRAIN": {
+      "qid_intersection_count": 0,
+      "qid_intersection": [],
+      "strict": {
+        "count": 6,
+        "rate_left": 0.0028846153846153848,
+        "examples": [
+          {
+            "left_qid": "130422",
+            "right_qids": [
+              "158188"
+            ],
+            "question": "Phụ trách kế toán là gì?"
+          },
+          {
+            "left_qid": "98314",
+            "right_qids": [
+              "61340"
+            ],
+            "question": "Đối tượng nào phải nộp thuế thu nhập cá nhân?"
+          },
+          {
+            "left_qid": "167692",
+            "right_qids": [
+              "65368"
+            ],
+            "question": "Thương nhân kinh doanh dịch vụ xăng dầu có quyền và nghĩa vụ thế nào?"
+          },
+          {
+            "left_qid": "51204",
+            "right_qids": [
+              "148394"
+            ],
+            "question": "Uống rượu bia rồi điều khiển xe máy tham gia giao thông bị phạt bao nhiêu?"
+          },
+          {
+            "left_qid": "100888",
+            "right_qids": [
+              "148360"
+            ],
+            "question": "Công trình xây dựng là gì?"
+          },
+          {
+            "left_qid": "3764",
+            "right_qids": [
+              "65910"
+            ],
+            "question": "Công ty đại chúng là gì?"
+          }
+        ]
+      },
+      "punctuation": {
+        "count": 7,
+        "rate_left": 0.0033653846153846156,
+        "examples": [
+          {
+            "left_qid": "130422",
+            "right_qids": [
+              "158188"
+            ],
+            "question": "Phụ trách kế toán là gì?"
+          },
+          {
+            "left_qid": "98314",
+            "right_qids": [
+              "61340"
+            ],
+            "question": "Đối tượng nào phải nộp thuế thu nhập cá nhân?"
+          },
+          {
+            "left_qid": "167692",
+            "right_qids": [
+              "65368"
+            ],
+            "question": "Thương nhân kinh doanh dịch vụ xăng dầu có quyền và nghĩa vụ thế nào?"
+          },
+          {
+            "left_qid": "51204",
+            "right_qids": [
+              "148394"
+            ],
+            "question": "Uống rượu bia rồi điều khiển xe máy tham gia giao thông bị phạt bao nhiêu?"
+          },
+          {
+            "left_qid": "100888",
+            "right_qids": [
+              "148360"
+            ],
+            "question": "Công trình xây dựng là gì?"
+          },
+          {
+            "left_qid": "3764",
+            "right_qids": [
+              "65910"
+            ],
+            "question": "Công ty đại chúng là gì?"
+          },
+          {
+            "left_qid": "79900",
+            "right_qids": [
+              "74206"
+            ],
+            "question": "Thời hiệu yêu cầu Tòa án tuyên bố giao dịch dân sự vô hiệu?"
+          }
+        ]
+      },
+      "accent": {
+        "count": 7,
+        "rate_left": 0.0033653846153846156,
+        "examples": [
+          {
+            "left_qid": "130422",
+            "right_qids": [
+              "158188"
+            ],
+            "question": "Phụ trách kế toán là gì?"
+          },
+          {
+            "left_qid": "98314",
+            "right_qids": [
+              "61340"
+            ],
+            "question": "Đối tượng nào phải nộp thuế thu nhập cá nhân?"
+          },
+          {
+            "left_qid": "167692",
+            "right_qids": [
+              "65368"
+            ],
+            "question": "Thương nhân kinh doanh dịch vụ xăng dầu có quyền và nghĩa vụ thế nào?"
+          },
+          {
+            "left_qid": "51204",
+            "right_qids": [
+              "148394"
+            ],
+            "question": "Uống rượu bia rồi điều khiển xe máy tham gia giao thông bị phạt bao nhiêu?"
+          },
+          {
+            "left_qid": "100888",
+            "right_qids": [
+              "148360"
+            ],
+            "question": "Công trình xây dựng là gì?"
+          },
+          {
+            "left_qid": "3764",
+            "right_qids": [
+              "65910"
+            ],
+            "question": "Công ty đại chúng là gì?"
+          },
+          {
+            "left_qid": "79900",
+            "right_qids": [
+              "74206"
+            ],
+            "question": "Thời hiệu yêu cầu Tòa án tuyên bố giao dịch dân sự vô hiệu?"
+          }
+        ]
+      }
+    },
+    "PRIVATE_vs_PUBLIC": {
+      "qid_intersection_count": 0,
+      "qid_intersection": [],
+      "strict": {
+        "count": 0,
+        "rate_left": 0.0,
+        "examples": []
+      },
+      "punctuation": {
+        "count": 0,
+        "rate_left": 0.0,
+        "examples": []
+      },
+      "accent": {
+        "count": 0,
+        "rate_left": 0.0,
+        "examples": []
+      }
+    },
+    "PUBLIC_vs_TRAIN": {
+      "qid_intersection_count": 0,
+      "strict": {
+        "count": 5,
+        "rate_left": 0.005,
+        "examples": [
+          {
+            "left_qid": "90994",
+            "right_qids": [
+              "105124"
+            ],
+            "question": "Quỹ bình ổn giá xăng dầu được thực hiện như thế nào?"
+          },
+          {
+            "left_qid": "116190",
+            "right_qids": [
+              "153558"
+            ],
+            "question": "Hội đồng kiểm tra kết quả tập sự hành nghề luật sư là gì?"
+          },
+          {
+            "left_qid": "106660",
+            "right_qids": [
+              "149172"
+            ],
+            "question": "Công ty cổ phần là gì?"
+          },
+          {
+            "left_qid": "76264",
+            "right_qids": [
+              "134012"
+            ],
+            "question": "Phạt nguội là gì?"
+          },
+          {
+            "left_qid": "122394",
+            "right_qids": [
+              "120616"
+            ],
+            "question": "Chỉ số đánh giá chất lượng dịch vụ sự nghiệp công về thái độ phục vụ trong quá trình lập quy trình gồm những gì?"
+          }
+        ]
+      },
+      "punctuation": {
+        "count": 5,
+        "rate_left": 0.005,
+        "examples": [
+          {
+            "left_qid": "90994",
+            "right_qids": [
+              "105124"
+            ],
+            "question": "Quỹ bình ổn giá xăng dầu được thực hiện như thế nào?"
+          },
+          {
+            "left_qid": "116190",
+            "right_qids": [
+              "153558"
+            ],
+            "question": "Hội đồng kiểm tra kết quả tập sự hành nghề luật sư là gì?"
+          },
+          {
+            "left_qid": "106660",
+            "right_qids": [
+              "149172"
+            ],
+            "question": "Công ty cổ phần là gì?"
+          },
+          {
+            "left_qid": "76264",
+            "right_qids": [
+              "134012"
+            ],
+            "question": "Phạt nguội là gì?"
+          },
+          {
+            "left_qid": "122394",
+            "right_qids": [
+              "120616"
+            ],
+            "question": "Chỉ số đánh giá chất lượng dịch vụ sự nghiệp công về thái độ phục vụ trong quá trình lập quy trình gồm những gì?"
+          }
+        ]
+      },
+      "accent": {
+        "count": 5,
+        "rate_left": 0.005,
+        "examples": [
+          {
+            "left_qid": "90994",
+            "right_qids": [
+              "105124"
+            ],
+            "question": "Quỹ bình ổn giá xăng dầu được thực hiện như thế nào?"
+          },
+          {
+            "left_qid": "116190",
+            "right_qids": [
+              "153558"
+            ],
+            "question": "Hội đồng kiểm tra kết quả tập sự hành nghề luật sư là gì?"
+          },
+          {
+            "left_qid": "106660",
+            "right_qids": [
+              "149172"
+            ],
+            "question": "Công ty cổ phần là gì?"
+          },
+          {
+            "left_qid": "76264",
+            "right_qids": [
+              "134012"
+            ],
+            "question": "Phạt nguội là gì?"
+          },
+          {
+            "left_qid": "122394",
+            "right_qids": [
+              "120616"
+            ],
+            "question": "Chỉ số đánh giá chất lượng dịch vụ sự nghiệp công về thái độ phục vụ trong quá trình lập quy trình gồm những gì?"
+          }
+        ]
+      }
+    }
+  },
+  "legacy_corpus_preprocessing_reference": {
+    "available": false,
+    "required_for_stage01b": false,
+    "path": "D:\\Study\\DSC2026\\LegalIR\\cache\\final_preprocessed_v2",
+    "reason": "legacy preprocessing artifacts unavailable or inaccessible",
+    "access_errors": {
+      "manifest": "PermissionError: [WinError 5] Access is denied: 'D:\\\\Study\\\\DSC2026\\\\LegalIR\\\\cache\\\\final_preprocessed_v2\\\\manifest.json'",
+      "exclusions": "PermissionError: [WinError 5] Access is denied: 'D:\\\\Study\\\\DSC2026\\\\LegalIR\\\\cache\\\\final_preprocessed_v2\\\\exclusions.json'"
+    }
+  },
+  "critical_failures": []
+}

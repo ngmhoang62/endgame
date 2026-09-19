@@ -1,0 +1,755 @@
+{
+  "selected_k": 24,
+  "silhouette": {
+    "8": 0.041269704699516296,
+    "12": 0.04484698548913002,
+    "16": 0.04535361006855965,
+    "24": 0.04742077365517616
+  },
+  "clusters": [
+    {
+      "cluster": 4,
+      "size": 170,
+      "representatives": [
+        {
+          "qid": "32042",
+          "question": "Kết hôn rồi mà chung sống với người khác thì bị xử phạt như thế nào?",
+          "centroid_cosine": 0.7080032825469971
+        },
+        {
+          "qid": "43700",
+          "question": "Thời hiệu xử phạt vi phạm hành chính đối với hành vi dùng công cụ gây thương tích cho thành viên gia đình là bao nhiêu năm?",
+          "centroid_cosine": 0.6565598249435425
+        },
+        {
+          "qid": "164980",
+          "question": "Ngược đãi, hành hạ ông bà, cha mẹ, vợ chồng, con, cháu, người có công nuôi dưỡng có thể đi bị phạt bao nhiêu tiền?",
+          "centroid_cosine": 0.6534101963043213
+        },
+        {
+          "qid": "167176",
+          "question": "Phun sơn, vẽ bậy lên tường nhà người khác có bị truy cứu trách nhiệm hình sự hay không?",
+          "centroid_cosine": 0.6215389966964722
+        },
+        {
+          "qid": "13162",
+          "question": "Hành vi cố ý gây thương tích cho bạn cùng lớp thì có phải đi tù hay không?",
+          "centroid_cosine": 0.6215099096298218
+        }
+      ]
+    },
+    {
+      "cluster": 8,
+      "size": 131,
+      "representatives": [
+        {
+          "qid": "75826",
+          "question": "Nhiệm vụ của Văn phòng Tổng cục Thủy sản trong công tác cán bộ được quy định ra sao?",
+          "centroid_cosine": 0.5840679407119751
+        },
+        {
+          "qid": "144942",
+          "question": "Ban Thi đua Khen thưởng Trung ương trực thuộc Bộ Nội vụ có những đơn vị sự nghiệp nào?",
+          "centroid_cosine": 0.5705322027206421
+        },
+        {
+          "qid": "90932",
+          "question": "Đơn vị trực thuộc Bộ Khoa học và Công nghệ được phân cấp quản lý công chức phải đáp ứng những điều kiện gì?",
+          "centroid_cosine": 0.5489582419395447
+        },
+        {
+          "qid": "110274",
+          "question": "Trong thời gian nghỉ hưu ở tuổi cao hơn viên chức có được giữ chức vụ lãnh đạo không?",
+          "centroid_cosine": 0.5449155569076538
+        },
+        {
+          "qid": "138636",
+          "question": "Ai có thẩm quyền bổ nhiệm lãnh đạo Viện Quy hoạch Thuỷ lợi miền Nam?",
+          "centroid_cosine": 0.5341021418571472
+        }
+      ]
+    },
+    {
+      "cluster": 1,
+      "size": 129,
+      "representatives": [
+        {
+          "qid": "120720",
+          "question": "Cách thức thực hiện thủ tục giải quyết hưởng chế độ bệnh nghề nghiệp do bệnh tật tái phát như thế nào?",
+          "centroid_cosine": 0.558645486831665
+        },
+        {
+          "qid": "125758",
+          "question": "Trình tự hồ sơ, thủ tục giải quyết chế độ ưu đãi đối với người có công giúp đỡ cách mạng được pháp luật quy định như thế nào?",
+          "centroid_cosine": 0.5313990712165833
+        },
+        {
+          "qid": "48262",
+          "question": "Hồ sơ đề nghị giải quyết hưởng chế độ dưỡng sức sau khi sẩy thai được pháp luật quy định như thế nào?",
+          "centroid_cosine": 0.49989327788352966
+        },
+        {
+          "qid": "129662",
+          "question": "Trình tự thực hiện thủ tục giải quyết hưởng chế độ bệnh nghề nghiệp do bệnh tật tái phát ra sao?",
+          "centroid_cosine": 0.49071943759918213
+        },
+        {
+          "qid": "138858",
+          "question": "Nội dung chuẩn bị điều trị bảo tồn gẫy đầu trên xương cánh tay như thế nào?",
+          "centroid_cosine": 0.46867913007736206
+        }
+      ]
+    },
+    {
+      "cluster": 15,
+      "size": 128,
+      "representatives": [
+        {
+          "qid": "167094",
+          "question": "Mẫu Tờ khai đề nghị cấp thẻ tạm trú cho người nước ngoài mới nhất hiện nay như thế nào?",
+          "centroid_cosine": 0.6438037753105164
+        },
+        {
+          "qid": "126678",
+          "question": "Hồ sơ đề nghị cấp hộ chiếu có gắn chíp điện tử lần đầu thì cần những loại giấy tờ nào?",
+          "centroid_cosine": 0.6115957498550415
+        },
+        {
+          "qid": "40924",
+          "question": "Hồ sơ cấp Giấy chứng nhận đăng ký quyền xuất, nhập khẩu của thương nhân nước ngoài không hiện diện tại Việt Nam bao gồm những giấy tờ nào?",
+          "centroid_cosine": 0.5969502925872803
+        },
+        {
+          "qid": "66174",
+          "question": "Hồ sơ, trình tự thực hiện như thế nào?",
+          "centroid_cosine": 0.5898221731185913
+        },
+        {
+          "qid": "160674",
+          "question": "Bản sao chứng thực giấy tờ có tiếng nước ngoài có giá trị như thế nào?",
+          "centroid_cosine": 0.5821766257286072
+        }
+      ]
+    },
+    {
+      "cluster": 9,
+      "size": 120,
+      "representatives": [
+        {
+          "qid": "124950",
+          "question": "Ban thẩm tra tư cách đại biểu Đại hội Đảng được quy định như thế nào?",
+          "centroid_cosine": 0.654132604598999
+        },
+        {
+          "qid": "99804",
+          "question": "Nhiệm vụ và quyền hạn của Ban Thường vụ Hội Nhạc sĩ Việt Nam được quy định thế nào?",
+          "centroid_cosine": 0.6361113786697388
+        },
+        {
+          "qid": "127176",
+          "question": "Ban Chấp hành Hiệp hội có những quyền hạn gì?",
+          "centroid_cosine": 0.614219069480896
+        },
+        {
+          "qid": "162058",
+          "question": "Hội có quyền tham gia ý kiến vào các văn bản quy phạm pháp luật không?",
+          "centroid_cosine": 0.6069750785827637
+        },
+        {
+          "qid": "154952",
+          "question": "Hội Cựu thanh niên xung phong Việt Nam có những quyền hạn nào?",
+          "centroid_cosine": 0.6056627035140991
+        }
+      ]
+    },
+    {
+      "cluster": 0,
+      "size": 112,
+      "representatives": [
+        {
+          "qid": "32322",
+          "question": "Xây dựng cơ sở hạ tầng bảo vệ môi trường nông thôn; thu hút các doanh nghiệp đầu tư các khu xử lý chất thải trong chương trình xây dựng nông thôn mới giai đoạn 2021-2025?",
+          "centroid_cosine": 0.5019077658653259
+        },
+        {
+          "qid": "130746",
+          "question": "Quy định về bảo vệ môi trường đối với hộ gia đình, cá nhân được quy định như thế nào?",
+          "centroid_cosine": 0.5018086433410645
+        },
+        {
+          "qid": "164242",
+          "question": "Đối với lĩnh vực y tế Nghị quyết 41/2021/QH15 quy định như thế nào?",
+          "centroid_cosine": 0.4757239818572998
+        },
+        {
+          "qid": "108396",
+          "question": "Nội dung kế hoạch quản lý chất lượng môi trường không khí?",
+          "centroid_cosine": 0.46413081884384155
+        },
+        {
+          "qid": "83404",
+          "question": "Xây dựng các tiêu chuẩn quốc gia về sử dụng năng lượng tái tạo như thế nào?",
+          "centroid_cosine": 0.4594579041004181
+        }
+      ]
+    },
+    {
+      "cluster": 2,
+      "size": 109,
+      "representatives": [
+        {
+          "qid": "121136",
+          "question": "Đóng bảo hiểm y tế khi làm việc theo nhiều hợp đồng lao động ra sao?",
+          "centroid_cosine": 0.6746273040771484
+        },
+        {
+          "qid": "17974",
+          "question": "Thời gian hưởng chế độ khi sinh con trong bảo hiểm xã hội?",
+          "centroid_cosine": 0.6590895652770996
+        },
+        {
+          "qid": "126202",
+          "question": "Mức hưởng bảo hiểm y tế đối với người khuyết tật nặng, người khuyết tật đặc biệt nặng là bao nhiêu?",
+          "centroid_cosine": 0.6289243698120117
+        },
+        {
+          "qid": "42258",
+          "question": "Tiền lương tháng đóng bảo hiểm xã hội bắt buộc được pháp luật quy định như thế nào?",
+          "centroid_cosine": 0.6247806549072266
+        },
+        {
+          "qid": "31430",
+          "question": "Điều kiện để hưởng bảo hiểm xã hội khi ốm đau?",
+          "centroid_cosine": 0.6067704558372498
+        }
+      ]
+    },
+    {
+      "cluster": 20,
+      "size": 109,
+      "representatives": [
+        {
+          "qid": "53972",
+          "question": "Tổ chức kinh tế có vốn đầu tư nước ngoài là gì?",
+          "centroid_cosine": 0.6156665086746216
+        },
+        {
+          "qid": "155280",
+          "question": "Bộ trưởng là ai trong bộ máy nhà nước?",
+          "centroid_cosine": 0.5979208946228027
+        },
+        {
+          "qid": "100888",
+          "question": "Công trình xây dựng là gì?",
+          "centroid_cosine": 0.5739368200302124
+        },
+        {
+          "qid": "20708",
+          "question": "Doanh nghiệp nhà nước là những doanh nghiệp như thế nào?",
+          "centroid_cosine": 0.5723427534103394
+        },
+        {
+          "qid": "97182",
+          "question": "Hộ chiếu là gì?",
+          "centroid_cosine": 0.563567042350769
+        }
+      ]
+    },
+    {
+      "cluster": 11,
+      "size": 101,
+      "representatives": [
+        {
+          "qid": "54518",
+          "question": "Người học ngành xây dựng và hoàn thiện công trình thủy lợi trình độ cao đẳng thì phải có khả năng học tập, nâng cao trình độ như thế nào?",
+          "centroid_cosine": 0.7001161575317383
+        },
+        {
+          "qid": "93438",
+          "question": "Người học ngành công nghệ sinh học trình độ cao đẳng phải có khả năng học tập, nâng cao trình độ như thế nào?",
+          "centroid_cosine": 0.6741754412651062
+        },
+        {
+          "qid": "81036",
+          "question": "Người học ngành công nghệ chế tạo máy trình độ trung cấp phải có khả năng học tập, nâng cao trình độ như thế nào?",
+          "centroid_cosine": 0.6689270734786987
+        },
+        {
+          "qid": "110838",
+          "question": "Người học ngành công nghệ kỹ thuật môi trường trình độ cao đẳng phải có khả năng học tập, nâng cao trình độ như thế nào?",
+          "centroid_cosine": 0.6648842096328735
+        },
+        {
+          "qid": "41446",
+          "question": "Người học ngành kỹ thuật sửa chữa, lắp ráp máy tính phải có khả năng học tập, nâng cao trình độ như thế nào?",
+          "centroid_cosine": 0.6572974920272827
+        }
+      ]
+    },
+    {
+      "cluster": 19,
+      "size": 90,
+      "representatives": [
+        {
+          "qid": "53286",
+          "question": "Xử lý tài sản bảo đảm là tài sản hình thành trong tương lai như thế nào?",
+          "centroid_cosine": 0.5685053467750549
+        },
+        {
+          "qid": "129454",
+          "question": "Xóa đăng ký biện pháp bảo đảm được thực hiện trong trường hợp nào?",
+          "centroid_cosine": 0.5460859537124634
+        },
+        {
+          "qid": "117264",
+          "question": "Bên nhận bảo đảm không được thực hiện quyền truy đòi đối với tài sản bảo đảm nào?",
+          "centroid_cosine": 0.530370831489563
+        },
+        {
+          "qid": "92300",
+          "question": "Công chứng di chúc được quy định như thế nào?",
+          "centroid_cosine": 0.5268081426620483
+        },
+        {
+          "qid": "59618",
+          "question": "Đăng ký xe thế chấp do ngân hàng bán đấu giá để thu hồi nợ thì cần có những giấy tờ gì?",
+          "centroid_cosine": 0.5244763493537903
+        }
+      ]
+    },
+    {
+      "cluster": 17,
+      "size": 88,
+      "representatives": [
+        {
+          "qid": "77606",
+          "question": "Tờ rơi in quảng cáo bột ngũ cốc dùng cho trẻ từ 12 đến dưới 24 tháng tuổi phải thể hiện những thông tin gì về sản phẩm?",
+          "centroid_cosine": 0.5763992667198181
+        },
+        {
+          "qid": "119876",
+          "question": "Nội dung quảng cáo phải đáp ứng những yêu cầu gì?",
+          "centroid_cosine": 0.5758240222930908
+        },
+        {
+          "qid": "158862",
+          "question": "Nhãn thức ăn bổ sung dùng cho trẻ nhỏ phải bảo đảm những yêu cầu gì?",
+          "centroid_cosine": 0.5570696592330933
+        },
+        {
+          "qid": "135140",
+          "question": "Quảng cáo thực phẩm chức năng tăng cân cho người gầy bằng màn hình quảng cáo tại trạm xe buýt cần phải lưu ý những vấn đề gì?",
+          "centroid_cosine": 0.5459949970245361
+        },
+        {
+          "qid": "165418",
+          "question": "Quảng cáo nước rửa tay diệt khuẩn 99% cần phải đảm bảo những thông tin gì?",
+          "centroid_cosine": 0.5324718952178955
+        }
+      ]
+    },
+    {
+      "cluster": 3,
+      "size": 81,
+      "representatives": [
+        {
+          "qid": "124126",
+          "question": "Khi nào đơn phương chấm dứt hợp đồng lao động trái pháp luật?",
+          "centroid_cosine": 0.7487226724624634
+        },
+        {
+          "qid": "14754",
+          "question": "Cho cá nhân khác sử dụng Giấy phép cho thuê lại lao động thì doanh nghiệp có bị thu hồi giấy phép không?",
+          "centroid_cosine": 0.7224785089492798
+        },
+        {
+          "qid": "75818",
+          "question": "Quy định về trách nhiệm khi chấm dứt hợp đồng lao động của người lao động và người sử dụng lao động?",
+          "centroid_cosine": 0.6838034987449646
+        },
+        {
+          "qid": "79632",
+          "question": "Quyền đơn phương chấm dứt hợp đồng lao động của người sử dụng lao động",
+          "centroid_cosine": 0.6772819757461548
+        },
+        {
+          "qid": "61666",
+          "question": "Người lao động đi cai nghiện bắt buộc, công ty có được quyền đơn phương chấm dứt hợp đồng lao động không?",
+          "centroid_cosine": 0.6529874801635742
+        }
+      ]
+    },
+    {
+      "cluster": 12,
+      "size": 77,
+      "representatives": [
+        {
+          "qid": "76898",
+          "question": "Ai có quyền ra quyết định thanh tra ngành Xây dựng?",
+          "centroid_cosine": 0.7046092748641968
+        },
+        {
+          "qid": "120892",
+          "question": "Khiếu nại, kiến nghị của cơ quan, tổ chức, cá nhân có liên quan trong hoạt động thanh tra dựa trên cơ sở nào?",
+          "centroid_cosine": 0.6239885091781616
+        },
+        {
+          "qid": "144922",
+          "question": "Cơ quan thanh tra chuyên ngành của Bộ Công thương là cơ quan nào?",
+          "centroid_cosine": 0.5809412002563477
+        },
+        {
+          "qid": "25174",
+          "question": "Hoạt động thanh tra tài nguyên và môi trường gồm những nội dung nào?",
+          "centroid_cosine": 0.5764822959899902
+        },
+        {
+          "qid": "77180",
+          "question": "Thế nào là kế hoạch thanh tra? Kế hoạch thanh tra bao gồm những gì?",
+          "centroid_cosine": 0.5754216909408569
+        }
+      ]
+    },
+    {
+      "cluster": 14,
+      "size": 69,
+      "representatives": [
+        {
+          "qid": "98884",
+          "question": "Lệ phí cấp giấy chứng nhận quyền sử dụng đất tại Thanh Hóa hiện nay là bao nhiêu?",
+          "centroid_cosine": 0.5491963624954224
+        },
+        {
+          "qid": "27220",
+          "question": "Tổ chức sử dụng khu vực biển để làm vùng nước cảng biển phải nộp bao nhiêu tiền?",
+          "centroid_cosine": 0.5274785757064819
+        },
+        {
+          "qid": "32236",
+          "question": "Bảng giá đất có được sử dụng làm căn cứ để tính giá trị quyền sử dụng đất để trả cho người tự nguyện trả lại đất cho Nhà nước hay không?",
+          "centroid_cosine": 0.5182672142982483
+        },
+        {
+          "qid": "120672",
+          "question": "Lệ phí và phí là gì?",
+          "centroid_cosine": 0.5081329345703125
+        },
+        {
+          "qid": "115756",
+          "question": "Chi phí làm sổ đỏ bao gồm những gì?",
+          "centroid_cosine": 0.5055558681488037
+        }
+      ]
+    },
+    {
+      "cluster": 23,
+      "size": 69,
+      "representatives": [
+        {
+          "qid": "155126",
+          "question": "Chỉnh sửa nội dung chứng chỉ nghiệp vụ sư phạm dạy trình độ cao đẳng, trình độ trung cấp, trình độ sơ cấp",
+          "centroid_cosine": 0.637006402015686
+        },
+        {
+          "qid": "44464",
+          "question": "Giáo viên trực tiếp giảng dạy ở các trường trung cấp chuyên nghiệp kiêm nhiệm công tác chủ nhiệm lớp thì được giảm định mức giờ dạy là bao nhiêu?",
+          "centroid_cosine": 0.6198394298553467
+        },
+        {
+          "qid": "49422",
+          "question": "Tiêu chuẩn về trình độ đào tạo của giảng viên giáo dục nghề nghiệp chính (hạng II) là gì?",
+          "centroid_cosine": 0.6050182580947876
+        },
+        {
+          "qid": "145044",
+          "question": "Đối với giảng viên giáo dục nghề nghiệp cao cấp phải đáp ứng tiêu chuẩn gì về trình độ nghiệp vụ sư phạm?",
+          "centroid_cosine": 0.6019220948219299
+        },
+        {
+          "qid": "60202",
+          "question": "Ai có quyền quyết định chỉnh sửa nội dung chứng chỉ nghiệp vụ sư phạm dạy trình độ cao đẳng, trình độ trung cấp?",
+          "centroid_cosine": 0.5999352931976318
+        }
+      ]
+    },
+    {
+      "cluster": 13,
+      "size": 68,
+      "representatives": [
+        {
+          "qid": "29298",
+          "question": "Cơ quan đại diện chủ sở hữu có quyền hạn gì về việc thành lập doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ?",
+          "centroid_cosine": 0.6633589863777161
+        },
+        {
+          "qid": "31822",
+          "question": "Điều lệ công ty bao gồm những nội dung gì?",
+          "centroid_cosine": 0.6554577350616455
+        },
+        {
+          "qid": "23656",
+          "question": "Doanh nghiệp do Nhà nước nắm giữ 100% vốn điều lệ chuyển đổi thành công ty trách nhiệm hữu hạn hai thành viên trở lên được hay không?",
+          "centroid_cosine": 0.6547178030014038
+        },
+        {
+          "qid": "127320",
+          "question": "Công ty trách nhiệm hữu hạn một thành viên giảm vốn điều lệ trong trường hợp nào?",
+          "centroid_cosine": 0.635299563407898
+        },
+        {
+          "qid": "129456",
+          "question": "Thành viên góp vốn của công ty trách nhiệm hữu hạn hai thành viên có những quyền lợi nào?",
+          "centroid_cosine": 0.629871129989624
+        }
+      ]
+    },
+    {
+      "cluster": 10,
+      "size": 67,
+      "representatives": [
+        {
+          "qid": "84832",
+          "question": "Quân nhân chuyên nghiệp, công nhân và viên chức quốc phòng có quyền, nghĩa vụ như thế nào?",
+          "centroid_cosine": 0.6704455614089966
+        },
+        {
+          "qid": "114266",
+          "question": "Sĩ quan quân đội có nghĩa vụ gì?",
+          "centroid_cosine": 0.6522442102432251
+        },
+        {
+          "qid": "4044",
+          "question": "Cấp bậc quân hàm cao nhất đối với chức vụ Đại đội trưởng của sĩ quan Quân đội nhân dân Việt Nam là gì?",
+          "centroid_cosine": 0.6093078851699829
+        },
+        {
+          "qid": "156980",
+          "question": "Dấu nghiệp vụ trong lĩnh vực quân sự, quốc phòng được cấp theo nguyên tắc nào?",
+          "centroid_cosine": 0.6040695905685425
+        },
+        {
+          "qid": "57186",
+          "question": "Trình tự ký kết thỏa thuận quốc tế nhân danh cơ quan, đơn vị trực thuộc Bộ Quốc phòng được quy định thế nào?",
+          "centroid_cosine": 0.6037014126777649
+        }
+      ]
+    },
+    {
+      "cluster": 16,
+      "size": 66,
+      "representatives": [
+        {
+          "qid": "100202",
+          "question": "Thời hạn giải quyết đơn yêu cầu hủy phán quyết của trọng tài trong thời gian bao lâu?",
+          "centroid_cosine": 0.6175287961959839
+        },
+        {
+          "qid": "15502",
+          "question": "Mẫu Quyết định buộc thôi làm Hòa giải viên tại Tòa án nhân dân cấp huyện mới nhất hiện nay thế nào?",
+          "centroid_cosine": 0.6001958847045898
+        },
+        {
+          "qid": "23540",
+          "question": "Thay đổi kháng nghị giám đốc thẩm đối với quyết định của Tòa án trong vụ án hình sự được thực hiện gửi như thế nào?",
+          "centroid_cosine": 0.5969048142433167
+        },
+        {
+          "qid": "76836",
+          "question": "Văn bản yêu cầu giám định tư pháp trong tố tụng dân sự được quy định ra sao?",
+          "centroid_cosine": 0.5929887294769287
+        },
+        {
+          "qid": "79900",
+          "question": "Thời hiệu yêu cầu Tòa án tuyên bố giao dịch dân sự vô hiệu?",
+          "centroid_cosine": 0.5905212759971619
+        }
+      ]
+    },
+    {
+      "cluster": 21,
+      "size": 62,
+      "representatives": [
+        {
+          "qid": "164868",
+          "question": "Ai có quyền cấp chứng chỉ chuyên môn cho người điều khiển phương tiện giao thông?",
+          "centroid_cosine": 0.6520171165466309
+        },
+        {
+          "qid": "69966",
+          "question": "Điều kiện của người lái xe tham gia giao thông được quy định như thế nào?",
+          "centroid_cosine": 0.6459764242172241
+        },
+        {
+          "qid": "86908",
+          "question": "Điều kiện của người lái xe tham gia giao thông là gì?",
+          "centroid_cosine": 0.6362049579620361
+        },
+        {
+          "qid": "48844",
+          "question": "Bằng lái xe B1 thì được phép điều khiển được các loại xe nào?",
+          "centroid_cosine": 0.6343631744384766
+        },
+        {
+          "qid": "115444",
+          "question": "Chủ xe đã tham gia hợp tác xã thì có cần phải đăng ký kinh doanh vận tải không?",
+          "centroid_cosine": 0.5836049914360046
+        }
+      ]
+    },
+    {
+      "cluster": 5,
+      "size": 57,
+      "representatives": [
+        {
+          "qid": "56666",
+          "question": "Đối tượng không chịu thuế bảo vệ môi trường là những hàng hóa nào?",
+          "centroid_cosine": 0.6378785371780396
+        },
+        {
+          "qid": "111770",
+          "question": "Cơ quan nào có thẩm quyền ấn định thuế đối với hàng hóa xuất nhập khẩu?",
+          "centroid_cosine": 0.63450026512146
+        },
+        {
+          "qid": "30330",
+          "question": "Biểu mẫu thông báo về việc người nộp thuế thuộc diện/không thuộc diện được miễn (giảm) thuế theo hiệp định tránh đánh thuế hai lần và điều ước quốc tế khác như thế nào?",
+          "centroid_cosine": 0.6241024732589722
+        },
+        {
+          "qid": "85188",
+          "question": "Thuế giá trị gia tăng",
+          "centroid_cosine": 0.6224614381790161
+        },
+        {
+          "qid": "64542",
+          "question": "Quy định của pháp luật về giảm thuế đối với hàng hóa xuất khẩu, nhập khẩu?",
+          "centroid_cosine": 0.6156250238418579
+        }
+      ]
+    },
+    {
+      "cluster": 6,
+      "size": 56,
+      "representatives": [
+        {
+          "qid": "121998",
+          "question": "Báo cáo thỉnh thị trong công tác thực hành quyền công tố, kiểm sát xét xử hình sự về vụ việc cụ thể được thực hiện như thế nào?",
+          "centroid_cosine": 0.6670098900794983
+        },
+        {
+          "qid": "49182",
+          "question": "Kết quả nghiên cứu hồ sơ vụ án hình sự của Kiểm sát viên phải báo cáo với ai và khi nào?",
+          "centroid_cosine": 0.6259737610816956
+        },
+        {
+          "qid": "100276",
+          "question": "Thủ tục thông báo, gửi thông tin, tài liệu liên quan đến người phạm tội như thế nào?",
+          "centroid_cosine": 0.5875796675682068
+        },
+        {
+          "qid": "50336",
+          "question": "Ai có trách nhiệm phát hành các văn bản của Cơ quan điều tra Viện kiểm sát quân sự trung ương sau khi Thủ trưởng Cơ quan điều tra ký?",
+          "centroid_cosine": 0.5825400352478027
+        },
+        {
+          "qid": "136130",
+          "question": "Viện kiểm sát có quyền yêu cầu thay đổi Điều tra viên hay cán bộ điều tra không?",
+          "centroid_cosine": 0.5753803253173828
+        }
+      ]
+    },
+    {
+      "cluster": 18,
+      "size": 55,
+      "representatives": [
+        {
+          "qid": "154872",
+          "question": "Những loại tài sản, thu nhập nào thì phải thực hiện kê khai tài sản, thu nhập?",
+          "centroid_cosine": 0.6822172999382019
+        },
+        {
+          "qid": "88800",
+          "question": "Khi thực hiện bản kê khai tài sản, thu nhập cần lưu ý điều gì?",
+          "centroid_cosine": 0.6379424333572388
+        },
+        {
+          "qid": "98794",
+          "question": "Doanh nghiệp nào phải nộp và không cần nộp báo cáo tài chính?",
+          "centroid_cosine": 0.6310226917266846
+        },
+        {
+          "qid": "157938",
+          "question": "Người nào phải nộp thuế thu nhập cá nhân?",
+          "centroid_cosine": 0.6301720142364502
+        },
+        {
+          "qid": "98314",
+          "question": "Đối tượng nào phải nộp thuế thu nhập cá nhân?",
+          "centroid_cosine": 0.6283835172653198
+        }
+      ]
+    },
+    {
+      "cluster": 7,
+      "size": 34,
+      "representatives": [
+        {
+          "qid": "48618",
+          "question": "Quy định về nguyên tắc thực hiện dự án đầu tư?",
+          "centroid_cosine": 0.7295385599136353
+        },
+        {
+          "qid": "125982",
+          "question": "Trường hợp dự án đầu tư chia thành từng giai đoạn thì thực hiện như thế nào?",
+          "centroid_cosine": 0.699478805065155
+        },
+        {
+          "qid": "60376",
+          "question": "Thủ tục thực hiện đối với dự án đã được chấp thuận chủ trương đầu tư theo pháp luật hiện hành.",
+          "centroid_cosine": 0.6899561285972595
+        },
+        {
+          "qid": "85650",
+          "question": "Cơ quan đăng ký đầu tư chấm dứt hoặc chấm dứt một phần hoạt động của dự án đầu tư trong trường hợp nào?",
+          "centroid_cosine": 0.6778517961502075
+        },
+        {
+          "qid": "46990",
+          "question": "Ngừng hoạt động của dự án đầu tư trong trường hợp nào?",
+          "centroid_cosine": 0.6777980327606201
+        }
+      ]
+    },
+    {
+      "cluster": 22,
+      "size": 32,
+      "representatives": [
+        {
+          "qid": "42654",
+          "question": "Quỹ Hỗ trợ phát triển sinh kế vì cộng đồng được thành lập nhằm mục đích gì?",
+          "centroid_cosine": 0.7252209186553955
+        },
+        {
+          "qid": "91268",
+          "question": "Quỹ Nước sạch và Bảo vệ môi trường Việt Nam có chức năng là gì?",
+          "centroid_cosine": 0.712177038192749
+        },
+        {
+          "qid": "156164",
+          "question": "Quỹ cấp tỉnh do ai thành lập để hoạt động hỗ trợ công tác phòng chống thiên tai?",
+          "centroid_cosine": 0.6957629323005676
+        },
+        {
+          "qid": "144638",
+          "question": "Cơ cấu tổ chức của Quỹ Trò nghèo vùng cao được quy định thế nào?",
+          "centroid_cosine": 0.6957599520683289
+        },
+        {
+          "qid": "35990",
+          "question": "Quỹ Hỗ trợ bệnh nhi Việt Nam có những chức năng nào?",
+          "centroid_cosine": 0.6785755753517151
+        }
+      ]
+    }
+  ]
+}

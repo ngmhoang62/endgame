@@ -1,47 +1,68 @@
 # DSC2026 Vietnamese Legal IR — ENDGAME
 
-Private-test endgame workspace. New experiments live here; the two historical
-repositories are read-only scientific references:
+Private-test endgame workspace.
 
-- `ngmhoang62/DSC2026-LegalIR-Huy` — public-phase D1 and late-stage forensic experiments.
-- `ngmhoang62/DSC2026-LegalIR` — older/parallel structural corpus, retrieval and ranking experiments.
+Historical references:
+
+- `ngmhoang62/DSC2026-LegalIR-Huy` — D1/public-phase lineage.
+- `ngmhoang62/DSC2026-LegalIR` — structural corpus / full-train research lineage.
+
+All command examples use **Bash / Git Bash**.
 
 ## Environment
 
-Python 3.11 is recommended.
-
-Windows PowerShell:
-
-```powershell
+```bash
 py -3.11 -m venv .venv
-.\.venv\Scripts\Activate.ps1
+source .venv/Scripts/activate
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-## Stage 01A — private query audit
+Verify CUDA before any GPU stage:
 
-Keep the official private query file at:
-
-```text
-private-official.json
+```bash
+python -c "import torch; print(torch.__version__); print(torch.version.cuda); print(torch.cuda.is_available()); print(torch.cuda.get_device_name(0) if torch.cuda.is_available() else 'NONE')"
 ```
 
-Run:
+## Stage 01A — private-only audit
 
-```powershell
+```bash
 python src/stage01_query_analysis/audit_private_queries.py
 ```
 
-Generated small artifacts:
+## Stage 01B — distribution diagnostic
 
-```text
-reports/stage01_private_query_audit/
-  PRIVATE_QUERY_AUDIT.json
-  PRIVATE_QUERY_FEATURES.csv
-  PRIVATE_QUERY_FEATURES.jsonl
-  REPORT.md
+**Important:** Stage 01B is diagnostic only. Historical CAL600 is not the
+ENDGAME evaluation protocol.
+
+First run the preprocessing/data-contract gate:
+
+```bash
+python src/stage01_query_analysis/preflight_query_data.py \
+  --sota-root D:/Study/DSC2026/sota \
+  --legalir-root D:/Study/DSC2026/LegalIR
 ```
 
-Commit those report files so they can be inspected remotely. Do not commit
-embeddings, model weights, FAISS/HNSW indexes or large pickle caches.
+Do not continue unless the result is `PASS`.
+
+Then run the semantic distribution comparison:
+
+```bash
+python src/stage01_query_analysis/compare_private_distribution.py \
+  --sota-root D:/Study/DSC2026/sota
+```
+
+Version these small artifacts:
+
+```text
+reports/stage01_query_preflight/
+reports/stage01_private_distribution/
+```
+
+Keep embeddings/local caches under `cache/`; do not commit them.
+
+## Evaluation protocol
+
+The old CAL600 is a historical diagnostic only. ENDGAME will build a new
+duplicate-safe, full-labeled-population OOF validation protocol before model
+promotion decisions are made.
