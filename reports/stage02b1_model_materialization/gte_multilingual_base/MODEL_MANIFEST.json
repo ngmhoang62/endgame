@@ -1,0 +1,163 @@
+{
+  "schema_version": "dsc2026.endgame.retriever_materialization.v1.1",
+  "status": "PASS",
+  "generated_at_utc": "2026-09-19T09:58:36.806061+00:00",
+  "candidate_key": "gte_multilingual_base",
+  "model_id": "Alibaba-NLP/gte-multilingual-base",
+  "resolved_revision_sha": "9bbca17d9273fd0d03d5725c7a4b0f6b45142062",
+  "target_path": "D:\\Study\\DSC2026\\endgame\\models\\retrievers\\gte-multilingual-base",
+  "historical_model_reused": false,
+  "content_fingerprint": "a52e35d2f04a0c04abe5eaa493f39a85e7dd90d634d530a26218658e8983438e",
+  "parameter_count": 305368320,
+  "parameter_billions": 0.30536832,
+  "embedding_dimension": 768,
+  "max_seq_length": 8192,
+  "competition_budget_fraction_if_used": 0.07634208,
+  "adapter_contract": {
+    "loader": "sentence_transformers.SentenceTransformer",
+    "trust_remote_code": true,
+    "pooling": "checkpoint SentenceTransformer contract",
+    "normalization": "checkpoint Normalize + explicit float32 L2",
+    "query_prefix": "",
+    "document_prefix": "",
+    "max_seq_length": 8192,
+    "dynamic_code_dependency": {
+      "repo": "Alibaba-NLP/new-impl",
+      "resolved_revision_sha": "40ced75c3017eb27626c9d4ea981bde21a2662f4",
+      "materialized_path": "D:\\Study\\DSC2026\\endgame\\models\\retriever_dependencies\\alibaba-new-impl",
+      "hf_modules_cache": "D:\\Study\\DSC2026\\endgame\\cache\\huggingface\\modules"
+    }
+  },
+  "runtime": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "torch": "2.7.1+cu126",
+    "cuda_build": "12.6",
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "transformers": "4.57.6",
+    "sentence_transformers": "5.7.0"
+  },
+  "smoke": {
+    "warm_load_cosine": 0.8833751678466797,
+    "offline_local_only_reload": true,
+    "offline_probe_shape": [
+      1,
+      768
+    ]
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 1570,
+      "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930"
+    },
+    {
+      "path": "1_Pooling/config.json",
+      "size_bytes": 190,
+      "sha256": "c9bef85e8bbf4b2eab4941b3fb62bd33f88686748b478f2e264d256472d9643b"
+    },
+    {
+      "path": "config.json",
+      "size_bytes": 1429,
+      "sha256": "711bdc81365fc25d30533cf05b9fdf588e5ba01f18540fbbb1307d787597a313"
+    },
+    {
+      "path": "images/mgte-loco.png",
+      "size_bytes": 418181,
+      "sha256": "c75d42dd9dcf30ff97cb8a5ba076f97713d827735429e36301af92d50e3a1b92"
+    },
+    {
+      "path": "images/mgte-mldr.png",
+      "size_bytes": 371717,
+      "sha256": "c34b3938ff502f99acab7a312ff2c46f889a593a61296febcd4b828f3f88af10"
+    },
+    {
+      "path": "images/mgte-mteb.png",
+      "size_bytes": 281441,
+      "sha256": "05a5368a8f33d6e6d3c2dff495b2c7bcc447f7c5b3462fd55b3d7a680be501a8"
+    },
+    {
+      "path": "images/mgte-reranker.png",
+      "size_bytes": 238472,
+      "sha256": "2588b1442676484f941f4075bfcead1cdd7da83af4999d37ab45507495bdd784"
+    },
+    {
+      "path": "images/mgte-retrieval.png",
+      "size_bytes": 356207,
+      "sha256": "1581dc1f0e6210008130ad03bc392f5badda32dc8a0e9ccd21cf30a37b45b5fc"
+    },
+    {
+      "path": "model.safetensors",
+      "size_bytes": 610753338,
+      "sha256": "f5a35a10faa54da7717870af1517c9b41e9bd8e3880bc5a8e9363d4c3c63e9b0"
+    },
+    {
+      "path": "modules.json",
+      "size_bytes": 349,
+      "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 124473,
+      "sha256": "7bc40a3d4b2ae520f7c50d40d0c56fca61d13973e3f022b464f325939b7fff68"
+    },
+    {
+      "path": "scripts/gte_embedding.py",
+      "size_bytes": 6326,
+      "sha256": "2fd5e5db15d7831c99bbc419e2ea2fd9c329a0c642472b03dd62275a85cbcff7"
+    },
+    {
+      "path": "sentence_bert_config.json",
+      "size_bytes": 55,
+      "sha256": "23aa234ef6021d513cdf56947c07aaa6977000d85dcd1fd423f650b3382a39ca"
+    },
+    {
+      "path": "special_tokens_map.json",
+      "size_bytes": 964,
+      "sha256": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835"
+    },
+    {
+      "path": "tokenizer.json",
+      "size_bytes": 17082756,
+      "sha256": "f59925fcb90c92b894cb93e51bb9b4a6105c5c249fe54ce1c704420ac39b81af"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size_bytes": 1149,
+      "sha256": "24cebbf2ef20fc317256e03e52ac7b2ca326586f946a8427ecac036332bf0933"
+    }
+  ],
+  "file_count": 16,
+  "dynamic_code_dependency_manifest": {
+    "schema_version": "dsc2026.endgame.hf_dynamic_code_dependency.v1",
+    "repo": "Alibaba-NLP/new-impl",
+    "resolved_revision_sha": "40ced75c3017eb27626c9d4ea981bde21a2662f4",
+    "content_fingerprint": "adbecfd700d53d56af9902d4f5e75f29bb8491046fa0987eb179a62dd621309c",
+    "files": [
+      {
+        "path": ".gitattributes",
+        "size_bytes": 1519,
+        "sha256": "11ad7efa24975ee4b0c3c3a38ed18737f0658a5f75a0a96787b576a78a023361"
+      },
+      {
+        "path": "configuration.py",
+        "size_bytes": 7127,
+        "sha256": "3411088045ffb8a9a0aa9936eae275896b39983a2ee5b08f091b44e6289e4fe4"
+      },
+      {
+        "path": "modeling.py",
+        "size_bytes": 59023,
+        "sha256": "374670b416fcc82f081c9cd28b5fd61c2bd91bbe18eb4798fcc48a81f9c250a0"
+      },
+      {
+        "path": "README.md",
+        "size_bytes": 4636,
+        "sha256": "feff9e8885adcc58714f75033f729ecccba50629b3d5ba848d20f0147be7308e"
+      },
+      {
+        "path": "README_zh.md",
+        "size_bytes": 4308,
+        "sha256": "3f3a1abef53021f37b91024eee27cf030dbf38452bd4ee5e3e1f6c98c6c10442"
+      }
+    ]
+  }
+}
