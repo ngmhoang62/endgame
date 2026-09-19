@@ -1,0 +1,41 @@
+{
+  "schema_version": "dsc2026.endgame.retriever_candidate_registry.v1",
+  "status": "PARTIAL_FAIL",
+  "generated_at_utc": "2026-09-19T08:48:35.807253+00:00",
+  "competition_pipeline_parameter_limit": 4000000000,
+  "note": "Materializing/screening a model does not mean it belongs in the final pipeline. Final active-parameter accounting sums only promoted pipeline components, and must remain <=4B.",
+  "passed": {
+    "qwen3_embedding_0_6b": {
+      "model_id": "Qwen/Qwen3-Embedding-0.6B",
+      "resolved_revision_sha": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+      "parameter_count": 595776512,
+      "parameter_billions": 0.595776512,
+      "max_seq_length": 32768,
+      "embedding_dimension": 1024,
+      "budget_fraction": 0.148944128
+    },
+    "bge_m3": {
+      "model_id": "BAAI/bge-m3",
+      "resolved_revision_sha": "5617a9f61b028005a4858fdac845db406aefb181",
+      "parameter_count": 567754752,
+      "parameter_billions": 0.567754752,
+      "max_seq_length": 8192,
+      "embedding_dimension": 1024,
+      "budget_fraction": 0.141938688
+    }
+  },
+  "failed": {
+    "vnlegal_lal": {
+      "error_type": "RuntimeError",
+      "error": "vnlegal_lal: max_seq_length=512, expected=2048. Do not silently cap/extend native context.",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\Study\\DSC2026\\endgame\\src\\stage02_candidate_generation\\materialize_retriever_candidates.py\", line 369, in main\n    passed[key] = materialize_one(key, args.force)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Study\\DSC2026\\endgame\\src\\stage02_candidate_generation\\materialize_retriever_candidates.py\", line 290, in materialize_one\n    raise RuntimeError(\nRuntimeError: vnlegal_lal: max_seq_length=512, expected=2048. Do not silently cap/extend native context.\n"
+    },
+    "gte_multilingual_base": {
+      "error_type": "OSError",
+      "error": "We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.\nCheck your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.",
+      "traceback": "Traceback (most recent call last):\n  File \"D:\\Study\\DSC2026\\endgame\\.venv\\Lib\\site-packages\\transformers\\utils\\hub.py\", line 479, in cached_files\n    hf_hub_download(\n  File \"D:\\Study\\DSC2026\\endgame\\.venv\\Lib\\site-packages\\huggingface_hub\\utils\\_validators.py\", line 114, in _inner_fn\n    return fn(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Study\\DSC2026\\endgame\\.venv\\Lib\\site-packages\\huggingface_hub\\file_download.py\", line 1014, in hf_hub_download\n    return _hf_hub_download_to_cache_dir(\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Study\\DSC2026\\endgame\\.venv\\Lib\\site-packages\\huggingface_hub\\file_download.py\", line 1121, in _hf_hub_download_to_cache_dir\n    _raise_on_head_call_error(head_call_error, force_download, local_files_only)\n  File \"D:\\Study\\DSC2026\\endgame\\.venv\\Lib\\site-packages\\huggingface_hub\\file_download.py\", line 1653, in _raise_on_head_call_error\n    raise LocalEntryNotFoundError(\nhuggingface_hub.errors.LocalEntryNotFoundError: Cannot find the requested files in the disk cache and outgoing traffic has been disabled. To enable hf.co look-ups and downloads online, set 'local_files_only' to False.\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"D:\\Study\\DSC2026\\endgame\\src\\stage02_candidate_generation\\materialize_retriever_candidates.py\", line 369, in main\n    passed[key] = materialize_one(key, args.force)\n                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Study\\DSC2026\\endgame\\src\\stage02_candidate_generation\\materialize_retriever_candidates.py\", line 278, in materialize_one\n    model = SentenceTransformer(\n            ^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Study\\DSC2026\\endgame\\.venv\\Lib\\site-packages\\sentence_transformers\\util\\decorators.py\", line 41, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Study\\DSC2026\\endgame\\.venv\\Lib\\site-packages\\sentence_transformers\\sentence_transformer\\model.py\", line 188, in __init__\n    super().__init__(\n  File \"D:\\Study\\DSC2026\\endgame\\.venv\\Lib\\site-packages\\sentence_transformers\\base\\model.py\", line 222, in __init__\n    modules, self.module_kwargs = self._load_modules(\n                                  ^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Study\\DSC2026\\endgame\\.venv\\Lib\\site-packages\\sentence_transformers\\base\\model.py\", line 1023, in _load_modules\n    return self._load_config_modules(model_name_or_path, **load_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Study\\DSC2026\\endgame\\.venv\\Lib\\site-packages\\sentence_transformers\\base\\model.py\", line 1229, in _load_config_modules\n    module = module_class.load(\n             ^^^^^^^^^^^^^^^^^^\n  File \"D:\\Study\\DSC2026\\endgame\\.venv\\Lib\\site-packages\\sentence_transformers\\base\\modules\\transformer.py\", line 2130, in load\n    return cls(model_name_or_path=model_name_or_path, **init_kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Study\\DSC2026\\endgame\\.venv\\Lib\\site-packages\\sentence_transformers\\util\\decorators.py\", line 87, in wrapper\n    return func(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Study\\DSC2026\\endgame\\.venv\\Lib\\site-packages\\sentence_transformers\\base\\modules\\transformer.py\", line 639, in __init__\n    config, is_peft_model = self._load_config(model_name_or_path, backend, config_kwargs)\n                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Study\\DSC2026\\endgame\\.venv\\Lib\\site-packages\\sentence_transformers\\base\\modules\\transformer.py\", line 1771, in _load_config\n    return AutoConfig.from_pretrained(model_name_or_path, **config_kwargs), False\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Study\\DSC2026\\endgame\\.venv\\Lib\\site-packages\\transformers\\models\\auto\\configuration_auto.py\", line 1346, in from_pretrained\n    config_class = get_class_from_dynamic_module(\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Study\\DSC2026\\endgame\\.venv\\Lib\\site-packages\\transformers\\dynamic_module_utils.py\", line 604, in get_class_from_dynamic_module\n    final_module = get_cached_module_file(\n                   ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Study\\DSC2026\\endgame\\.venv\\Lib\\site-packages\\transformers\\dynamic_module_utils.py\", line 406, in get_cached_module_file\n    resolved_module_file = cached_file(\n                           ^^^^^^^^^^^^\n  File \"D:\\Study\\DSC2026\\endgame\\.venv\\Lib\\site-packages\\transformers\\utils\\hub.py\", line 322, in cached_file\n    file = cached_files(path_or_repo_id=path_or_repo_id, filenames=[filename], **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\Study\\DSC2026\\endgame\\.venv\\Lib\\site-packages\\transformers\\utils\\hub.py\", line 553, in cached_files\n    raise OSError(\nOSError: We couldn't connect to 'https://huggingface.co' to load the files, and couldn't find them in the cached files.\nCheck your internet connection or see how to run the library in offline mode at 'https://huggingface.co/docs/transformers/installation#offline-mode'.\n"
+    }
+  },
+  "sum_parameters_if_all_passed_candidates_were_combined": 1163531264,
+  "sum_billions_if_all_passed_candidates_were_combined": 1.163531264
+}

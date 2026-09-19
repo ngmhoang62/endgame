@@ -1,0 +1,109 @@
+{
+  "schema_version": "dsc2026.endgame.retriever_materialization.v1",
+  "status": "PASS",
+  "generated_at_utc": "2026-09-19T08:45:29.002608+00:00",
+  "candidate_key": "qwen3_embedding_0_6b",
+  "model_id": "Qwen/Qwen3-Embedding-0.6B",
+  "resolved_revision_sha": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+  "target_path": "D:\\Study\\DSC2026\\endgame\\models\\retrievers\\qwen3-embedding-0.6b",
+  "historical_model_reused": false,
+  "content_fingerprint": "9d4b2224733ccc1f11bae7346e6e92c74ae9a1feeee02eb8ed63c392222c99ac",
+  "parameter_count": 595776512,
+  "parameter_billions": 0.595776512,
+  "trainable_parameter_count_at_load": 595776512,
+  "embedding_dimension": 1024,
+  "max_seq_length": 32768,
+  "competition_budget_fraction_if_used": 0.148944128,
+  "query_contract": {
+    "mode": "sentence_transformers_prompt",
+    "prefix": null,
+    "prompt_name": "query"
+  },
+  "document_contract": {
+    "prefix": ""
+  },
+  "runtime": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "torch": "2.7.1+cu126",
+    "cuda_build": "12.6",
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "transformers": "4.57.6",
+    "sentence_transformers": "5.7.0"
+  },
+  "smoke": {
+    "query_embedding_shape": [
+      1,
+      1024
+    ],
+    "document_embedding_shape": [
+      1,
+      1024
+    ],
+    "cosine": 0.7745808362960815,
+    "query_norm": 1.0,
+    "document_norm": 0.9999999403953552
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 1570,
+      "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930"
+    },
+    {
+      "path": "1_Pooling/config.json",
+      "size_bytes": 313,
+      "sha256": "37bf193fa101f19101bfad9c31d3eb0f786e247b7b1e5cb7f007d730eed1ddbd"
+    },
+    {
+      "path": "config.json",
+      "size_bytes": 727,
+      "sha256": "b5bf1f51fc45be473a54718cef92448d90a1be001bf9b9a44b8c7f10a19feaa9"
+    },
+    {
+      "path": "config_sentence_transformers.json",
+      "size_bytes": 215,
+      "sha256": "10667c72ddb772627bf1780cb7f86af8e2ae0032b8c243c731172064105c6961"
+    },
+    {
+      "path": "generation_config.json",
+      "size_bytes": 117,
+      "sha256": "28396d421a2108acce96383f6a7de78008f7f1b17f807958f3c14c51dbfb65fb"
+    },
+    {
+      "path": "merges.txt",
+      "size_bytes": 1671853,
+      "sha256": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5"
+    },
+    {
+      "path": "model.safetensors",
+      "size_bytes": 1191586416,
+      "sha256": "0437e45c94563b09e13cb7a64478fc406947a93cb34a7e05870fc8dcd48e23fd"
+    },
+    {
+      "path": "modules.json",
+      "size_bytes": 349,
+      "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 17237,
+      "sha256": "c34d9b7e5a267ad3fdd13227a253686bc90844ff4744a2a6a86c7c905e3d06f3"
+    },
+    {
+      "path": "tokenizer.json",
+      "size_bytes": 11423705,
+      "sha256": "def76fb086971c7867b829c23a26261e38d9d74e02139253b38aeb9df8b4b50a"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size_bytes": 9706,
+      "sha256": "253153d0738ceb4c668d2eff957714dd2bea0b56de772a9fdccd96cbf517e6a0"
+    },
+    {
+      "path": "vocab.json",
+      "size_bytes": 2776833,
+      "sha256": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+    }
+  ],
+  "file_count": 12
+}
