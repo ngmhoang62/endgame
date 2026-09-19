@@ -1,0 +1,267 @@
+{
+  "schema_version": "dsc2026.endgame.hf_model_materialization.v1.1",
+  "status": "PASS",
+  "generated_at_utc": "2026-09-19T06:34:17.383947+00:00",
+  "model_id": "mainguyen9/vietlegal-e5",
+  "requested_revision": "main",
+  "resolved_revision_sha": "a814728d93e14566f9634b50a054e67699ea8818",
+  "source": "Hugging Face Hub fresh snapshot",
+  "historical_model_reused": false,
+  "target_path": "D:\\Study\\DSC2026\\endgame\\models\\vietlegal-e5",
+  "hf_cache_root": "D:\\Study\\DSC2026\\endgame\\cache\\huggingface",
+  "runtime": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "torch": "2.7.1+cu126",
+    "cuda_build": "12.6",
+    "cuda_available": true,
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+    "transformers": "4.57.6",
+    "sentence_transformers": "5.7.0"
+  },
+  "load_contract": {
+    "library": "sentence_transformers.SentenceTransformer",
+    "local_files_only": true,
+    "trust_remote_code": false,
+    "processor_kwargs": {
+      "fix_mistral_regex": true
+    },
+    "dtype": "float16"
+  },
+  "embedding_contract": {
+    "sentence_transformer_normalize_embeddings": true,
+    "canonical_postprocess": "astype_float32_then_explicit_l2_normalize",
+    "raw_fp16_norm_max_allowed_error": 0.001,
+    "final_fp32_norm_max_allowed_error": 2e-06
+  },
+  "model_contract": {
+    "max_seq_length": 512,
+    "embedding_dimension": 1024
+  },
+  "tokenizer": {
+    "class": "XLMRobertaTokenizerFast",
+    "name_or_path": "D:\\Study\\DSC2026\\endgame\\models\\.vietlegal-e5.materializing-ueaidc39",
+    "fix_mistral_regex": true,
+    "probe": [
+      {
+        "text": "query: Thủ tục đăng ký kinh doanh gồm những bước nào?",
+        "token_count": 16,
+        "input_ids": [
+          0,
+          41,
+          1294,
+          152,
+          40797,
+          14332,
+          15423,
+          11677,
+          5890,
+          7873,
+          33256,
+          1358,
+          28014,
+          3941,
+          705,
+          2
+        ]
+      },
+      {
+        "text": "query: Điều 27. Trình tự, thủ tục đăng ký doanh nghiệp.",
+        "token_count": 23,
+        "input_ids": [
+          0,
+          41,
+          1294,
+          152,
+          17108,
+          6,
+          116,
+          361,
+          6,
+          5,
+          139461,
+          5208,
+          6,
+          4,
+          14515,
+          14332,
+          15423,
+          11677,
+          7873,
+          5403,
+          6,
+          5,
+          2
+        ]
+      },
+      {
+        "text": "query: Nghị định 33/2023/NĐ-CP có hiệu lực khi nào?",
+        "token_count": 25,
+        "input_ids": [
+          0,
+          41,
+          1294,
+          152,
+          83304,
+          2931,
+          6,
+          138,
+          138,
+          248,
+          116,
+          757,
+          116,
+          138,
+          248,
+          172719,
+          20,
+          17854,
+          524,
+          6842,
+          9611,
+          1907,
+          3941,
+          705,
+          2
+        ]
+      },
+      {
+        "text": "query: Người lao động có được hưởng trợ cấp không?",
+        "token_count": 16,
+        "input_ids": [
+          0,
+          41,
+          1294,
+          152,
+          19167,
+          21,
+          31,
+          2613,
+          524,
+          912,
+          24797,
+          14305,
+          5329,
+          687,
+          705,
+          2
+        ]
+      }
+    ]
+  },
+  "embedding_probe": {
+    "shape": [
+      4,
+      1024
+    ],
+    "raw_norms": [
+      1.0002301931381226,
+      0.9999478459358215,
+      0.9998955726623535,
+      1.0004371404647827
+    ],
+    "raw_max_abs_norm_error": 0.00043714046478271484,
+    "final_norms": [
+      0.9999999403953552,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "final_max_abs_norm_error": 5.960464477539063e-08,
+    "pairwise_cosine_after_f32_normalization": [
+      [
+        1.0,
+        0.6586134433746338,
+        0.23896996676921844,
+        0.0289126206189394
+      ],
+      [
+        0.6586134433746338,
+        1.0,
+        0.2426721751689911,
+        0.04684602841734886
+      ],
+      [
+        0.23896996676921844,
+        0.2426721751689911,
+        1.0,
+        0.22145302593708038
+      ],
+      [
+        0.0289126206189394,
+        0.04684602841734886,
+        0.22145302593708038,
+        1.000000238418579
+      ]
+    ]
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 1570,
+      "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930"
+    },
+    {
+      "path": "1_Pooling/config.json",
+      "size_bytes": 297,
+      "sha256": "4e103b8e2a31573ea88570523c2db4f13d34e09a26333e8a889268ed907b3822"
+    },
+    {
+      "path": "CLAUDE.md",
+      "size_bytes": 460,
+      "sha256": "300317fa846ac421d870bb628b9ca545141d00f85ad1cea874ca003cfc56382d"
+    },
+    {
+      "path": "config.json",
+      "size_bytes": 657,
+      "sha256": "bd13a88923e8746b7bee482d4d6c0dd88f192af8d257559e55046ccac45263b1"
+    },
+    {
+      "path": "config_sentence_transformers.json",
+      "size_bytes": 205,
+      "sha256": "463ca2ba0e356a4d4a5f1e8d096b2173116297313c165fa16f7b08c0da501b01"
+    },
+    {
+      "path": "model.safetensors",
+      "size_bytes": 2239607176,
+      "sha256": "afa0f907c7e1d8290854b8c295cd7d77521591b4c2f2a27c261258de92333ced"
+    },
+    {
+      "path": "modules.json",
+      "size_bytes": 349,
+      "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 4534,
+      "sha256": "4d098c1fe487055ef6865a2ce3aac2ef2e3daa53713ed895bbdc839bf411ebea"
+    },
+    {
+      "path": "sentence_bert_config.json",
+      "size_bytes": 53,
+      "sha256": "ec8e29d6dcb61b611b7d3fdd2982c4524e6ad985959fa7194eacfb655a8d0d51"
+    },
+    {
+      "path": "sentencepiece.bpe.model",
+      "size_bytes": 5069051,
+      "sha256": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865"
+    },
+    {
+      "path": "special_tokens_map.json",
+      "size_bytes": 964,
+      "sha256": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835"
+    },
+    {
+      "path": "tokenizer.json",
+      "size_bytes": 17082987,
+      "sha256": "883b037111086fd4dfebbbc9b7cee11e1517b5e0c0514879478661440f137085"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size_bytes": 1368,
+      "sha256": "f5913200813f3eb2658957ed0486268454fa2e37b3ddf6feade78352577e3d48"
+    }
+  ],
+  "file_count": 13,
+  "content_fingerprint": "d4ee124487f970cf202bda4e95e45d4823638f8fa1f85509180758296a51ae40",
+  "materialized_file_count_including_local_manifest": 14
+}
