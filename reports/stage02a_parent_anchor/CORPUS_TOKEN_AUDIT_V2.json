@@ -1,0 +1,81 @@
+{
+  "schema_version": "dsc2026.endgame.stage02a.token_audit.v2",
+  "status": "PASS",
+  "supersedes": "CORPUS_TOKEN_AUDIT.json",
+  "original_audit_status": "INVALID_TRUNCATED_COUNTER",
+  "bug": "Original audit counted tokens using a backend tokenizer with active truncation=512, so token lengths were clipped before counting.",
+  "audit_contract": {
+    "model_inference_max_length": 512,
+    "counting_truncation": false,
+    "backend_no_truncation_called": true,
+    "audit_only_model_max_length": 1000000000,
+    "prefix": "passage: ",
+    "tokenizer_class": "XLMRobertaTokenizerFast",
+    "backend_truncation_before_fix": {
+      "max_length": 512,
+      "stride": 0,
+      "strategy": "longest_first",
+      "direction": "right"
+    }
+  },
+  "all_documents": {
+    "count": 8512,
+    "token_length": {
+      "min": 186,
+      "p25": 3903.5,
+      "median": 7372.0,
+      "mean": 13667.59257518797,
+      "p75": 14678.25,
+      "p90": 28709.000000000015,
+      "p95": 43710.24999999999,
+      "p99": 101315.91999999958,
+      "max": 2200026
+    },
+    "over_512_count": 8506,
+    "over_512_rate": 0.9992951127819549,
+    "over_1024_count": 8379,
+    "over_2048_count": 7825,
+    "over_4096_count": 6247
+  },
+  "unique_primary_gold_documents": {
+    "count": 3099,
+    "token_length": {
+      "min": 186,
+      "p25": 5651.0,
+      "median": 10710.0,
+      "mean": 18300.157147466925,
+      "p75": 20968.5,
+      "p90": 40033.80000000003,
+      "p95": 56546.299999999974,
+      "p99": 111793.21999999999,
+      "max": 1212800
+    },
+    "over_512_count": 3098,
+    "over_512_rate": 0.9996773152629881,
+    "over_1024_count": 3082
+  },
+  "primary_gold_occurrences": {
+    "count": 7626,
+    "token_length": {
+      "min": 186,
+      "p25": 9490.5,
+      "median": 20727.0,
+      "mean": 35139.75426173617,
+      "p75": 44583.0,
+      "p90": 85773.0,
+      "p95": 111423.0,
+      "p99": 205987.0,
+      "max": 1212800
+    },
+    "over_512_count": 7624,
+    "over_512_rate": 0.999737739312877,
+    "over_1024_count": 7607
+  },
+  "queries": {
+    "count": 6991,
+    "any_gold_over_512_count": 6989,
+    "any_gold_over_512_rate": 0.9997139178944358,
+    "all_golds_over_512_count": 6989,
+    "all_golds_over_512_rate": 0.9997139178944358
+  }
+}
