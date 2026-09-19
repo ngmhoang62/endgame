@@ -1,0 +1,111 @@
+{
+  "schema_version": "dsc2026.endgame.vietnamese_retriever_materialization.v1",
+  "status": "PASS",
+  "generated_at_utc": "2026-09-19T10:25:06.814263+00:00",
+  "candidate_key": "halong_embedding",
+  "scientific_role": "Vietnamese-focused compact embedding",
+  "model_id": "contextboxai/halong_embedding",
+  "resolved_revision_sha": "b57776031035f70ed2030d2e35ecc533eb0f8f71",
+  "target_path": "D:\\Study\\DSC2026\\endgame\\models\\retrievers_vi\\halong-embedding",
+  "historical_model_reused": false,
+  "parameter_count": 278043648,
+  "parameter_billions": 0.278043648,
+  "competition_budget_fraction_if_used": 0.069510912,
+  "embedding_dimension": 768,
+  "max_seq_length": 512,
+  "max_sequence_length_card_check": {
+    "expected": 512,
+    "observed": 512,
+    "matches_expected": true
+  },
+  "fix_mistral_regex": false,
+  "trust_remote_code": false,
+  "sentence_transformer_prompts": {
+    "query": "",
+    "document": ""
+  },
+  "default_prompt_name": null,
+  "module_summary": [
+    {
+      "name": "0",
+      "class": "Transformer",
+      "repr": "Transformer({'transformer_task': 'feature-extraction', 'modality_config': {'text': {'method': 'forward', 'method_output_name': 'last_hidden_state'}}, 'module_output_name': 'token_embeddings', 'architecture': 'XLMRobertaModel'})"
+    },
+    {
+      "name": "1",
+      "class": "Pooling",
+      "repr": "Pooling({'embedding_dimension': 768, 'pooling_mode': 'mean', 'include_prompt': True})"
+    },
+    {
+      "name": "2",
+      "class": "Normalize",
+      "repr": "Normalize({})"
+    }
+  ],
+  "smoke": {
+    "shape": [
+      2,
+      768
+    ],
+    "cosine": 0.7868086099624634
+  },
+  "content_fingerprint": "469620333ead0216400de4fde26f2217446f3a9965a1064b6b029ebbd5a5d1b2",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 1570,
+      "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930"
+    },
+    {
+      "path": "1_Pooling/config.json",
+      "size_bytes": 296,
+      "sha256": "1c8bc7bd750c5c20d8707f1c5c578f5d69bb3d1d5ebcf4b2fde5128de154ec1c"
+    },
+    {
+      "path": "config.json",
+      "size_bytes": 749,
+      "sha256": "dd95654115c5feccdb508ddca4abe08613d3a763c56f475f1cff5a898641383a"
+    },
+    {
+      "path": "config_sentence_transformers.json",
+      "size_bytes": 201,
+      "sha256": "8af41822346d9eff2afdcc21640cf54dfce1ec23b2060357bf931ce3fe9d6140"
+    },
+    {
+      "path": "model.safetensors",
+      "size_bytes": 1112197096,
+      "sha256": "2fd083778d8b1f54d7ad106d1e279b5e0f6f2f9f71ae095cf91107b6e54131ab"
+    },
+    {
+      "path": "modules.json",
+      "size_bytes": 349,
+      "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 13912,
+      "sha256": "0ac2e2057b6569ba5c5db16936541b0f8b844fcc078b789a2690f95818441f64"
+    },
+    {
+      "path": "sentence_bert_config.json",
+      "size_bytes": 53,
+      "sha256": "ec8e29d6dcb61b611b7d3fdd2982c4524e6ad985959fa7194eacfb655a8d0d51"
+    },
+    {
+      "path": "special_tokens_map.json",
+      "size_bytes": 964,
+      "sha256": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835"
+    },
+    {
+      "path": "tokenizer.json",
+      "size_bytes": 17082987,
+      "sha256": "883b037111086fd4dfebbbc9b7cee11e1517b5e0c0514879478661440f137085"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size_bytes": 1338,
+      "sha256": "62a5ba9846d613fa26eba6cb75181b3d35bc832e2e8db3f5fa4a384d79d31b36"
+    }
+  ],
+  "file_count": 11
+}

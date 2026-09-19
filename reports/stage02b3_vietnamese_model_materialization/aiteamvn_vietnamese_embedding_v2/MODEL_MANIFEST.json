@@ -1,0 +1,146 @@
+{
+  "schema_version": "dsc2026.endgame.vietnamese_retriever_materialization.v1",
+  "status": "PASS",
+  "generated_at_utc": "2026-09-19T10:21:47.839713+00:00",
+  "candidate_key": "aiteamvn_vietnamese_embedding_v2",
+  "scientific_role": "larger-data Vietnamese retrieval fine-tune",
+  "model_id": "AITeamVN/Vietnamese_Embedding_v2",
+  "resolved_revision_sha": "18b44161e041bf1d3a333ab5144b5b7b93f914d2",
+  "target_path": "D:\\Study\\DSC2026\\endgame\\models\\retrievers_vi\\aiteamvn-vietnamese-embedding-v2",
+  "historical_model_reused": false,
+  "parameter_count": 567754752,
+  "parameter_billions": 0.567754752,
+  "competition_budget_fraction_if_used": 0.141938688,
+  "embedding_dimension": 1024,
+  "max_seq_length": 8192,
+  "max_sequence_length_card_check": {
+    "expected": 2048,
+    "observed": 8192,
+    "matches_expected": false
+  },
+  "fix_mistral_regex": false,
+  "trust_remote_code": false,
+  "sentence_transformer_prompts": {
+    "query": "",
+    "document": ""
+  },
+  "default_prompt_name": null,
+  "module_summary": [
+    {
+      "name": "0",
+      "class": "Transformer",
+      "repr": "Transformer({'transformer_task': 'feature-extraction', 'modality_config': {'text': {'method': 'forward', 'method_output_name': 'last_hidden_state'}}, 'module_output_name': 'token_embeddings', 'architecture': 'XLMRobertaModel'})"
+    },
+    {
+      "name": "1",
+      "class": "Pooling",
+      "repr": "Pooling({'embedding_dimension': 1024, 'pooling_mode': 'cls', 'include_prompt': True})"
+    },
+    {
+      "name": "2",
+      "class": "Normalize",
+      "repr": "Normalize({})"
+    }
+  ],
+  "smoke": {
+    "shape": [
+      2,
+      1024
+    ],
+    "cosine": 0.7144224643707275
+  },
+  "content_fingerprint": "ed453fa2f142f5f6f9052be9e1f077b59ddb03ccbcae51a0c657cf2dbf969209",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 1683,
+      "sha256": "2e086eb55ed67d29b820439ed2fa6b9c290de85d3569981b1859a0438d524e9d"
+    },
+    {
+      "path": "1_Pooling/config.json",
+      "size_bytes": 297,
+      "sha256": "13e69897522ee8255104483ed9f219465d1be3936654a54a318758738052789e"
+    },
+    {
+      "path": "config.json",
+      "size_bytes": 664,
+      "sha256": "a6a74b97165d38ffd72d0d7bedb3a97417d6adaaed13b393f4d5b7eb45707ec6"
+    },
+    {
+      "path": "config_sentence_transformers.json",
+      "size_bytes": 171,
+      "sha256": "0ab7f584ed157afadc8314b28d4b43ef6b1fdd3d97535949dde1876a1c2fc541"
+    },
+    {
+      "path": "model.safetensors",
+      "size_bytes": 2271064456,
+      "sha256": "2fa082ead5ade68225327b913339bbd5aa1e14bcd7888ff9b09d69752a8d1cee"
+    },
+    {
+      "path": "modules.json",
+      "size_bytes": 349,
+      "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+    },
+    {
+      "path": "onnx/config.json",
+      "size_bytes": 742,
+      "sha256": "446bf65944ef8114a86dc29470482ba45680bdc4036a01697782dc9d453327d0"
+    },
+    {
+      "path": "onnx/model.onnx",
+      "size_bytes": 745085,
+      "sha256": "8abc48c79bda16d715a7ea838f91b21a97bf22c8f80ad1d11d7701f78ecbad1d"
+    },
+    {
+      "path": "onnx/model.onnx_data",
+      "size_bytes": 2266886160,
+      "sha256": "1ea24c883f3db7e811a1e4460872eceee7542b84c84e4304f02e2ea0729255d5"
+    },
+    {
+      "path": "onnx/special_tokens_map.json",
+      "size_bytes": 964,
+      "sha256": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835"
+    },
+    {
+      "path": "onnx/tokenizer.json",
+      "size_bytes": 17082900,
+      "sha256": "8bf8afbfd11306bd872018c53bfdf2e160a56f8edbcf49933324404791c148d3"
+    },
+    {
+      "path": "onnx/tokenizer_config.json",
+      "size_bytes": 1203,
+      "sha256": "b87c8703482b0300d3da30e201519aa641f6a450f5eb5bf1e624afbf70c74d80"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3447,
+      "sha256": "9a8291f82ce0b52e6891171be15fb6baefbeeff2f08951ceb65d2b0ac3a93d4c"
+    },
+    {
+      "path": "sentence_bert_config.json",
+      "size_bytes": 54,
+      "sha256": "eb9b44b13c0f52a3b3685c3b1cbdea1ba8b04bea123b98f61610048940776eb1"
+    },
+    {
+      "path": "sentencepiece.bpe.model",
+      "size_bytes": 5069051,
+      "sha256": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865"
+    },
+    {
+      "path": "special_tokens_map.json",
+      "size_bytes": 964,
+      "sha256": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835"
+    },
+    {
+      "path": "tokenizer.json",
+      "size_bytes": 17098251,
+      "sha256": "b74659c780d49afad7a7b9799868f75cbd3014fb6c34956e85a793028d38094a"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size_bytes": 1203,
+      "sha256": "b87c8703482b0300d3da30e201519aa641f6a450f5eb5bf1e624afbf70c74d80"
+    }
+  ],
+  "file_count": 18
+}

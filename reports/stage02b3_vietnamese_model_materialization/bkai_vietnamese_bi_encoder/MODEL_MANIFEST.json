@@ -1,0 +1,136 @@
+{
+  "schema_version": "dsc2026.endgame.vietnamese_retriever_materialization.v1",
+  "status": "PASS",
+  "generated_at_utc": "2026-09-19T10:23:54.085568+00:00",
+  "candidate_key": "bkai_vietnamese_bi_encoder",
+  "scientific_role": "PhoBERT Vietnamese bi-encoder with Zalo legal training",
+  "model_id": "bkai-foundation-models/vietnamese-bi-encoder",
+  "resolved_revision_sha": "84f9d9ada0d1a3c37557398b9ae9fcedcdf40be0",
+  "target_path": "D:\\Study\\DSC2026\\endgame\\models\\retrievers_vi\\bkai-vietnamese-bi-encoder",
+  "historical_model_reused": false,
+  "parameter_count": 134998272,
+  "parameter_billions": 0.134998272,
+  "competition_budget_fraction_if_used": 0.033749568,
+  "embedding_dimension": 768,
+  "max_seq_length": 256,
+  "max_sequence_length_card_check": {
+    "expected": null,
+    "observed": 256,
+    "matches_expected": true
+  },
+  "fix_mistral_regex": false,
+  "trust_remote_code": false,
+  "sentence_transformer_prompts": {
+    "query": "",
+    "document": ""
+  },
+  "default_prompt_name": null,
+  "module_summary": [
+    {
+      "name": "0",
+      "class": "Transformer",
+      "repr": "Transformer({'transformer_task': 'feature-extraction', 'modality_config': {'text': {'method': 'forward', 'method_output_name': 'last_hidden_state'}}, 'module_output_name': 'token_embeddings', 'architecture': 'RobertaModel'})"
+    },
+    {
+      "name": "1",
+      "class": "Pooling",
+      "repr": "Pooling({'embedding_dimension': 768, 'pooling_mode': 'mean', 'include_prompt': True})"
+    }
+  ],
+  "smoke": {
+    "shape": [
+      2,
+      768
+    ],
+    "cosine": 0.8149642944335938
+  },
+  "content_fingerprint": "d7d2071e8d00d72f483bdcd882c8f63b957b36aeb5c8ec5597b1833b57064b3b",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 1875,
+      "sha256": "ecc5730c349be901904d760b1e088fcf31614af61b0e6b70b1bbff93f411b65f"
+    },
+    {
+      "path": "1_Pooling/config.json",
+      "size_bytes": 270,
+      "sha256": "f2fa6333d3899e2f9368e2e2741ece8e74160337b3698f475f6e0f7f28e396fe"
+    },
+    {
+      "path": "added_tokens.json",
+      "size_bytes": 22,
+      "sha256": "956163bbe8b0625fcc779207447308285eab218ffe0551d3e0deeae5538da326"
+    },
+    {
+      "path": "bpe.codes",
+      "size_bytes": 1135173,
+      "sha256": "9dfe53fb8abbddd3387da99641c36e00bee757a3679aad9cf0a7cdc4b30f6ef8"
+    },
+    {
+      "path": "config.json",
+      "size_bytes": 777,
+      "sha256": "5f28d12a2d641db00b6dfaff47517b9cf6175437ceb0e18ec0763938ab4b086f"
+    },
+    {
+      "path": "config_sentence_transformers.json",
+      "size_bytes": 123,
+      "sha256": "5a6d09833ba6faaf8b7e35d805fc6ecc42577b78173a76b6a97ea00e25a2bbb2"
+    },
+    {
+      "path": "custom_tokenizer.py",
+      "size_bytes": 325,
+      "sha256": "0f64adb63bec5dc4bb95a74795d30b3ee1645f9026ce4df3534fd08797a3a8d8"
+    },
+    {
+      "path": "model.safetensors",
+      "size_bytes": 540015464,
+      "sha256": "e681accadaec87e79901db0c3f68e33d996cba334633b6dd0b2483dba4f398e0"
+    },
+    {
+      "path": "modules.json",
+      "size_bytes": 229,
+      "sha256": "8f4b264b80206c830bebbdcae377e137925650a433b689343a63bdc9b3145460"
+    },
+    {
+      "path": "pipeline.py",
+      "size_bytes": 2705,
+      "sha256": "99ace46d4ff756f682f484e3a1072be21f89a146231254c9cf290ec5efe54c36"
+    },
+    {
+      "path": "pytorch_model.bin",
+      "size_bytes": 540057065,
+      "sha256": "2d8135cb6ff79bf4303fb0afd11808791c9123ae8ee753fccd480207e347963e"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 6465,
+      "sha256": "1433a6a36fb9b991999ce5eab31de89f6ebf31ef3c3a0c30c7b61685fa2ed878"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 11,
+      "sha256": "2153a0422bddac72fdb08f059050b4609187e1ec10c9ac79531e3352f2def5f9"
+    },
+    {
+      "path": "sentence_bert_config.json",
+      "size_bytes": 53,
+      "sha256": "fc1993fde0a95c24ec6c022539d41cf6e2f7c9721e5415d6fb6897472a9cd4b7"
+    },
+    {
+      "path": "special_tokens_map.json",
+      "size_bytes": 167,
+      "sha256": "d05497f1da52c5e09554c0cd874037a083e1dc1b9cfd48034d1c717f1afc07a7"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size_bytes": 1172,
+      "sha256": "9410af29b3eebbe69a1a0d8f3e1104e131409223cffcec9cf6ee46afd5892b88"
+    },
+    {
+      "path": "vocab.txt",
+      "size_bytes": 895321,
+      "sha256": "dffd7543c401fb6567253ae7c3313004532c33d062525250049c616544bad777"
+    }
+  ],
+  "file_count": 17
+}

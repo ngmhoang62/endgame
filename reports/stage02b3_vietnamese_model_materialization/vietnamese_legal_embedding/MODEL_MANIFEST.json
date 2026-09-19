@@ -1,0 +1,106 @@
+{
+  "schema_version": "dsc2026.endgame.vietnamese_retriever_materialization.v1",
+  "status": "PASS",
+  "generated_at_utc": "2026-09-19T10:22:17.197209+00:00",
+  "candidate_key": "vietnamese_legal_embedding",
+  "scientific_role": "Vietnamese legal retrieval fine-tune",
+  "model_id": "bqbbao6/vietnamese-legal-embedding",
+  "resolved_revision_sha": "7568a60f24a415e3597a74e423728272c929eb0b",
+  "target_path": "D:\\Study\\DSC2026\\endgame\\models\\retrievers_vi\\vietnamese-legal-embedding",
+  "historical_model_reused": false,
+  "parameter_count": 278043648,
+  "parameter_billions": 0.278043648,
+  "competition_budget_fraction_if_used": 0.069510912,
+  "embedding_dimension": 768,
+  "max_seq_length": 512,
+  "max_sequence_length_card_check": {
+    "expected": 512,
+    "observed": 512,
+    "matches_expected": true
+  },
+  "fix_mistral_regex": false,
+  "trust_remote_code": true,
+  "sentence_transformer_prompts": {
+    "query": "",
+    "document": ""
+  },
+  "default_prompt_name": null,
+  "module_summary": [
+    {
+      "name": "0",
+      "class": "Transformer",
+      "repr": "Transformer({'transformer_task': 'feature-extraction', 'modality_config': {'text': {'method': 'forward', 'method_output_name': 'last_hidden_state'}}, 'module_output_name': 'token_embeddings', 'architecture': 'XLMRobertaModel'})"
+    },
+    {
+      "name": "1",
+      "class": "Pooling",
+      "repr": "Pooling({'embedding_dimension': 768, 'pooling_mode': 'mean', 'include_prompt': True})"
+    },
+    {
+      "name": "2",
+      "class": "Normalize",
+      "repr": "Normalize({})"
+    }
+  ],
+  "smoke": {
+    "shape": [
+      2,
+      768
+    ],
+    "cosine": 0.8744218945503235
+  },
+  "content_fingerprint": "6245fd586f664953440f54e251b517c39e07400f38524b2b3e951bb25a30b53d",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 1570,
+      "sha256": "34448b82c17d60fec9b65b1f093c115ddbaadc04beb1b0140b6bfed2e012a930"
+    },
+    {
+      "path": "1_Pooling/config.json",
+      "size_bytes": 312,
+      "sha256": "35bbd47d7fdf1e378db6130bcc668b09d1aa67a7bbf7c8f89a9c71f4cc8ebcc6"
+    },
+    {
+      "path": "config.json",
+      "size_bytes": 741,
+      "sha256": "81932b16f671991b5f256106fc5c188412e2193e9db61e48e3b16e55ace2c99c"
+    },
+    {
+      "path": "config_sentence_transformers.json",
+      "size_bytes": 283,
+      "sha256": "3ece546625eb0122bd708b3737fb9a3a333566046da169eaa0514e8f78ce2b10"
+    },
+    {
+      "path": "model.safetensors",
+      "size_bytes": 1112197064,
+      "sha256": "b2e8f31f8df9b5205b4a2625d52a41b9a53023c471276d8ca7ba60dfec1e11c6"
+    },
+    {
+      "path": "modules.json",
+      "size_bytes": 349,
+      "sha256": "84e40c8e006c9b1d6c122e02cba9b02458120b5fb0c87b746c41e0207cf642cf"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 8301,
+      "sha256": "c15ef71a6c6d73941617b761af24f3055696a14a555a844729dfb2e5aec81ee9"
+    },
+    {
+      "path": "sentence_bert_config.json",
+      "size_bytes": 57,
+      "sha256": "948201d8329907aae938fa62f9ceeed53f5694dacc2b87b9f3b78b37ee986529"
+    },
+    {
+      "path": "tokenizer.json",
+      "size_bytes": 16766387,
+      "sha256": "3fe715a86a37cd2b20e5eaeee8b22815bce65de676d1e0cd856114b59dab67fc"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size_bytes": 354,
+      "sha256": "8722f0c182b201d8d1032735a66451a0dc5c89b171d6056b75d45d80eb9a3400"
+    }
+  ],
+  "file_count": 10
+}

@@ -1,0 +1,90 @@
+{
+  "schema_version": "dsc2026.endgame.vietnamese_retriever_registry.v1",
+  "status": "PASS",
+  "generated_at_utc": "2026-09-19T10:25:07.350620+00:00",
+  "scientific_role": "Vietnamese/legal-first screening registry; materialization is not promotion",
+  "competition_parameter_limit": 4000000000,
+  "fresh_candidates": {
+    "aiteamvn_vietnamese_embedding": {
+      "model_id": "AITeamVN/Vietnamese_Embedding",
+      "resolved_revision_sha": "dea33aa1ab339f38d66ae0a40e6c40e0a9249568",
+      "parameter_count": 567754752,
+      "parameter_billions": 0.567754752,
+      "max_seq_length": 8192,
+      "embedding_dimension": 1024,
+      "scientific_role": "Vietnamese retrieval fine-tune"
+    },
+    "aiteamvn_vietnamese_embedding_v2": {
+      "model_id": "AITeamVN/Vietnamese_Embedding_v2",
+      "resolved_revision_sha": "18b44161e041bf1d3a333ab5144b5b7b93f914d2",
+      "parameter_count": 567754752,
+      "parameter_billions": 0.567754752,
+      "max_seq_length": 8192,
+      "embedding_dimension": 1024,
+      "scientific_role": "larger-data Vietnamese retrieval fine-tune"
+    },
+    "vietnamese_legal_embedding": {
+      "model_id": "bqbbao6/vietnamese-legal-embedding",
+      "resolved_revision_sha": "7568a60f24a415e3597a74e423728272c929eb0b",
+      "parameter_count": 278043648,
+      "parameter_billions": 0.278043648,
+      "max_seq_length": 512,
+      "embedding_dimension": 768,
+      "scientific_role": "Vietnamese legal retrieval fine-tune"
+    },
+    "vietlegal_harrier_0_6b": {
+      "model_id": "mainguyen9/vietlegal-harrier-0.6b",
+      "resolved_revision_sha": "91a0e1ebe4b63b4475bbae40658b8ca9231bea74",
+      "parameter_count": 596049920,
+      "parameter_billions": 0.59604992,
+      "max_seq_length": 512,
+      "embedding_dimension": 1024,
+      "scientific_role": "Vietnamese legal Qwen/Harrier fine-tune"
+    },
+    "bkai_vietnamese_bi_encoder": {
+      "model_id": "bkai-foundation-models/vietnamese-bi-encoder",
+      "resolved_revision_sha": "84f9d9ada0d1a3c37557398b9ae9fcedcdf40be0",
+      "parameter_count": 134998272,
+      "parameter_billions": 0.134998272,
+      "max_seq_length": 256,
+      "embedding_dimension": 768,
+      "scientific_role": "PhoBERT Vietnamese bi-encoder with Zalo legal training"
+    },
+    "halong_embedding": {
+      "model_id": "contextboxai/halong_embedding",
+      "resolved_revision_sha": "b57776031035f70ed2030d2e35ecc533eb0f8f71",
+      "parameter_count": 278043648,
+      "parameter_billions": 0.278043648,
+      "max_seq_length": 512,
+      "embedding_dimension": 768,
+      "scientific_role": "Vietnamese-focused compact embedding"
+    }
+  },
+  "existing_anchors": {
+    "vietlegal_e5": {
+      "candidate_key": "vietlegal_e5",
+      "status": "PASS",
+      "model_id": "mainguyen9/vietlegal-e5",
+      "resolved_revision_sha": "a814728d93e14566f9634b50a054e67699ea8818",
+      "parameter_count": null,
+      "parameter_billions": null,
+      "max_seq_length": 512,
+      "embedding_dimension": 1024,
+      "target_path": "D:\\Study\\DSC2026\\endgame\\models\\vietlegal-e5"
+    },
+    "vnlegal_lal": {
+      "candidate_key": "vnlegal_lal",
+      "status": "PASS",
+      "model_id": "darklethelong/vnlegal-lal",
+      "resolved_revision_sha": "de759324ef931a2475ae8db97137b6a6cbb98aa0",
+      "parameter_count": 596049920,
+      "parameter_billions": 0.59604992,
+      "max_seq_length": 2048,
+      "embedding_dimension": 1024,
+      "target_path": "D:\\Study\\DSC2026\\endgame\\models\\retrievers\\vnlegal-lal"
+    }
+  },
+  "failed": {},
+  "sum_fresh_candidate_parameters_if_combined": 2422644992,
+  "note": "Screening models are run sequentially. Competition parameter budget applies to the final active pipeline, not to the number of models screened."
+}
