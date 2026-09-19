@@ -1,0 +1,337 @@
+{
+  "schema_version": "dsc2026.endgame.stage02b0.moderate_structure.v1",
+  "status": "PASS",
+  "claim_boundary": "geometry only; no embedding/retrieval conclusions",
+  "source_corpus_sha256": "4b83d989fb7c307a1dc631879b5d26dcfeb2daa3515a3021442845e3eae4fc42",
+  "contract": {
+    "chapter_section_role": "metadata only",
+    "article_annex_role": "retrieval regions",
+    "clause_point_nodes": false,
+    "paragraph_packing": false,
+    "sliding_windows": false,
+    "metadata_prefix_rendering": false,
+    "exact_source_offsets": true,
+    "gap_regions_preserve_uncovered_source": true
+  },
+  "documents": {
+    "count": 8512,
+    "with_article": 7293,
+    "with_article_rate": 0.8567904135338346,
+    "with_annex": 2350,
+    "fallback_or_gap_only": 1062,
+    "split_article_heading_docs": 736
+  },
+  "regions": {
+    "count": 179737,
+    "kind_counts": {
+      "gap": 8512,
+      "article": 161614,
+      "annex": 9611
+    },
+    "per_document": {
+      "min": 1.0,
+      "p25": 6.0,
+      "median": 14.0,
+      "mean": 21.115718984962406,
+      "p75": 27.0,
+      "p90": 45.0,
+      "p95": 62.0,
+      "p99": 121.0,
+      "max": 839.0
+    },
+    "char_length": {
+      "min": 6.0,
+      "p25": 473.0,
+      "median": 896.0,
+      "mean": 1967.826490928412,
+      "p75": 1645.0,
+      "p90": 3081.0,
+      "p95": 4943.0,
+      "p99": 19302.919999999955,
+      "max": 5869779.0
+    },
+    "word_length": {
+      "min": 1.0,
+      "p25": 100.0,
+      "median": 189.0,
+      "mean": 408.0084790555089,
+      "p75": 348.0,
+      "p90": 650.0,
+      "p95": 1030.0,
+      "p99": 3853.639999999985,
+      "max": 1276354.0
+    },
+    "article_char_length": {
+      "min": 9.0,
+      "p25": 458.0,
+      "median": 859.0,
+      "mean": 1570.388710136498,
+      "p75": 1572.0,
+      "p90": 2791.7000000000116,
+      "p95": 4094.0,
+      "p99": 11830.349999999977,
+      "max": 525047.0
+    },
+    "article_word_length": {
+      "min": 2.0,
+      "p25": 98.0,
+      "median": 183.0,
+      "mean": 331.48936354523744,
+      "p75": 337.0,
+      "p90": 600.0,
+      "p95": 875.0,
+      "p99": 2414.8699999999953,
+      "max": 106487.0
+    },
+    "gap_char_length": {
+      "min": 73.0,
+      "p25": 793.0,
+      "median": 1055.0,
+      "mean": 5010.393092105263,
+      "p75": 1581.0,
+      "p90": 7051.3000000000475,
+      "p95": 16688.45,
+      "p99": 55558.2999999999,
+      "max": 5869779.0
+    }
+  },
+  "gold_documents": {
+    "unique_count": 3099,
+    "with_article": 2795,
+    "with_article_rate": 0.9019038399483704,
+    "regions_per_document": {
+      "min": 1.0,
+      "p25": 9.0,
+      "median": 21.0,
+      "mean": 30.426911907066795,
+      "p75": 38.0,
+      "p90": 62.0,
+      "p95": 86.0,
+      "p99": 170.05999999999995,
+      "max": 839.0
+    }
+  },
+  "historical_comparison": {
+    "structural_v3_chunk_count": 343347,
+    "moderate_region_count": 179737,
+    "region_count_ratio_vs_structural_v3": 0.5234849874907892,
+    "structural_v3_to_moderate_compression": 1.9102744565670953,
+    "note": "Not an apples-to-apples retrieval metric. This only measures base geometry before model-specific token packing."
+  },
+  "largest_region_count_documents": [
+    {
+      "doc_id": "153054",
+      "region_count": 839,
+      "char_count": 407449,
+      "article_regions": 838,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "132797",
+      "region_count": 775,
+      "char_count": 378401,
+      "article_regions": 774,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "81598",
+      "region_count": 691,
+      "char_count": 382010,
+      "article_regions": 690,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "46918",
+      "region_count": 533,
+      "char_count": 511082,
+      "article_regions": 532,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "102434",
+      "region_count": 506,
+      "char_count": 538064,
+      "article_regions": 505,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "245154",
+      "region_count": 442,
+      "char_count": 573666,
+      "article_regions": 441,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "187506",
+      "region_count": 427,
+      "char_count": 292916,
+      "article_regions": 426,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "160120",
+      "region_count": 377,
+      "char_count": 352441,
+      "article_regions": 376,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "15628",
+      "region_count": 358,
+      "char_count": 374593,
+      "article_regions": 349,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "194863",
+      "region_count": 347,
+      "char_count": 266298,
+      "article_regions": 346,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "24778",
+      "region_count": 346,
+      "char_count": 265610,
+      "article_regions": 345,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "288109",
+      "region_count": 344,
+      "char_count": 277192,
+      "article_regions": 343,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "220365",
+      "region_count": 328,
+      "char_count": 182045,
+      "article_regions": 327,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "165780",
+      "region_count": 309,
+      "char_count": 589598,
+      "article_regions": 308,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "20457",
+      "region_count": 298,
+      "char_count": 354133,
+      "article_regions": 284,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "147066",
+      "region_count": 284,
+      "char_count": 143805,
+      "article_regions": 283,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "300749",
+      "region_count": 267,
+      "char_count": 200573,
+      "article_regions": 266,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "224467",
+      "region_count": 266,
+      "char_count": 354023,
+      "article_regions": 261,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "226254",
+      "region_count": 257,
+      "char_count": 136768,
+      "article_regions": 250,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "184038",
+      "region_count": 253,
+      "char_count": 398651,
+      "article_regions": 252,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "144551",
+      "region_count": 246,
+      "char_count": 315240,
+      "article_regions": 245,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "143446",
+      "region_count": 245,
+      "char_count": 166687,
+      "article_regions": 244,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "265884",
+      "region_count": 244,
+      "char_count": 472150,
+      "article_regions": 226,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "129823",
+      "region_count": 229,
+      "char_count": 194781,
+      "article_regions": 228,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "222904",
+      "region_count": 228,
+      "char_count": 209503,
+      "article_regions": 227,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "21398",
+      "region_count": 225,
+      "char_count": 331410,
+      "article_regions": 224,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "305455",
+      "region_count": 223,
+      "char_count": 294057,
+      "article_regions": 222,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "198374",
+      "region_count": 219,
+      "char_count": 315053,
+      "article_regions": 218,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "68399",
+      "region_count": 210,
+      "char_count": 315003,
+      "article_regions": 209,
+      "gap_regions": 1
+    },
+    {
+      "doc_id": "230594",
+      "region_count": 205,
+      "char_count": 241950,
+      "article_regions": 202,
+      "gap_regions": 1
+    }
+  ],
+  "artifact": {
+    "regions_path": "D:\\Study\\DSC2026\\endgame\\cache\\stage02b_structure\\moderate_structure_regions.jsonl",
+    "regions_sha256": "2006aa80768e31e758c0d83c606e0098a391c16896530845ef3d2ce48a65eac4"
+  }
+}
