@@ -1,0 +1,260 @@
+{
+  "schema_version": "dsc2026.endgame.stage00c_eval_v2.audit",
+  "status": "PASS",
+  "gates": {
+    "population_6991": true,
+    "non_evaluable_9": true,
+    "retrieval_docs_8512": true,
+    "group_isolation": true,
+    "fold_coverage": true,
+    "size_balance": true,
+    "answer_balance": true,
+    "freq_balance": true,
+    "length_balance": true,
+    "density_balance": true
+  },
+  "selected_seed": 276,
+  "selected_objective": 0.06667754355838239,
+  "balance": {
+    "size_max_relative_deviation": 0.0008582463166929233,
+    "size_relative_deviation_by_fold": {
+      "fold_0": 0.0005721642111285614,
+      "fold_1": 0.0008582463166929233,
+      "fold_2": 0.0005721642111285614,
+      "fold_3": 0.000143041052782181,
+      "fold_4": 0.000143041052782181
+    },
+    "answer_max_rate_deviation": 0.0007912822161062483,
+    "answer_rate_deviation_by_fold": {
+      "fold_0": 0.000526767336621603,
+      "fold_1": 0.0007912822161062483,
+      "fold_2": 0.000526767336621603,
+      "fold_3": 0.00042779301980126055,
+      "fold_4": 0.00041930059678201015
+    },
+    "answer_global_rates": {
+      "a1": 0.9211843799170362,
+      "a2": 0.06908882849377772,
+      "a3p": 0.009726791589186096
+    },
+    "freq_max_rate_deviation": 0.0008932391922662208,
+    "freq_rate_deviation_by_fold": {
+      "fold_0": 0.0007112177006094456,
+      "fold_1": 0.0003632853652620338,
+      "fold_2": 0.000847306078917559,
+      "fold_3": 0.0008932391922662208,
+      "fold_4": 0.0007484587275403409
+    },
+    "freq_global_rates": {
+      "f8_15": 0.15705907595479904,
+      "f2_3": 0.243741953940781,
+      "f16p": 0.1951079959948505,
+      "f1": 0.23172650550708054,
+      "f4_7": 0.1723644686024889
+    },
+    "length_max_rate_deviation": 0.010233118007230285,
+    "length_rate_deviation_by_fold": {
+      "fold_0": 0.01002483638465429,
+      "fold_1": 0.010233118007230285,
+      "fold_2": 0.01014088470124308,
+      "fold_3": 0.006254516076156791,
+      "fold_4": 0.007692191206801979
+    },
+    "length_global_rates": {
+      "l_q2": 0.23387212129881277,
+      "l_q3": 0.25361178658274924,
+      "l_q4": 0.2315834644542984,
+      "l_q1": 0.2809326276641396
+    },
+    "density_max_rate_deviation": 0.013004568622845936,
+    "density_rate_deviation_by_fold": {
+      "fold_0": 0.008246689887917824,
+      "fold_1": 0.0026556283070564013,
+      "fold_2": 0.013004568622845936,
+      "fold_3": 0.009333582171559662,
+      "fold_4": 0.0030115359846473386
+    },
+    "density_global_rates": {
+      "d_60_75": 0.42139894149620943,
+      "d_75_90": 0.24173937920183092,
+      "d_lt60": 0.2862251466170791,
+      "d_90p": 0.05063653268488056
+    },
+    "objective": 0.06667754355838239
+  },
+  "fold_sizes": {
+    "fold_0": 1399,
+    "fold_1": 1397,
+    "fold_2": 1399,
+    "fold_3": 1398,
+    "fold_4": 1398
+  },
+  "fold_stats": {
+    "fold_0": {
+      "n": 1399,
+      "answer_counts": {
+        "a1": 1288,
+        "a2": 97,
+        "a3p": 14
+      },
+      "freq_counts": {
+        "f8_15": 220,
+        "f2_3": 340,
+        "f1": 324,
+        "f16p": 273,
+        "f4_7": 242
+      },
+      "special_slice_counts": {
+        "single_gold": 1288,
+        "multi_gold": 111,
+        "three_plus_gold": 14,
+        "empty_gold_affected_but_evaluable": 0,
+        "duplicate_content_gold_literal_ids": 2,
+        "near_duplicate_group_member": 31,
+        "semantic_dense_ge_0_90": 66,
+        "rare_gold_only": 324,
+        "frequent_gold_16p": 273
+      }
+    },
+    "fold_1": {
+      "n": 1397,
+      "answer_counts": {
+        "a1": 1288,
+        "a2": 96,
+        "a3p": 13
+      },
+      "freq_counts": {
+        "f16p": 273,
+        "f2_3": 340,
+        "f1": 324,
+        "f8_15": 219,
+        "f4_7": 241
+      },
+      "special_slice_counts": {
+        "single_gold": 1288,
+        "multi_gold": 109,
+        "three_plus_gold": 13,
+        "empty_gold_affected_but_evaluable": 1,
+        "duplicate_content_gold_literal_ids": 1,
+        "near_duplicate_group_member": 29,
+        "semantic_dense_ge_0_90": 70,
+        "rare_gold_only": 324,
+        "frequent_gold_16p": 273
+      }
+    },
+    "fold_2": {
+      "n": 1399,
+      "answer_counts": {
+        "a1": 1288,
+        "a2": 97,
+        "a3p": 14
+      },
+      "freq_counts": {
+        "f2_3": 341,
+        "f8_15": 220,
+        "f1": 323,
+        "f4_7": 242,
+        "f16p": 273
+      },
+      "special_slice_counts": {
+        "single_gold": 1288,
+        "multi_gold": 111,
+        "three_plus_gold": 14,
+        "empty_gold_affected_but_evaluable": 0,
+        "duplicate_content_gold_literal_ids": 1,
+        "near_duplicate_group_member": 30,
+        "semantic_dense_ge_0_90": 81,
+        "rare_gold_only": 323,
+        "frequent_gold_16p": 273
+      }
+    },
+    "fold_3": {
+      "n": 1398,
+      "answer_counts": {
+        "a1": 1288,
+        "a3p": 13,
+        "a2": 97
+      },
+      "freq_counts": {
+        "f2_3": 342,
+        "f16p": 272,
+        "f4_7": 240,
+        "f1": 324,
+        "f8_15": 220
+      },
+      "special_slice_counts": {
+        "single_gold": 1288,
+        "multi_gold": 110,
+        "three_plus_gold": 13,
+        "empty_gold_affected_but_evaluable": 0,
+        "duplicate_content_gold_literal_ids": 0,
+        "near_duplicate_group_member": 30,
+        "semantic_dense_ge_0_90": 62,
+        "rare_gold_only": 324,
+        "frequent_gold_16p": 272
+      }
+    },
+    "fold_4": {
+      "n": 1398,
+      "answer_counts": {
+        "a1": 1288,
+        "a2": 96,
+        "a3p": 14
+      },
+      "freq_counts": {
+        "f4_7": 240,
+        "f8_15": 219,
+        "f1": 325,
+        "f2_3": 341,
+        "f16p": 273
+      },
+      "special_slice_counts": {
+        "single_gold": 1288,
+        "multi_gold": 110,
+        "three_plus_gold": 14,
+        "empty_gold_affected_but_evaluable": 1,
+        "duplicate_content_gold_literal_ids": 0,
+        "near_duplicate_group_member": 31,
+        "semantic_dense_ge_0_90": 75,
+        "rare_gold_only": 325,
+        "frequent_gold_16p": 273
+      }
+    }
+  },
+  "population_audit": {
+    "raw_queries": 7000,
+    "primary_queries": 6991,
+    "non_evaluable_queries": 9,
+    "raw_docs": 8532,
+    "empty_docs": 20,
+    "retrieval_docs": 8512,
+    "duplicate_passage_groups_preserved": 4,
+    "empty_gold_affected_but_evaluable": 2,
+    "removed_empty_gold_occurrences": 11
+  },
+  "leakage_groups": {
+    "groups_gt1": 72,
+    "queries_in_groups_gt1": 151,
+    "max_group_size": 3,
+    "selected_semantic_edges": 84,
+    "selected_edge_gold_overlap_rate_posthoc_only": 0.8571428571428571,
+    "gold_used_for_edge_selection": false
+  },
+  "stress_slice_sizes": {
+    "single_gold": 6440,
+    "multi_gold": 551,
+    "three_plus_gold": 68,
+    "empty_gold_affected_but_evaluable": 2,
+    "duplicate_content_gold_literal_ids": 4,
+    "near_duplicate_group_member": 151,
+    "semantic_dense_ge_0_90": 354,
+    "rare_gold_only": 1620,
+    "frequent_gold_16p": 1364
+  },
+  "artifacts": {
+    "retrieval_corpus_sha256": "4b83d989fb7c307a1dc631879b5d26dcfeb2daa3515a3021442845e3eae4fc42",
+    "primary_golds_sha256": "132463a231f727f3ed7814b5a4028dd8791f56b6cfc2cd8409dc4ad749f4ee69",
+    "folds_sha256": "324eaad0cc2acd25faeaa89f505bdd4a14ba8206911f7f3257139bcfa08ffaa0",
+    "evaluation_contract_sha256": "6c7de116a81b17f9b547868a8438376bc6290960b43028380785ed48170889af"
+  }
+}

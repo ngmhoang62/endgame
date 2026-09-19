@@ -33,23 +33,24 @@ models/
 *.faiss
 *.index
 
-# Large databases / temporary files
+# Raw official corpus files remain local.
 data/official_v1/selected-contexts/**
+
+# Rebuilt retrieval corpus is reproducible from official snapshot but large.
+data/evaluation_v2/retrieval_corpus_8512.jsonl
+
+# Large DB / temp
 *.sqlite
 *.sqlite3
 *.db
 *.tmp
 *.temp
 
-# Generated submission archives are immutable locally but ZIP bytes are not useful in git.
+# Submission ZIP bytes are local.
 submissions/**/*.zip
 
-# IMPORTANT: keep lightweight scientific evidence versioned.
-# Do NOT ignore:
-#   private-official.json
+# Keep lightweight scientific evidence versioned:
+#   data/official_v1/*.json (except selected-contexts/)
+#   data/evaluation_v2/*.json
 #   reports/**/*.json, *.jsonl, *.csv, *.md
-#   results/**/MANIFEST.json, REPORT*.json, REPORT*.md, metrics/config files
-#   submissions/**/submission.json, MANIFEST.json, README.md, HYPOTHESIS.md
-#
-# If a results/ artifact becomes large, add that exact path here rather than
-# ignoring the entire results/ tree.
+#   source code and configuration

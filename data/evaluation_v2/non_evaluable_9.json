@@ -1,0 +1,83 @@
+{
+  "28410": {
+    "raw_gold_ids": [
+      "263763"
+    ],
+    "removed_empty_gold_ids": [
+      "263763"
+    ],
+    "reason": "all_gold_documents_have_empty_passage"
+  },
+  "163826": {
+    "raw_gold_ids": [
+      "131890"
+    ],
+    "removed_empty_gold_ids": [
+      "131890"
+    ],
+    "reason": "all_gold_documents_have_empty_passage"
+  },
+  "93066": {
+    "raw_gold_ids": [
+      "263763"
+    ],
+    "removed_empty_gold_ids": [
+      "263763"
+    ],
+    "reason": "all_gold_documents_have_empty_passage"
+  },
+  "49334": {
+    "raw_gold_ids": [
+      "149317"
+    ],
+    "removed_empty_gold_ids": [
+      "149317"
+    ],
+    "reason": "all_gold_documents_have_empty_passage"
+  },
+  "39790": {
+    "raw_gold_ids": [
+      "10533"
+    ],
+    "removed_empty_gold_ids": [
+      "10533"
+    ],
+    "reason": "all_gold_documents_have_empty_passage"
+  },
+  "5728": {
+    "raw_gold_ids": [
+      "288457"
+    ],
+    "removed_empty_gold_ids": [
+      "288457"
+    ],
+    "reason": "all_gold_documents_have_empty_passage"
+  },
+  "13426": {
+    "raw_gold_ids": [
+      "131890"
+    ],
+    "removed_empty_gold_ids": [
+      "131890"
+    ],
+    "reason": "all_gold_documents_have_empty_passage"
+  },
+  "17708": {
+    "raw_gold_ids": [
+      "149317"
+    ],
+    "removed_empty_gold_ids": [
+      "149317"
+    ],
+    "reason": "all_gold_documents_have_empty_passage"
+  },
+  "60066": {
+    "raw_gold_ids": [
+      "288457"
+    ],
+    "removed_empty_gold_ids": [
+      "288457"
+    ],
+    "reason": "all_gold_documents_have_empty_passage"
+  }
+}

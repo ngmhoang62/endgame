@@ -1,0 +1,66 @@
+{
+  "schema_version": "dsc2026.endgame.evaluation_contract.v2",
+  "status": "PASS",
+  "generated_at_utc": "2026-09-19T07:34:18.809014+00:00",
+  "populations": {
+    "RAW_TRAIN_7000": {
+      "query_count": 7000,
+      "label_policy": "untouched official literal IDs",
+      "role": "secondary raw-official diagnostic"
+    },
+    "PRIMARY_EVAL_6991": {
+      "query_count": 6991,
+      "label_policy": "drop only gold IDs whose raw passage is empty; preserve all other literal IDs",
+      "role": "primary model-development OOF"
+    },
+    "RAW_CORPUS_8532": {
+      "document_count": 8532
+    },
+    "RETRIEVAL_CORPUS_8512": {
+      "document_count": 8512,
+      "policy": "exclude empty-passage docs only; exact duplicate-content IDs preserved",
+      "corpus_jsonl_sha256": "4b83d989fb7c307a1dc631879b5d26dcfeb2daa3515a3021442845e3eae4fc42"
+    }
+  },
+  "document_identity_policy": {
+    "literal_ids_preserved": true,
+    "exact_duplicate_content_docs_deduplicated": false,
+    "alias_mapping": false,
+    "rationale": "Official scorer is literal-ID based. Only five historical duplicate exclusions exist, so retaining IDs avoids alias-risk at negligible compute cost."
+  },
+  "empty_passage_policy": {
+    "empty_document_count": 20,
+    "gold_occurrences_removed": 11,
+    "affected_but_evaluable_queries": 2,
+    "non_evaluable_queries": 9
+  },
+  "primary_metric": {
+    "name": "macro_recall_at_5",
+    "query_formula": "hits / number_of_primary_retrievable_literal_gold_ids",
+    "aggregate": "mean over PRIMARY_EVAL_6991"
+  },
+  "secondary_metric": {
+    "name": "macro_precision_at_5",
+    "query_formula": "hits / returned_doc_count for 1..5 returned docs"
+  },
+  "folds": {
+    "count": 5,
+    "selected_seed": 276,
+    "builder": "StratifiedGroupKFold seed scan",
+    "seed_scan": 512,
+    "stratification": "primary answer-cardinality x primary gold-frequency, rare strata collapsed",
+    "leakage_rule": {
+      "accent_normalized_exact_duplicate": true,
+      "embedding_cosine_ge": 0.95,
+      "border": {
+        "embedding_cosine_ge": 0.94,
+        "lexical_cosine_ge": 0.8
+      },
+      "gold_used_to_select_edge": false
+    }
+  },
+  "historical_legalir_comparison": {
+    "expected_same_primary_query_count": 6991,
+    "important_difference": "ENDGAME v2 does NOT exclude/remap exact duplicate-content document IDs."
+  }
+}

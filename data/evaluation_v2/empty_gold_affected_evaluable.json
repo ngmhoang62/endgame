@@ -1,0 +1,26 @@
+{
+  "116906": {
+    "raw_gold_ids": [
+      "55497",
+      "185325"
+    ],
+    "primary_gold_ids": [
+      "185325"
+    ],
+    "removed_empty_gold_ids": [
+      "55497"
+    ]
+  },
+  "42298": {
+    "raw_gold_ids": [
+      "243812",
+      "288457"
+    ],
+    "primary_gold_ids": [
+      "243812"
+    ],
+    "removed_empty_gold_ids": [
+      "288457"
+    ]
+  }
+}
