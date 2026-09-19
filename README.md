@@ -19,9 +19,8 @@ endgame/
 ```
 
 Do not use a live model/index/cache path from `sota/` or `LegalIR/` in a new
-ENDGAME experiment. Historical artifacts may be inspected or explicitly
-imported as evidence, but a new runtime dependency must be materialized and
-fingerprinted under ENDGAME.
+ENDGAME experiment. Historical artifacts may be inspected as evidence, but new
+runtime dependencies must be materialized and fingerprinted under ENDGAME.
 
 All command examples use **Bash / Git Bash**.
 
@@ -54,63 +53,104 @@ python src/stage01_query_analysis/preflight_query_data.py \
   --legalir-root D:/Study/DSC2026/LegalIR
 ```
 
-The old repositories are still used here only to locate raw historical
-TRAIN/PUBLIC inputs and optional preprocessing evidence. Runtime model/cache
-reuse is forbidden.
+The historical repositories are used here only as source/reference locations.
 
 ## Fresh model materialization
-
-Before any new neural diagnostic or retrieval experiment, materialize the model
-inside ENDGAME:
 
 ```bash
 python src/stage00_audit/materialize_hf_model.py
 ```
 
-This downloads a fresh, immutable Hub revision of `mainguyen9/vietlegal-e5`
-to:
+Current authoritative VietLegal-E5 materialization:
 
-```text
-models/vietlegal-e5/
-```
+- source: `mainguyen9/vietlegal-e5`
+- immutable Hub SHA: `a814728d93e14566f9634b50a054e67699ea8818`
+- local model: `models/vietlegal-e5/`
+- tokenizer: `XLMRobertaTokenizerFast`
+- `fix_mistral_regex=True`
+- canonical embedding postprocess: explicit float32 L2 normalization
 
-and redirects Hugging Face caches under:
+SentenceTransformers 5.7 renamed
+`get_sentence_embedding_dimension()` to `get_embedding_dimension()`. New code
+should use the latter. This warning does not invalidate the existing model
+materialization.
 
-```text
-cache/huggingface/
-cache/sentence_transformers/
-```
-
-Version the small provenance files:
-
-```text
-reports/stage00_model_materialization/vietlegal-e5/
-```
-
-## Stage 01B v3 — semantic distribution diagnostic
-
-Stage 01B v2's embedding/clustering component is invalidated because the
-historical tokenizer emitted an incorrect-regex warning. Its preprocessing,
-exact-overlap and lexical results remain valid.
-
-Run the authoritative semantic diagnostic:
+## Stage 01B v3.1 — semantic distribution diagnostic
 
 ```bash
 python src/stage01_query_analysis/compare_private_distribution_v3.py \
   --sota-root D:/Study/DSC2026/sota
 ```
 
-New neural cache:
-
-```text
-cache/stage01_query_analysis/private_distribution_v3/
-```
-
-Authoritative semantic report:
+Authoritative report:
 
 ```text
 reports/stage01_private_distribution_v3/
 ```
 
-Historical CAL600 is diagnostic only. ENDGAME will build a new full-population,
-duplicate-safe OOF evaluation protocol before promotion decisions.
+Scientific interpretation:
+
+- Stage 01B is diagnostic only.
+- Historical CAL600 is not the ENDGAME evaluation protocol.
+- Raw nearest-neighbor similarity against TRAIN/PUBLIC/CAL populations of
+  different sizes must not be compared as a direct distribution-distance
+  measure because nearest-neighbor maxima depend on reference-set cardinality.
+- The private embedding clustering has weak separation; it is not currently a
+  sufficient basis for query routing.
+
+## Stage 00B — evaluation protocol rebuild
+
+The historical CAL600 and historical `cv_folds.json` are reference artifacts,
+not ENDGAME validation truth.
+
+The starting hypothesis for the new primary protocol is **all 7,000 official
+train queries with literal official document IDs**. We do not inherit the old
+6,991-query canonicalized population without re-auditing it, because official
+evaluation is literal-ID based and historical duplicate/alias collapse hurt
+Recall.
+
+### 00B.1 Snapshot official data into ENDGAME
+
+```bash
+python src/stage00_audit/snapshot_official_data.py \
+  --sota-root D:/Study/DSC2026/sota
+```
+
+Creates:
+
+```text
+data/official_v1/
+reports/stage00_data_snapshot/
+```
+
+After this succeeds, future ENDGAME stages should read TRAIN/PUBLIC/corpus from
+`data/official_v1/`, not from the live `sota/` tree.
+
+### 00B.2 Evaluation-population forensics
+
+```bash
+python src/stage00_audit/audit_evaluation_population.py
+```
+
+Creates:
+
+```text
+reports/stage00b_evaluation_population/
+  EVALUATION_POPULATION_AUDIT.json
+  NEAR_DUPLICATE_CANDIDATES.csv
+  QUERY_AUDIT.csv
+  REPORT.md
+```
+
+This stage deliberately does **not** create folds. It audits:
+
+- raw official labels and answer-size distribution;
+- missing/empty corpus documents;
+- exact duplicate document passages;
+- exact/punctuation/accent query duplicates;
+- fresh VietLegal-E5 semantic near-neighbor graph;
+- gold-frequency strata;
+- near-duplicate graph sensitivity over cosine thresholds 0.90–0.99.
+
+Only after inspecting these artifacts will Stage 00C freeze a duplicate-safe
+full-population fold algorithm.

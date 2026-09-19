@@ -34,6 +34,7 @@ models/
 *.index
 
 # Large databases / temporary files
+data/official_v1/selected-contexts/**
 *.sqlite
 *.sqlite3
 *.db

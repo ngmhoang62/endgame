@@ -1,0 +1,431 @@
+{
+  "schema_version": "dsc2026.endgame.stage00b_evaluation_population.v1",
+  "status": "COMPLETE_NO_FOLDS_CREATED",
+  "generated_at_utc": "2026-09-19T06:47:18.754479+00:00",
+  "snapshot_fingerprint": "fd65a82dd8c942306da34c91092fbcb8b0ba7ff7a0f44dabdf10ab9f3e15978c",
+  "model_sha": "a814728d93e14566f9634b50a054e67699ea8818",
+  "primary_population_contract": {
+    "policy": "raw_official_literal_doc_ids_v1",
+    "query_count": 7000,
+    "all_raw_answers_nonempty": true,
+    "drop_empty_gold_queries": false,
+    "canonicalize_duplicate_doc_ids": false,
+    "rationale": "Primary OOF should mirror official literal-ID evaluation. Corpus/data-quality exceptions are reported as slices, not silently removed."
+  },
+  "train": {
+    "query_count": 7000,
+    "answer_size_counts": {
+      "1": 6447,
+      "2": 485,
+      "3": 53,
+      "4": 14,
+      "5": 1
+    },
+    "unique_gold_doc_count": 3105,
+    "gold_doc_frequency": {
+      "min": 1,
+      "median": 1.0,
+      "p95": 7.0,
+      "max": 109
+    }
+  },
+  "corpus": {
+    "document_count": 8532,
+    "file_count": 8532,
+    "malformed_count": 0,
+    "malformed": [],
+    "empty_passage_count": 20,
+    "empty_passage_ids": [
+      "10533",
+      "131890",
+      "149317",
+      "177151",
+      "181693",
+      "187338",
+      "191261",
+      "196918",
+      "208668",
+      "210808",
+      "232489",
+      "255762",
+      "263763",
+      "288457",
+      "34810",
+      "55497",
+      "56098",
+      "57978",
+      "67660",
+      "71014"
+    ],
+    "missing_name_count": 1125,
+    "exact_duplicate_passage_group_count": 4,
+    "exact_duplicate_passage_groups": [
+      [
+        "158189",
+        "184972",
+        "206810"
+      ],
+      [
+        "121575",
+        "84226"
+      ],
+      [
+        "254937",
+        "280171"
+      ],
+      [
+        "277743",
+        "35337"
+      ]
+    ],
+    "gold_unique_doc_count": 3105,
+    "missing_gold_doc_count": 0,
+    "missing_gold_doc_ids": [],
+    "gold_empty_doc_count": 6,
+    "gold_empty_doc_ids": [
+      "10533",
+      "131890",
+      "149317",
+      "263763",
+      "288457",
+      "55497"
+    ],
+    "gold_duplicate_content_doc_count": 3,
+    "gold_duplicate_content_doc_ids": [
+      "206810",
+      "254937",
+      "84226"
+    ],
+    "queries_with_missing_gold": [],
+    "queries_with_empty_gold": [
+      "116906",
+      "28410",
+      "42298",
+      "163826",
+      "93066",
+      "49334",
+      "39790",
+      "5728",
+      "13426",
+      "17708",
+      "60066"
+    ],
+    "queries_with_duplicate_content_gold": [
+      "130058",
+      "22884",
+      "159914",
+      "127798"
+    ]
+  },
+  "query_duplicates": {
+    "strict_group_count": 16,
+    "strict_groups": [
+      [
+        "100850",
+        "146300"
+      ],
+      [
+        "114846",
+        "141262"
+      ],
+      [
+        "116298",
+        "95506"
+      ],
+      [
+        "118362",
+        "40204"
+      ],
+      [
+        "122700",
+        "131930"
+      ],
+      [
+        "128146",
+        "61406"
+      ],
+      [
+        "133550",
+        "13366"
+      ],
+      [
+        "139536",
+        "55722"
+      ],
+      [
+        "143660",
+        "19874"
+      ],
+      [
+        "149338",
+        "77610"
+      ],
+      [
+        "152104",
+        "53214"
+      ],
+      [
+        "156640",
+        "65158"
+      ],
+      [
+        "156654",
+        "19394"
+      ],
+      [
+        "17306",
+        "63562"
+      ],
+      [
+        "27382",
+        "4466"
+      ],
+      [
+        "58344",
+        "96298"
+      ]
+    ],
+    "punctuation_group_count": 16,
+    "punctuation_groups": [
+      [
+        "100850",
+        "146300"
+      ],
+      [
+        "114846",
+        "141262"
+      ],
+      [
+        "116298",
+        "95506"
+      ],
+      [
+        "118362",
+        "40204"
+      ],
+      [
+        "122700",
+        "131930"
+      ],
+      [
+        "128146",
+        "61406"
+      ],
+      [
+        "133550",
+        "13366"
+      ],
+      [
+        "139536",
+        "55722"
+      ],
+      [
+        "143660",
+        "19874"
+      ],
+      [
+        "149338",
+        "77610"
+      ],
+      [
+        "152104",
+        "53214"
+      ],
+      [
+        "156640",
+        "65158"
+      ],
+      [
+        "156654",
+        "19394"
+      ],
+      [
+        "17306",
+        "63562"
+      ],
+      [
+        "27382",
+        "4466"
+      ],
+      [
+        "58344",
+        "96298"
+      ]
+    ],
+    "accent_group_count": 16,
+    "accent_groups": [
+      [
+        "100850",
+        "146300"
+      ],
+      [
+        "114846",
+        "141262"
+      ],
+      [
+        "116298",
+        "95506"
+      ],
+      [
+        "118362",
+        "40204"
+      ],
+      [
+        "122700",
+        "131930"
+      ],
+      [
+        "128146",
+        "61406"
+      ],
+      [
+        "133550",
+        "13366"
+      ],
+      [
+        "139536",
+        "55722"
+      ],
+      [
+        "143660",
+        "19874"
+      ],
+      [
+        "149338",
+        "77610"
+      ],
+      [
+        "152104",
+        "53214"
+      ],
+      [
+        "156640",
+        "65158"
+      ],
+      [
+        "156654",
+        "19394"
+      ],
+      [
+        "17306",
+        "63562"
+      ],
+      [
+        "27382",
+        "4466"
+      ],
+      [
+        "58344",
+        "96298"
+      ]
+    ]
+  },
+  "semantic_near_duplicate_audit": {
+    "topk_per_query": 12,
+    "candidate_pair_count_ge_0.90": 207,
+    "thresholds": [
+      {
+        "threshold": 0.9,
+        "edge_count": 207,
+        "component_count_gt1": 166,
+        "queries_in_components_gt1": 354,
+        "max_component_size": 5,
+        "component_size_p95": 3.0,
+        "edge_same_strict_text_rate": 0.07729468599033816,
+        "edge_gold_overlap_rate": 0.821256038647343,
+        "edge_lexical_median": 0.7562937140464783
+      },
+      {
+        "threshold": 0.92,
+        "edge_count": 138,
+        "component_count_gt1": 119,
+        "queries_in_components_gt1": 249,
+        "max_component_size": 4,
+        "component_size_p95": 3.0,
+        "edge_same_strict_text_rate": 0.11594202898550725,
+        "edge_gold_overlap_rate": 0.8333333333333334,
+        "edge_lexical_median": 0.7729347050189972
+      },
+      {
+        "threshold": 0.94,
+        "edge_count": 100,
+        "component_count_gt1": 87,
+        "queries_in_components_gt1": 181,
+        "max_component_size": 3,
+        "component_size_p95": 3.0,
+        "edge_same_strict_text_rate": 0.16,
+        "edge_gold_overlap_rate": 0.85,
+        "edge_lexical_median": 0.7990480065345764
+      },
+      {
+        "threshold": 0.95,
+        "edge_count": 78,
+        "component_count_gt1": 67,
+        "queries_in_components_gt1": 141,
+        "max_component_size": 3,
+        "component_size_p95": 3.0,
+        "edge_same_strict_text_rate": 0.20512820512820512,
+        "edge_gold_overlap_rate": 0.8461538461538461,
+        "edge_lexical_median": 0.833538830280304
+      },
+      {
+        "threshold": 0.96,
+        "edge_count": 62,
+        "component_count_gt1": 52,
+        "queries_in_components_gt1": 110,
+        "max_component_size": 3,
+        "component_size_p95": 3.0,
+        "edge_same_strict_text_rate": 0.25806451612903225,
+        "edge_gold_overlap_rate": 0.8387096774193549,
+        "edge_lexical_median": 0.8757137060165405
+      },
+      {
+        "threshold": 0.97,
+        "edge_count": 45,
+        "component_count_gt1": 39,
+        "queries_in_components_gt1": 81,
+        "max_component_size": 3,
+        "component_size_p95": 3.0,
+        "edge_same_strict_text_rate": 0.35555555555555557,
+        "edge_gold_overlap_rate": 0.8,
+        "edge_lexical_median": 0.8939532041549683
+      },
+      {
+        "threshold": 0.98,
+        "edge_count": 31,
+        "component_count_gt1": 29,
+        "queries_in_components_gt1": 59,
+        "max_component_size": 3,
+        "component_size_p95": 2.0,
+        "edge_same_strict_text_rate": 0.5161290322580645,
+        "edge_gold_overlap_rate": 0.7741935483870968,
+        "edge_lexical_median": 0.9999999403953552
+      },
+      {
+        "threshold": 0.99,
+        "edge_count": 22,
+        "component_count_gt1": 22,
+        "queries_in_components_gt1": 44,
+        "max_component_size": 2,
+        "component_size_p95": 2.0,
+        "edge_same_strict_text_rate": 0.7272727272727273,
+        "edge_gold_overlap_rate": 0.8636363636363636,
+        "edge_lexical_median": 1.0
+      }
+    ],
+    "nearest_neighbor_cosine": {
+      "min": 0.33706143498420715,
+      "p25": 0.5878354907035828,
+      "median": 0.6711534261703491,
+      "p75": 0.7680822610855103,
+      "p90": 0.8534992933273315,
+      "p95": 0.9002395868301392,
+      "p99": 0.9761059880256653,
+      "max": 1.000000238418579
+    }
+  },
+  "fold_creation": {
+    "created": false,
+    "reason": "Near-duplicate thresholds and grouping policy must be selected after inspecting this forensic report/candidate edge table."
+  }
+}
