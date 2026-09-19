@@ -1,0 +1,60 @@
+{
+  "representation": "passage: <raw passage>",
+  "max_seq_length": 512,
+  "all_documents": {
+    "count": 8512,
+    "tokens": {
+      "min": 186.0,
+      "p25": 512.0,
+      "median": 512.0,
+      "mean": 511.8625469924812,
+      "p75": 512.0,
+      "p90": 512.0,
+      "p95": 512.0,
+      "p99": 512.0,
+      "max": 512.0
+    },
+    "over_512_count": 0,
+    "over_512_rate": 0.0,
+    "over_1024_count": 0
+  },
+  "unique_primary_gold_documents": {
+    "count": 3099,
+    "tokens": {
+      "min": 186.0,
+      "p25": 512.0,
+      "median": 512.0,
+      "mean": 511.8948047757341,
+      "p75": 512.0,
+      "p90": 512.0,
+      "p95": 512.0,
+      "p99": 512.0,
+      "max": 512.0
+    },
+    "over_512_count": 0,
+    "over_512_rate": 0.0
+  },
+  "primary_gold_occurrences": {
+    "count": 7626,
+    "tokens": {
+      "min": 186.0,
+      "p25": 512.0,
+      "median": 512.0,
+      "mean": 511.9145030159979,
+      "p75": 512.0,
+      "p90": 512.0,
+      "p95": 512.0,
+      "p99": 512.0,
+      "max": 512.0
+    },
+    "over_512_count": 0,
+    "over_512_rate": 0.0
+  },
+  "queries": {
+    "count": 6991,
+    "any_gold_over_512_count": 0,
+    "any_gold_over_512_rate": 0.0,
+    "all_golds_over_512_count": 0,
+    "all_golds_over_512_rate": 0.0
+  }
+}

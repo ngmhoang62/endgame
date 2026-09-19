@@ -60,58 +60,18 @@ RAW_TRAIN_7000
   = PRIMARY_EVAL_6991
 ```
 
-The expected 6,991 / 9 counts are verified from raw ENDGAME data at runtime;
-historical exclusion artifacts are not used to manufacture them.
+Stage 00C v2 is now **frozen** as the primary OOF contract:
 
-Run:
+- 6,991 primary evaluable queries;
+- 9 non-evaluable queries;
+- 8,512 retrievable documents;
+- 5 duplicate-safe grouped folds;
+- fold sizes 1,397–1,399;
+- selected fold seed: 276;
+- all population, coverage, group-isolation, and balance gates PASS.
 
-```bash
-python src/stage00_audit/build_endgame_evaluation_v2.py
-```
-
-Expected PASS headline:
-
-```text
-raw_queries       = 7000
-primary_queries   = 6991
-non_evaluable     = 9
-raw_docs          = 8532
-empty_docs        = 20
-retrieval_docs    = 8512
-```
-
-Primary outputs:
-
-```text
-data/evaluation_v2/
-  retrieval_corpus_8512.jsonl   # local-only; large
-  primary_golds_6991.json
-  non_evaluable_9.json
-  empty_gold_affected_evaluable.json
-  empty_document_ids.json
-  exact_duplicate_passage_groups.json
-  folds_v2.json
-  qid_to_fold.json
-  group_id_by_qid.json
-  stress_slices.json
-  EVALUATION_CONTRACT.json
-
-reports/stage00c_evaluation_protocol_v2/
-  FOLD_AUDIT.json
-  FOLD_ASSIGNMENTS.csv
-  SEED_SEARCH.json
-  REPORT.md
-```
-
-Primary folds use a label-free leakage grouping rule:
-
-```text
-exact/accent-normalized duplicate
-OR embedding cosine >= 0.95
-OR (embedding cosine >= 0.94 AND lexical cosine >= 0.80)
-```
-
-Gold overlap is audit-only and never selects a grouping edge.
+Primary local development metric: macro Recall@5 over `PRIMARY_EVAL_6991`.
+Secondary precision uses the official variable-K denominator.
 
 The authoritative metric implementation is:
 
@@ -119,8 +79,47 @@ The authoritative metric implementation is:
 src/common/evaluation.py
 ```
 
-Primary local development metric: macro Recall@5 over `PRIMARY_EVAL_6991`.
-Secondary precision uses the official variable-K denominator.
+## Stage 02A — raw-parent acquisition anchor
 
-`RAW_TRAIN_7000` remains a secondary diagnostic population rather than the
-model-promotion population.
+Before rebuilding document chunking, establish a zero-training acquisition
+anchor under the frozen Stage 00C v2 protocol.
+
+Run:
+
+```bash
+python src/stage02_candidate_generation/run_parent_anchor.py
+```
+
+The stage performs:
+
+- exact untruncated tokenizer-length audit for all 8,512 parent passages;
+- fresh VietLegal-E5 query/document embeddings;
+- `query: ` prefix for queries and `passage: ` prefix for passages;
+- exact dense cosine search to top 100;
+- deterministic parent-level BM25 to top 100;
+- fixed RRF60 dense+BM25;
+- dense+BM25 candidate-union oracle at K = 1/5/10/20/50/100;
+- exact-duplicate-content literal-ID candidate expansion;
+- per-fold and stress-slice diagnostics;
+- missing-gold forensics.
+
+Large runtime artifacts remain local:
+
+```text
+cache/stage02a_parent_anchor/
+```
+
+Version the reports:
+
+```text
+reports/stage02a_parent_anchor/
+  CORPUS_TOKEN_AUDIT.json
+  BASELINE_ANCHOR.json
+  QUERY_RETRIEVAL_AUDIT.csv
+  MISSING_GOLD_FORENSICS.json
+  REPORT.md
+```
+
+This stage is an acquisition anchor, not a final submission candidate. Its
+main purpose is to determine whether raw-parent truncation/candidate coverage
+justifies Stage 02B structure-aware article/section chunking.

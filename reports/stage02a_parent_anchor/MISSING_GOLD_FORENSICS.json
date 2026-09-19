@@ -1,0 +1,3059 @@
+{
+  "count": 222,
+  "queries": [
+    {
+      "qid": "123750",
+      "fold": "fold_4",
+      "question": "Kiểm toán viên cao cấp phải đáp ứng yêu cầu gì về năng lực chuyên môn nghiệp vụ?",
+      "missing_gold": [
+        {
+          "doc_id": "15331",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "88654",
+      "fold": "fold_1",
+      "question": "Cấp lại thẻ bảo hiểm y tế tốn bao nhiêu tiền?",
+      "missing_gold": [
+        {
+          "doc_id": "17754",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "50596",
+      "fold": "fold_3",
+      "question": "Đối tượng nào được miễn chi phí giám định trong tố tụng dân sự?",
+      "missing_gold": [
+        {
+          "doc_id": "204396",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "34748",
+      "fold": "fold_1",
+      "question": "Mức lương của giáo viên tại các cơ sở giáo dục công lập sẽ là bao nhiêu khi tăng mức lương cơ sở?",
+      "missing_gold": [
+        {
+          "doc_id": "276317",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "137840",
+      "fold": "fold_0",
+      "question": "Ai được xem là người phụ thuộc để tính giảm trừ gia cảnh?",
+      "missing_gold": [
+        {
+          "doc_id": "171570",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "90028",
+      "fold": "fold_3",
+      "question": "Xem xét ban hành Nghị quyết mở rộng diện áp dụng miễn thị thực đơn phương theo yêu cầu của Chính Phủ đúng không?",
+      "missing_gold": [
+        {
+          "doc_id": "242143",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "58494",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "169568",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "81590",
+      "fold": "fold_2",
+      "question": "Phân biệt tài khoản thanh toán của ngân hàng doanh nghiệp tư nhân và tài khoản ngân hàng của chủ doanh nghiệp tư nhân ra sao?",
+      "missing_gold": [
+        {
+          "doc_id": "201681",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "157752",
+      "fold": "fold_2",
+      "question": "Thời hạn cấp thẻ, dấu kỹ thuật đăng kiểm viên tàu cá là bao lâu?",
+      "missing_gold": [
+        {
+          "doc_id": "87779",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "103260",
+      "fold": "fold_2",
+      "question": "Nếu một người đưa thông tin sai sự thật về chính quyền lên mạng bị xử lý như thế nào theo quy định pháp luật?",
+      "missing_gold": [
+        {
+          "doc_id": "65293",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "145036",
+      "fold": "fold_4",
+      "question": "Sách báo đã mua, photo lại có vi phạm không?",
+      "missing_gold": [
+        {
+          "doc_id": "222904",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "50066",
+      "fold": "fold_2",
+      "question": "Chi nhánh của doanh nghiệp có tư cách pháp nhân không?",
+      "missing_gold": [
+        {
+          "doc_id": "81598",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "124166",
+      "fold": "fold_4",
+      "question": "Thế nào là lý lịch Đảng viên?",
+      "missing_gold": [
+        {
+          "doc_id": "91240",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "24490",
+      "fold": "fold_3",
+      "question": "Thứ tự ưu tiên đối với các hộ gia đình được vay tiền để xây dựng nhà ở phòng, tránh bão, lụt khu vực miền Trung được quy định như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "193654",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "136602",
+      "fold": "fold_3",
+      "question": "Trưởng khu phố tỉnh Bắc Ninh bị miễn nhiệm trong những trường hợp nào?",
+      "missing_gold": [
+        {
+          "doc_id": "27042",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "73766",
+      "fold": "fold_0",
+      "question": "Mức tiền thưởng đối với cá nhân được truy tặng Huân chương Bảo vệ Tổ quốc hạng ba là bao nhiêu?",
+      "missing_gold": [
+        {
+          "doc_id": "43443",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "41395",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "79794",
+      "fold": "fold_1",
+      "question": "Ai có trách nhiệm thực hiện thủ tục chuyển quyền sở hữu cho người mua?",
+      "missing_gold": [
+        {
+          "doc_id": "208314",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "166672",
+      "fold": "fold_0",
+      "question": "Doanh nghiệp cần chuẩn bị những giấy tờ gì khi thực hiện thủ tục đề nghị cấp giấy phép kinh doanh dịch vụ lữ hành nội địa?",
+      "missing_gold": [
+        {
+          "doc_id": "228108",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "149664",
+      "fold": "fold_4",
+      "question": "Trường hợp cần thay đổi Chủ tịch Hội đồng thương lượng tập thể thì cần đề nghị cho cơ quan nào quyết định?",
+      "missing_gold": [
+        {
+          "doc_id": "289397",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "60858",
+      "fold": "fold_2",
+      "question": "Chi cục trưởng Chi cục Thuế cần đảm bảo thêm các trình độ, chứng chỉ nào khác?",
+      "missing_gold": [
+        {
+          "doc_id": "280768",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "262254",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "31586",
+      "fold": "fold_3",
+      "question": "Quy định về đối tượng, điều kiện dự tuyển ngoài ngành Công an nhân dân 2023 như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "37294",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "146481",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "111574",
+      "fold": "fold_2",
+      "question": "Người đại diện được pháp luật quy định như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "46918",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "104238",
+      "fold": "fold_1",
+      "question": "Uống rượu bia gây tai nạn giao thông chết người bồi thường cho người bị tai nạn như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "81598",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "141406",
+      "fold": "fold_0",
+      "question": "Quy trình xử lý dự thảo văn bản quy phạm pháp luật như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "247734",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "15998",
+      "fold": "fold_1",
+      "question": "Bị viêm phổi do covid-19 thì có đi nghĩa vụ quân sự không?",
+      "missing_gold": [
+        {
+          "doc_id": "297709",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "154024",
+      "fold": "fold_1",
+      "question": "Khen thưởng, xử lý vi phạm đối với học sinh trường giáo dưỡng như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "68399",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "70410",
+      "fold": "fold_4",
+      "question": "Đăng ký khai sinh cho trẻ bị bỏ rơi được xác định như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "259656",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "13128",
+      "fold": "fold_3",
+      "question": "Cơ quan có thẩm quyền tiếp nhận phản ánh ý kiến như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "162178",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "29272",
+      "fold": "fold_1",
+      "question": "Những ai sẽ được tăng lương từ ngày 01/7/2023 khi mà tăng lương cơ sở?",
+      "missing_gold": [
+        {
+          "doc_id": "93859",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "74494",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "220359",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "304262",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "130956",
+      "fold": "fold_1",
+      "question": "Kết quả miễn nhiệm công chức lãnh đạo sẽ do ai phê chuẩn theo quy định của pháp luật?",
+      "missing_gold": [
+        {
+          "doc_id": "12319",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "52262",
+      "fold": "fold_2",
+      "question": "Hiện nay đối tượng nào được hưởng phụ cấp công vụ?",
+      "missing_gold": [
+        {
+          "doc_id": "220359",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "93140",
+      "fold": "fold_2",
+      "question": "Về triển khai các nền tảng số y tế và Về các nhiệm vụ của Bộ Y tế được giao tại Đề án 06",
+      "missing_gold": [
+        {
+          "doc_id": "191218",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "2636",
+      "fold": "fold_3",
+      "question": "Điều kiện để hành nghề quản tài viên là gì?",
+      "missing_gold": [
+        {
+          "doc_id": "277391",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "149590",
+      "fold": "fold_4",
+      "question": "Phòng GD&ĐT là chủ đầu tư công trình thì cần thực hiện những gì?",
+      "missing_gold": [
+        {
+          "doc_id": "89392",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "105110",
+      "fold": "fold_2",
+      "question": "Thủ tướng chỉ đạo tháo gỡ các điểm nghẽn tại Đề án phát triển 06 về thể chế và hạ tầng công nghệ thông tin như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "161454",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "79010",
+      "fold": "fold_2",
+      "question": "Lệ phí thực hiện gia hạn thời gian lưu hành tại Việt Nam cho phương tiện của Trung Quốc là bao nhiêu?",
+      "missing_gold": [
+        {
+          "doc_id": "78732",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "2008",
+      "fold": "fold_0",
+      "question": "Mức trợ cấp mai táng mà thân nhân sĩ quan quân đội được nhận là bao nhiêu?",
+      "missing_gold": [
+        {
+          "doc_id": "43443",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "94954",
+      "fold": "fold_0",
+      "question": "Ủy viên Ủy ban thường vụ Quốc hội có nhất thiết phải tốt nghiệp đại học không?",
+      "missing_gold": [
+        {
+          "doc_id": "170733",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "122042",
+      "fold": "fold_2",
+      "question": "Không công khai về việc thu hồi danh hiệu của người đoạt giải hoa hậu thì cá nhân tổ chức cuộc thi hoa hậu bị xử phạt thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "9129",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "17360",
+      "fold": "fold_1",
+      "question": "Điện lực có phải bồi thường thiệt hại do chập điện làm cháy nhiều thiết bị của người dân không?",
+      "missing_gold": [
+        {
+          "doc_id": "81598",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "101938",
+      "fold": "fold_4",
+      "question": "Chi Cục trưởng thuộc Bộ có quyền hạn cụ thể là gì?",
+      "missing_gold": [
+        {
+          "doc_id": "136014",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "108738",
+      "fold": "fold_1",
+      "question": "Người dân có bắt buộc phải đóng góp tiền để làm đường liên ấp không?",
+      "missing_gold": [
+        {
+          "doc_id": "11864",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "32104",
+      "fold": "fold_3",
+      "question": "Trường mầm non công lập không sắp xếp công việc đúng vị trí việc làm cho người lao động thì bị xử phạt như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "26782",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "69476",
+      "fold": "fold_2",
+      "question": "Pháp luật quy định về chứng chỉ hành nghề biên tập được cấp lại như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "55431",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "108568",
+      "fold": "fold_3",
+      "question": "Hồ sơ thực hiện việc tách thửa gồm những thành phần nào?",
+      "missing_gold": [
+        {
+          "doc_id": "107674",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "113068",
+      "fold": "fold_1",
+      "question": "Yêu cầu về điều kiện cơ sở vật chất, thiết bị được quy định như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "183668",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "7332",
+      "fold": "fold_2",
+      "question": "Bộ Tài chính hướng dẫn thực hiện Thông tư 31/2022/TT-BTC như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "96365",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "292706",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "63884",
+      "fold": "fold_4",
+      "question": "Hệ số lương áp dụng đối với công chức đang giữ ngạch kiểm tra viên trung cấp thuế là bao nhiêu?",
+      "missing_gold": [
+        {
+          "doc_id": "284539",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "43443",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "102902",
+      "fold": "fold_2",
+      "question": "Làm và sử dụng Sổ đăng kiểm xe ô tô giả thì tổng hợp hình phạt ra sao?",
+      "missing_gold": [
+        {
+          "doc_id": "245154",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "94802",
+      "fold": "fold_3",
+      "question": "Chế độ cử tuyển trong nhà trường được hiểu như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "199759",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "113680",
+      "fold": "fold_1",
+      "question": "Chi nhánh, văn phòng đại diện của pháp nhân được quy định như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "81598",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "85530",
+      "fold": "fold_2",
+      "question": "Hồ sơ xin cấp giấy phép xây dựng đối với công trình và nhà ở đô thị ở tỉnh Hà Giang bao gồm những gì?",
+      "missing_gold": [
+        {
+          "doc_id": "67691",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "87852",
+      "fold": "fold_2",
+      "question": "Đăng ký khai tử phải chuẩn bị giấy tờ gì?",
+      "missing_gold": [
+        {
+          "doc_id": "189230",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "114366",
+      "fold": "fold_2",
+      "question": "Đánh tiến lên online qua trang web trò chơi đánh bạc, hình thức nạp tiền bằng thẻ cào có bị xử lý trách nhiệm hình sự không?",
+      "missing_gold": [
+        {
+          "doc_id": "245154",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "148022",
+      "fold": "fold_1",
+      "question": "Có được thanh toán hợp đồng qua tài khoản Văn phòng đại diện không?",
+      "missing_gold": [
+        {
+          "doc_id": "270895",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "41948",
+      "fold": "fold_4",
+      "question": "Công ty không thực hiện chi trả chi phí cho việc thương lượng tập thể thì có bị xử phạt hay không?",
+      "missing_gold": [
+        {
+          "doc_id": "26782",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "102220",
+      "fold": "fold_0",
+      "question": "Cha mẹ có hành vi bạo hành con trai của mình được hiểu như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "96450",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "56108",
+      "fold": "fold_2",
+      "question": "Đốt vàng mã khi cúng rằm tháng Giêng có vi phạm pháp luât không?",
+      "missing_gold": [
+        {
+          "doc_id": "9129",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "25360",
+      "fold": "fold_0",
+      "question": "Người dân tự ý xây dựng nhà ở trên đất nông nghiệp của Ủy ban chưa thực hiện giao đất thì bị xử phạt hành chính như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "208314",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "164198",
+      "fold": "fold_0",
+      "question": "Huấn luyện viên, vận động viên không tập trung thi đấu thì có được hưởng lương không?",
+      "missing_gold": [
+        {
+          "doc_id": "129823",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "6016",
+      "fold": "fold_4",
+      "question": "Thời hạn áp dụng biện pháp cấm đảm nhiệm chức vụ đối với cá nhân là bao lâu?",
+      "missing_gold": [
+        {
+          "doc_id": "165780",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "107146",
+      "fold": "fold_4",
+      "question": "Pháp luật Việt Nam quy định như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "305455",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "113741",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "9392",
+      "fold": "fold_1",
+      "question": "Tổn thất về cơ hội kinh doanh là gì?",
+      "missing_gold": [
+        {
+          "doc_id": "115962",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "53644",
+      "fold": "fold_0",
+      "question": "Mức xử phạt bổ sung",
+      "missing_gold": [
+        {
+          "doc_id": "98892",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "20100",
+      "fold": "fold_4",
+      "question": "Quy định về việc xử lý gia súc mắc bệnh lao bò là như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "153413",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "129132",
+      "fold": "fold_4",
+      "question": "Mức lương cụ thể của công chức bổ nhiệm vào ngạch kiểm ngư viên được tính thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "43443",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "41395",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "42288",
+      "fold": "fold_4",
+      "question": "Kiểm kê tài sản là gì?",
+      "missing_gold": [
+        {
+          "doc_id": "130251",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "122000",
+      "fold": "fold_4",
+      "question": "Quy định về quản lí hoạt động của cơ sở đào tạo?",
+      "missing_gold": [
+        {
+          "doc_id": "132545",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "161258",
+      "fold": "fold_3",
+      "question": "Các thủ tục thực hiện trực tuyến theo quy định pháp luật",
+      "missing_gold": [
+        {
+          "doc_id": "222206",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "80284",
+      "fold": "fold_1",
+      "question": "Có được mai táng người chết tại khu dân cư hay không?",
+      "missing_gold": [
+        {
+          "doc_id": "299694",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "24598",
+      "fold": "fold_4",
+      "question": "Mẫu chi tiết tài sản dài hạn (tài sản cố định) mới tăng năm 2022?",
+      "missing_gold": [
+        {
+          "doc_id": "185842",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "134746",
+      "fold": "fold_0",
+      "question": "Hình thức xử lý nào nên áp dụng nếu vẫn còn thời hiệu xử lý?",
+      "missing_gold": [
+        {
+          "doc_id": "129823",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "111188",
+      "fold": "fold_3",
+      "question": "Mức phí cho việc thực hiện thủ tục thay đổi họ là bao nhiêu?",
+      "missing_gold": [
+        {
+          "doc_id": "102478",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "118820",
+      "fold": "fold_4",
+      "question": "Điều kiện, tiêu chuẩn chung về văn bằng công chức Văn phòng Quốc hội năm 2023 là gì?",
+      "missing_gold": [
+        {
+          "doc_id": "280768",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "262254",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "43526",
+      "fold": "fold_3",
+      "question": "Đối tượng áp dụng Mẫu bảng chấm công làm thêm giờ theo Thông tư 133 và Thông tư 200 khác gì nhau?",
+      "missing_gold": [
+        {
+          "doc_id": "287045",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "94262",
+      "fold": "fold_3",
+      "question": "Trường hợp bị giãn tĩnh mạch thừng tinh thì có phải đi nghĩa vụ quân sự không?",
+      "missing_gold": [
+        {
+          "doc_id": "297709",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "50908",
+      "fold": "fold_0",
+      "question": "Muốn khai thác đồi đất đỏ thì cần chuẩn bị hồ sơ gì để xin giấy phép?",
+      "missing_gold": [
+        {
+          "doc_id": "117172",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "159444",
+      "fold": "fold_3",
+      "question": "Lệ phí cấp đổi giấy phép kinh doanh dịch vụ lữ hành quốc tế là bao nhiêu?",
+      "missing_gold": [
+        {
+          "doc_id": "228108",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "134012",
+      "fold": "fold_0",
+      "question": "Phạt nguội là gì?",
+      "missing_gold": [
+        {
+          "doc_id": "193708",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "19100",
+      "fold": "fold_1",
+      "question": "Chỉ tiêu tuyển dụng công chức Tổng cục Hải quan năm 2022 được quy định như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "165221",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "4542",
+      "fold": "fold_4",
+      "question": "Khi xuất bản phụ trương thì cần đáp ứng những điều kiện gì?",
+      "missing_gold": [
+        {
+          "doc_id": "19627",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "146870",
+      "fold": "fold_4",
+      "question": "Thành viên hợp danh có quyền và nghĩa vụ gì?",
+      "missing_gold": [
+        {
+          "doc_id": "21398",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "69070",
+      "fold": "fold_1",
+      "question": "Trách nhiệm của cơ quan thực hiện quy chế chi tiêu nội bộ được quy định như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "198275",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "95464",
+      "fold": "fold_3",
+      "question": "Mức lương của Kiểm soát viên chất lượng sản phẩm, hàng hóa hiện nay là bao nhiêu?",
+      "missing_gold": [
+        {
+          "doc_id": "284539",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "166505",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "124546",
+      "fold": "fold_3",
+      "question": "Không thu thuế xuất khẩu, thuế nhập khẩu trong trường hợp nào?",
+      "missing_gold": [
+        {
+          "doc_id": "285503",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "114086",
+      "fold": "fold_0",
+      "question": "Kinh phí làm Thẻ công chức thanh tra chuyên ngành được lấy từ nguồn nào?",
+      "missing_gold": [
+        {
+          "doc_id": "110647",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "159820",
+      "fold": "fold_4",
+      "question": "Người giữ chức vụ Thẩm phán Tòa án có được tư vấn pháp lý cho doanh nghiệp để nhận thù lao không?",
+      "missing_gold": [
+        {
+          "doc_id": "279667",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "71570",
+      "fold": "fold_0",
+      "question": "Hồ sơ đề nghị cấp giấy phép thành lập văn phòng đại diện tại Việt Nam của NXB nước ngoài bao gồm những gì sau khi thay đổi?",
+      "missing_gold": [
+        {
+          "doc_id": "60683",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "121870",
+      "fold": "fold_0",
+      "question": "Yêu cầu chung đối với kho bảo quản vũ khí, vật liệu nổ và công cụ hỗ trợ tiếp nhận thu gom là gì?",
+      "missing_gold": [
+        {
+          "doc_id": "288597",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "119791",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "22292",
+      "fold": "fold_3",
+      "question": "Đối tượng nào cần phải nộp phí thẩm định hồ sơ cấp giấy chứng nhận quyền sử dụng đất tại Thanh Hóa?",
+      "missing_gold": [
+        {
+          "doc_id": "213319",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "31850",
+      "fold": "fold_2",
+      "question": "Về hành vi nhà máy, cơ sở sản xuất có xây dựng phương án, kế hoạch sản xuất an toàn đã được UBND huyện phê duyệt nhưng không thực hiện đúng theo phương án, kế hoạch đã được duyệt",
+      "missing_gold": [
+        {
+          "doc_id": "107019",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "89112",
+      "fold": "fold_1",
+      "question": "Nếu có sự thay đổi liên quan đến kỳ thi thì Hội đồng thi có trách nhiệm thông báo về sự thay đổi đó bao nhiêu ngày trước khi thi?",
+      "missing_gold": [
+        {
+          "doc_id": "40248",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "52354",
+      "fold": "fold_4",
+      "question": "Xóa nợ lãi được hiểu như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "53758",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "97114",
+      "fold": "fold_4",
+      "question": "Tổ chức khu vực cách ly trong bệnh viện được thực hiện ra sao theo quy định của pháp luật?",
+      "missing_gold": [
+        {
+          "doc_id": "77872",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "149690",
+      "fold": "fold_3",
+      "question": "Người dân vứt xác heo bị dịch tả lợn Châu Phi ra môi trường xung quanh có bị xử lý vi phạm hành chính không?",
+      "missing_gold": [
+        {
+          "doc_id": "153413",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "101324",
+      "fold": "fold_1",
+      "question": "Xét thăng hạng chức danh nghề nghiệp từ Lưu trữ viên trung cấp lên Lưu trữ viên cần đáp ứng những điều kiện gì?",
+      "missing_gold": [
+        {
+          "doc_id": "74494",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "140030",
+      "fold": "fold_1",
+      "question": "Thường trực Hội đồng nhân dân tổ chức tiếp công dân như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "12319",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "119448",
+      "fold": "fold_2",
+      "question": "Được nghỉ lễ 2/9 năm 2023 từ ngày nào theo quy định?",
+      "missing_gold": [
+        {
+          "doc_id": "129823",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "113440",
+      "fold": "fold_4",
+      "question": "Mức phụ cấp trách nhiệm công việc giám định tư pháp đối với giám định viên kỹ thuật hình sự là bao nhiêu?",
+      "missing_gold": [
+        {
+          "doc_id": "43443",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "41395",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "40806",
+      "fold": "fold_2",
+      "question": "Để tham gia đào tạo cán bộ quân sự Ban Chỉ huy quân sự cấp xã thì cần đáp ứng điều kiện gì?",
+      "missing_gold": [
+        {
+          "doc_id": "299764",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "115486",
+      "fold": "fold_0",
+      "question": "Trình tự, thủ tục thu hồi trụ sở làm việc không sử dụng liên tục quá 12 tháng",
+      "missing_gold": [
+        {
+          "doc_id": "58055",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "92148",
+      "fold": "fold_2",
+      "question": "Thủ tục cấp sổ đỏ khi mua bán đất bằng giấy viết tay mới nhất thực hiện như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "305455",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "147312",
+      "fold": "fold_3",
+      "question": "Các điều kiện bảo đảm hoạt động của đại biểu Hội đồng nhân dân quy định như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "12319",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "31680",
+      "fold": "fold_1",
+      "question": "Ngoài chế độ tiền lương và phụ cấp người lao động đi huấn luyện quân sự còn được hưởng những chính sách nào?",
+      "missing_gold": [
+        {
+          "doc_id": "153867",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "84158",
+      "fold": "fold_3",
+      "question": "Thời hạn CSGT tạm giữ giấy phép lái xe là bao lâu?",
+      "missing_gold": [
+        {
+          "doc_id": "17545",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "20092",
+      "fold": "fold_1",
+      "question": "Phó Chủ tịch Ủy ban nhân dân xã thực hiện những nhiệm vụ nào?",
+      "missing_gold": [
+        {
+          "doc_id": "223279",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "51188",
+      "fold": "fold_4",
+      "question": "Các hội có tính chất đặc thù ở xã được xác định dựa trên cơ sở nào?",
+      "missing_gold": [
+        {
+          "doc_id": "231801",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "96716",
+      "fold": "fold_3",
+      "question": "Kinh phí thực hiện đề án tuyên truyền nhằm hoàn thành các chỉ tiêu phát triển đối tượng tham gia BHXH như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "25075",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "159094",
+      "fold": "fold_1",
+      "question": "Đề xuất bổ sung quy định mới về gia hạn thời hạn bảo vệ bí mật nhà nước trong lĩnh vực kế hoạch đầu tư?",
+      "missing_gold": [
+        {
+          "doc_id": "122987",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "134768",
+      "fold": "fold_4",
+      "question": "Cơ quan kiểm soát tài sản, thu nhập tiến hành xác minh tài sản, thu nhập khi có căn cứ gì?",
+      "missing_gold": [
+        {
+          "doc_id": "20226",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "102718",
+      "fold": "fold_1",
+      "question": "Những nội dung nào liên quan công tác hậu kiểm về an toàn thực phẩm năm 2023?",
+      "missing_gold": [
+        {
+          "doc_id": "42184",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "90926",
+      "fold": "fold_2",
+      "question": "Các trường hợp tinh giản biên chế cán bộ cấp huyện là các trường hợp nào?",
+      "missing_gold": [
+        {
+          "doc_id": "23402",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "166386",
+      "fold": "fold_2",
+      "question": "Cần chuẩn bị những giấy tờ gì để gia hạn thời gian lưu hành tại Việt Nam cho phương tiện vận tải đường bộ qua biên giới của các nước thực hiện các Hiệp định khung ASEAN?",
+      "missing_gold": [
+        {
+          "doc_id": "78732",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "2108",
+      "fold": "fold_2",
+      "question": "Hạn chót nộp Báo cáo sơ kết công tác thi đua, khen thưởng 6 tháng đầu năm 2023 trong TAND là khi nào?",
+      "missing_gold": [
+        {
+          "doc_id": "85834",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "65378",
+      "fold": "fold_3",
+      "question": "Trường hợp chủ đầu tư, đơn vị thiết kế đề xuất áp dụng một số quy định mới có yêu cầu thấp hơn so với quy chuẩn, tiêu chuẩn cũ trước đây thì xử lý thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "252163",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "234931",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "4126",
+      "fold": "fold_4",
+      "question": "Cơ quan Bộ bao gồm những tổ chức nào? Tài khoản thông tin tại Cơ quan Bộ Tài chính bao gồm các loại nào?",
+      "missing_gold": [
+        {
+          "doc_id": "200980",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "94214",
+      "fold": "fold_4",
+      "question": "Hiện tại bị mất căn cước công dân (CCCD) có thể dùng sổ hộ khẩu để rút bảo hiểm xã hội một lần được không?",
+      "missing_gold": [
+        {
+          "doc_id": "23402",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "23026",
+      "fold": "fold_1",
+      "question": "Hồ sơ thương nhân khi đăng ký ngoài Giấy chứng nhận đăng ký doanh nghiệp thì còn cần tài liệu nào?",
+      "missing_gold": [
+        {
+          "doc_id": "177910",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "8492",
+      "fold": "fold_2",
+      "question": "Trình tự thực hiện đăng ký cấp sổ đỏ lần đầu cấp tỉnh tại Văn phòng đăng ký đất đai áp dụng từ tháng 5/2023 như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "186332",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "166756",
+      "fold": "fold_0",
+      "question": "Trang thông tin điện tử là gì?",
+      "missing_gold": [
+        {
+          "doc_id": "21526",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "65526",
+      "fold": "fold_1",
+      "question": "Xây dựng Luật di sản văn hóa (sửa đổi) như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "13927",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "148506",
+      "fold": "fold_1",
+      "question": "Bảo đảm thuốc, vật tư y tế và việc cán bộ y tế thôi việc, bỏ việc tại các cơ sở y tế công lập?",
+      "missing_gold": [
+        {
+          "doc_id": "147934",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "53404",
+      "fold": "fold_4",
+      "question": "Giảng viên tham gia công tác đào tạo nghiệp vụ kiểm sát thực hiện những nhiệm vụ cụ thể nào trong việc nghiên cứu khoa học và công nghệ?",
+      "missing_gold": [
+        {
+          "doc_id": "278944",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "14900",
+      "fold": "fold_2",
+      "question": "Cần thiết phải khai hải quan đối với trường hợp nhập khẩu trang thiết bị y tế nhằm mục đích viện trợ không?",
+      "missing_gold": [
+        {
+          "doc_id": "155884",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "1264",
+      "fold": "fold_0",
+      "question": "Xác định hộ gia đình trực tiếp sản xuất nông nghiệp được thực hiện dựa vào những căn cứ nào?",
+      "missing_gold": [
+        {
+          "doc_id": "280335",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "59864",
+      "fold": "fold_0",
+      "question": "Thời gian thử việc được quy định như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "129823",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "102004",
+      "fold": "fold_1",
+      "question": "Mức thưởng cho Đảng viên được trao tặng huy hiệu Đảng hiện nay?",
+      "missing_gold": [
+        {
+          "doc_id": "43443",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "149080",
+      "fold": "fold_1",
+      "question": "Logo của đơn vị sự nghiệp công lập được xem là tài sản cố định hữu hình hay tài sản cố định vô hình?",
+      "missing_gold": [
+        {
+          "doc_id": "222904",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "114688",
+      "fold": "fold_0",
+      "question": "Thời điểm thực hiện ký quỹ là khi nào?",
+      "missing_gold": [
+        {
+          "doc_id": "84570",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "164280",
+      "fold": "fold_1",
+      "question": "Điều khiển xe ô tô chạy quá tốc độ bị phạt nguội thì có thể nộp phạt qua đường bưu điện được không?",
+      "missing_gold": [
+        {
+          "doc_id": "219419",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "125564",
+      "fold": "fold_4",
+      "question": "Xác định lại giới tính sau khi phẫu thuật chuyển đổi giới tính thì có được đổi tên hay không?",
+      "missing_gold": [
+        {
+          "doc_id": "81598",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "165546",
+      "fold": "fold_0",
+      "question": "Chi phí được trừ khi xác định thu nhập chịu thuế thu nhập doanh nghiệp",
+      "missing_gold": [
+        {
+          "doc_id": "131102",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "48006",
+      "fold": "fold_0",
+      "question": "Có được đồng thời làm giám đốc dự án và làm giám sát công trình không?",
+      "missing_gold": [
+        {
+          "doc_id": "201681",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "105248",
+      "fold": "fold_4",
+      "question": "Ngôn ngữ sử dụng trong hợp đồng theo mẫu được quy định như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "203090",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "35462",
+      "fold": "fold_1",
+      "question": "Điện sinh hoạt có được giảm thuế GTGT không? Nếu được thì giảm thuế GTGT trong bao lâu và giảm bao nhiêu?",
+      "missing_gold": [
+        {
+          "doc_id": "67321",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "93138",
+      "fold": "fold_3",
+      "question": "Doanh nghiệp thông báo phụ lục hợp đồng gia công lại không đúng thời hạn thì bị xử phạt bao nhiêu tiền?",
+      "missing_gold": [
+        {
+          "doc_id": "32778",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "160936",
+      "fold": "fold_3",
+      "question": "Ngày lễ 2/9/2022 là thứ mấy?",
+      "missing_gold": [
+        {
+          "doc_id": "129823",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "163212",
+      "fold": "fold_4",
+      "question": "Thủ tục tiến hành đình công hợp pháp được quy định thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "129823",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "86970",
+      "fold": "fold_3",
+      "question": "Ai được xem là người phụ thuộc theo quy định của pháp luật?",
+      "missing_gold": [
+        {
+          "doc_id": "135644",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "123938",
+      "fold": "fold_4",
+      "question": "Giãn thời gian thực hiện đối với quy định yêu cầu xếp hạng tín nhiệm bắt buộc?",
+      "missing_gold": [
+        {
+          "doc_id": "199914",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "162158",
+      "fold": "fold_4",
+      "question": "Khi đi đăng ký, bấm biển số xe máy chủ xe là người Việt Nam định cư ở nước ngoài về làm việc tại Việt Nam cần xuất trình giấy tờ gì?",
+      "missing_gold": [
+        {
+          "doc_id": "72265",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "135768",
+      "fold": "fold_3",
+      "question": "10 khoản thu nhập chịu thuế TNCN năm 2023 là gì?",
+      "missing_gold": [
+        {
+          "doc_id": "129823",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "51028",
+      "fold": "fold_2",
+      "question": "Mức lương của sĩ quan nghiệp vụ được bổ nhiệm vào ngạch Thanh tra viên cao cấp Công an nhân dân là bao nhiêu?",
+      "missing_gold": [
+        {
+          "doc_id": "284539",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "43443",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "70548",
+      "fold": "fold_2",
+      "question": "Người sắp ra nước ngoài dự thi người đẹp nhưng nhận quyết định thi hành án phạt tù thì có được tạm hoãn ngồi tù để đi thi không?",
+      "missing_gold": [
+        {
+          "doc_id": "39975",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "752",
+      "fold": "fold_1",
+      "question": "Trường hợp thành lập nhà trẻ tư thục khi chưa được cho phép thì bị xử phạt hành chính không? Mức xử phạt bao nhiêu?",
+      "missing_gold": [
+        {
+          "doc_id": "242728",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "1486",
+      "fold": "fold_1",
+      "question": "Hộ kê khai sử dụng hoá đơn điện tử được quy định như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "177345",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "99134",
+      "fold": "fold_0",
+      "question": "Cần chuẩn bị những giấy tờ gì để thực hiện cấp lại giấy chứng nhận đăng ký tàu công vụ thủy sản do bị mất?",
+      "missing_gold": [
+        {
+          "doc_id": "252906",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "95582",
+      "fold": "fold_3",
+      "question": "Khi nghỉ hưu không làm Chủ tịch Hội cựu chiến binh xã nữa thì có được hưởng chính sách hỗ trợ gì không?",
+      "missing_gold": [
+        {
+          "doc_id": "40635",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "102928",
+      "fold": "fold_4",
+      "question": "Chính sách hỗ trợ đào tạo nghề nghiệp đối với người chấp hành án phạt tù là gì?",
+      "missing_gold": [
+        {
+          "doc_id": "56310",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "131746",
+      "fold": "fold_2",
+      "question": "Trường hợp nộp hồ sơ trực tiếp tại cơ quan tiếp nhận thì cần lưu ý gì về hồ sơ?",
+      "missing_gold": [
+        {
+          "doc_id": "108356",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "98570",
+      "fold": "fold_3",
+      "question": "Thực hiện nhiệm vụ được cơ quan quản lý nhà nước giao như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "298457",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "119502",
+      "fold": "fold_2",
+      "question": "Tôm sú giống mắc bệnh đầu vàng ở tôm thì sẽ có những triệu chứng lâm sàng như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "268683",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "6222",
+      "fold": "fold_1",
+      "question": "Cách đăng ký người phụ thuộc để giảm trừ gia cảnh năm 2022?",
+      "missing_gold": [
+        {
+          "doc_id": "135644",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "161032",
+      "fold": "fold_1",
+      "question": "Viên chức được bổ nhiệm chức danh nghiên cứu viên cao cấp có mức lương cụ thể là bao nhiêu?",
+      "missing_gold": [
+        {
+          "doc_id": "43443",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "41395",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "67148",
+      "fold": "fold_4",
+      "question": "Việc triển khai thư điện tử và cổng thông tin điện tử của Trung tâm giáo dục thường xuyên phải đáp ứng những yêu cầu gì?",
+      "missing_gold": [
+        {
+          "doc_id": "273271",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "76638",
+      "fold": "fold_4",
+      "question": "Trách nhiệm của Bộ Y tế trong việc hoàn thiện dự thảo Báo cáo tổng kết, đánh giá việc thực hiện quy định tại Nghị quyết 30/2021/QH15?",
+      "missing_gold": [
+        {
+          "doc_id": "83127",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "60206",
+      "fold": "fold_3",
+      "question": "Các hình thức xử phạt nào mà người cho vay nặng lãi có thể sẽ nhận khi tiến hành cho vay?",
+      "missing_gold": [
+        {
+          "doc_id": "245154",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "111990",
+      "fold": "fold_1",
+      "question": "Thời hiệu xử phạt vi phạm hành chính đối với cơ sở tiêm chủng khám sàng lọc không đầy đủ cho đối tượng được tiêm chủng là bao lâu?",
+      "missing_gold": [
+        {
+          "doc_id": "17545",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "74884",
+      "fold": "fold_3",
+      "question": "Đối tượng được tăng lương cơ sở từ ngày 01/7/2023?",
+      "missing_gold": [
+        {
+          "doc_id": "93859",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "261198",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "220359",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "304262",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "27810",
+      "fold": "fold_1",
+      "question": "Quy định về túi sơ cứu được đặt ở đâu?",
+      "missing_gold": [
+        {
+          "doc_id": "274746",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "95556",
+      "fold": "fold_2",
+      "question": "Tên hàng là gì?",
+      "missing_gold": [
+        {
+          "doc_id": "150375",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "132692",
+      "fold": "fold_2",
+      "question": "Vi phạm quy định về cấp, quản lý, sử dụng Giấy chứng minh nhân dân, Chứng minh nhân dân hoặc thẻ Căn cước công dân",
+      "missing_gold": [
+        {
+          "doc_id": "305455",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "129190",
+      "fold": "fold_3",
+      "question": "Việc tổ chức thẩm định công trình xây dựng được cơ quan nhà nước phê duyệt do ai thực hiện?",
+      "missing_gold": [
+        {
+          "doc_id": "88365",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "37626",
+      "fold": "fold_3",
+      "question": "Mẫu Chứng chỉ nghiệp vụ khai hải quan mới nhất ra sao?",
+      "missing_gold": [
+        {
+          "doc_id": "194646",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "72265",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "166864",
+      "fold": "fold_2",
+      "question": "Quy định về các ngày nghỉ của cán bộ, công chức hiện nay ra sao?",
+      "missing_gold": [
+        {
+          "doc_id": "129823",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "42294",
+      "fold": "fold_2",
+      "question": "Tiền lương của công chức chuyên ngành Ngân hàng là bao nhiêu?",
+      "missing_gold": [
+        {
+          "doc_id": "43443",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "35592",
+      "fold": "fold_3",
+      "question": "Quy định đặt tên chi nhánh như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "200355",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "21398",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "61070",
+      "fold": "fold_2",
+      "question": "25 dịch vụ công thiết yếu theo Đề án 06 sẽ bắt buộc phải được số hóa kể từ ngày 01 tháng 7 năm 2022?",
+      "missing_gold": [
+        {
+          "doc_id": "297470",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "81954",
+      "fold": "fold_3",
+      "question": "Người dân có được tự do khai thác, sử dụng dữ liệu thống kê đánh giá thiệt hại do thiên tai gây ra hay không?",
+      "missing_gold": [
+        {
+          "doc_id": "128684",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "38772",
+      "fold": "fold_4",
+      "question": "Cách tính lương, phụ cấp mới với cán bộ công chức từ 1/7/2023?",
+      "missing_gold": [
+        {
+          "doc_id": "42493",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "55154",
+      "fold": "fold_4",
+      "question": "Công trình hóa chất gồm những gì?",
+      "missing_gold": [
+        {
+          "doc_id": "104132",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "97210",
+      "fold": "fold_4",
+      "question": "Viên chức được bổ nhiệm vào các chức danh nghề nghiệp giảng viên giáo dục nghề nghiệp được áp dụng bảng lương thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "62676",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "84502",
+      "fold": "fold_1",
+      "question": "Việc nhận diện giới khác với giới tính sinh học hoàn thiện đang có được đề xuất thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "270765",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "139270",
+      "fold": "fold_2",
+      "question": "Kinh phí hỗ trợ phát triển nguồn nhân lực cho doanh nghiệp nhỏ và vừa (DNNVV) thực hiện theo văn bản quy phạm pháp luật nào?",
+      "missing_gold": [
+        {
+          "doc_id": "261464",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "143246",
+      "fold": "fold_1",
+      "question": "Trình tự theo dõi việc chuyển phát văn bản đi được thực hiện như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "280907",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "54158",
+      "fold": "fold_0",
+      "question": "Về đối tượng được hưởng chính sách hỗ trợ tiền thuê nhà",
+      "missing_gold": [
+        {
+          "doc_id": "208105",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "28152",
+      "fold": "fold_0",
+      "question": "Việc xác định thời điểm hoạt động kinh doanh của hộ kinh doanh quy định như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "186584",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "82978",
+      "fold": "fold_0",
+      "question": "Xử phạt khi chậm báo tăng, báo giảm lao động?",
+      "missing_gold": [
+        {
+          "doc_id": "285041",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "140108",
+      "fold": "fold_0",
+      "question": "Chứng chỉ hành nghề xây dựng hết hạn thì phải làm thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "42262",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "28660",
+      "fold": "fold_3",
+      "question": "Bí mật kinh doanh là gì?",
+      "missing_gold": [
+        {
+          "doc_id": "128423",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "68342",
+      "fold": "fold_2",
+      "question": "Thành phần hồ sơ đăng ký khai tử có yếu tố nước ngoài tại khu vực biên giới ở cấp xã được sửa đổi trong lĩnh vực hộ tịch năm 2023 là gì?",
+      "missing_gold": [
+        {
+          "doc_id": "69997",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "78520",
+      "fold": "fold_3",
+      "question": "Viên chức thôi việc được hưởng trợ cấp như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "84617",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "30650",
+      "fold": "fold_3",
+      "question": "Hoạt động kiểm tra phân bổ vốn đầu tư công nguồn ngân sách nhà nước của địa phương",
+      "missing_gold": [
+        {
+          "doc_id": "282279",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "151476",
+      "fold": "fold_1",
+      "question": "Liên đoàn Luật sư có trách nhiệm gì khi phát sinh các vấn đề liên quan đến việc tập sự hành nghề luật sư?",
+      "missing_gold": [
+        {
+          "doc_id": "255906",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "109002",
+      "fold": "fold_1",
+      "question": "Doanh nghiệp có bắt buộc phải bố trí kế toán trưởng hay không?",
+      "missing_gold": [
+        {
+          "doc_id": "227118",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "101604",
+      "fold": "fold_3",
+      "question": "Quy định về hồ sơ, thủ tục xin học lại như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "199759",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "65278",
+      "fold": "fold_0",
+      "question": "Tòa án nhân dân cấp cao chỉ thị phổ biến nội dung Nghị quyết 63/2022/QH15 đến các Thẩm phán, Thẩm tra viên và Thư ký Tòa án?",
+      "missing_gold": [
+        {
+          "doc_id": "183922",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "25526",
+      "fold": "fold_4",
+      "question": "Mức tiền thưởng của Huân chương Quân công hạng nhì trong Quân đội nhân dân Việt Nam là bao nhiêu?",
+      "missing_gold": [
+        {
+          "doc_id": "43443",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "41395",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "17994",
+      "fold": "fold_4",
+      "question": "Vụ trưởng thuộc Bộ, cơ quan ngang Bộ là ai?",
+      "missing_gold": [
+        {
+          "doc_id": "136014",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "137794",
+      "fold": "fold_1",
+      "question": "Rút ngắn thời gian xin ý kiến về hồ sơ đăng ký vận tải hành khách cố định?",
+      "missing_gold": [
+        {
+          "doc_id": "209811",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "42686",
+      "fold": "fold_1",
+      "question": "Công chức đang giữ ngạch ngạch thống kê viên chính được áp dụng hệ số lương là bao nhiêu?",
+      "missing_gold": [
+        {
+          "doc_id": "284539",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "43443",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "122986",
+      "fold": "fold_4",
+      "question": "Hợp đồng hợp tác là gì?",
+      "missing_gold": [
+        {
+          "doc_id": "81598",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "9940",
+      "fold": "fold_3",
+      "question": "Điều kiện của sinh viên và chủ trọ khi tham gia giao dịch về thuê nhà trọ?",
+      "missing_gold": [
+        {
+          "doc_id": "46918",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "125824",
+      "fold": "fold_2",
+      "question": "Mức hưởng trợ cấp thất nghiệp của người lao động từ năm 2023 là bao nhiêu?",
+      "missing_gold": [
+        {
+          "doc_id": "43443",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "85300",
+      "fold": "fold_0",
+      "question": "Ai được khai thác và sử dụng cơ sở dữ liệu về thi hành án hình sự?",
+      "missing_gold": [
+        {
+          "doc_id": "210883",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "62952",
+      "fold": "fold_4",
+      "question": "Đơn vị thẩm định phải thỏa các yêu cầu nào?",
+      "missing_gold": [
+        {
+          "doc_id": "294241",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "156570",
+      "fold": "fold_0",
+      "question": "Lãi suất vay vượt quá mức lãi suất giới hạn quy định bên cho vay bị xử phạt như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "98892",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "66924",
+      "fold": "fold_1",
+      "question": "Đối tượng phải được tập huấn kiến thức an toàn thực phẩm gồm những ai?",
+      "missing_gold": [
+        {
+          "doc_id": "204875",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "144970",
+      "fold": "fold_1",
+      "question": "Giấy ủy quyền vay vốn có thời hạn 10 năm đã được chứng thực thì được lưu trữ trong thời gian 10 năm hay chỉ 2 năm?",
+      "missing_gold": [
+        {
+          "doc_id": "259656",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "38960",
+      "fold": "fold_4",
+      "question": "Xác định ngày nghỉ hàng năm khi chuyển công tác như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "208105",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "140508",
+      "fold": "fold_1",
+      "question": "Quy định về mở cửa xe ô tô",
+      "missing_gold": [
+        {
+          "doc_id": "221909",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "165434",
+      "fold": "fold_0",
+      "question": "Kiểm soát viên Tổng công ty Lâm nghiệp Việt Nam phải đáp ứng được các tiêu chuẩn, điều kiện thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "21398",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "152130",
+      "fold": "fold_4",
+      "question": "Thông tư 41/2023/TT-BQP về mức lương cơ sở, phụ cấp quân hàm?",
+      "missing_gold": [
+        {
+          "doc_id": "166505",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "102682",
+      "fold": "fold_3",
+      "question": "Xin nghỉ nhưng công ty không đồng ý thì xử lý thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "176929",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "55508",
+      "fold": "fold_3",
+      "question": "Chủ nhiệm chuyên trách trong UBKT các cấp thuộc Đảng bộ Quân đội được hưởng phụ cấp trách nhiệm thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "43443",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "41395",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "9786",
+      "fold": "fold_4",
+      "question": "Chủ tịch Ủy ban nhân dân tỉnh có quyền lập biên bản vi phạm hành chính với doanh nghiệp công nghiệp giao sản phẩm động viên công nghiệp không bảo đảm chất lượng theo chỉ tiêu không?",
+      "missing_gold": [
+        {
+          "doc_id": "122159",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "85628",
+      "fold": "fold_3",
+      "question": "Lịch nghỉ tết âm lịch 2023 chính thức của cán bộ, công chức, viên chức?",
+      "missing_gold": [
+        {
+          "doc_id": "129823",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "37826",
+      "fold": "fold_1",
+      "question": "Thiết bị điện tử gia dụng bao gồm những thiết bị nào?",
+      "missing_gold": [
+        {
+          "doc_id": "214057",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "157506",
+      "fold": "fold_0",
+      "question": "Phó Trưởng ban Ban Chỉ đạo Đổi mới và Phát triển doanh nghiệp phải làm những công việc nào?",
+      "missing_gold": [
+        {
+          "doc_id": "136014",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "119814",
+      "fold": "fold_1",
+      "question": "Điều kiện để cấp Giấy phép khai thác đồi đất đỏ được quy định như thế nào?",
+      "missing_gold": [
+        {
+          "doc_id": "247578",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        },
+        {
+          "doc_id": "117172",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "76288",
+      "fold": "fold_2",
+      "question": "Mức phạt tối đa về trang thông tin điện tử là bao nhiêu?",
+      "missing_gold": [
+        {
+          "doc_id": "17545",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "162560",
+      "fold": "fold_4",
+      "question": "Có bao nhiêu hình thức tổ chức hoạt động văn hóa văn nghệ?",
+      "missing_gold": [
+        {
+          "doc_id": "244116",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "128348",
+      "fold": "fold_2",
+      "question": "Chỉ huy trưởng có được quản lý đồng thời nhiều công trình?",
+      "missing_gold": [
+        {
+          "doc_id": "89392",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "55394",
+      "fold": "fold_4",
+      "question": "Kinh phí khuyến nông địa phương được sử dụng cho hoạt động khuyến nông do ai quản lý?",
+      "missing_gold": [
+        {
+          "doc_id": "64378",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "69214",
+      "fold": "fold_0",
+      "question": "Đòi nợ thuê có chịu xử phạt hành chính không?",
+      "missing_gold": [
+        {
+          "doc_id": "69484",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "30962",
+      "fold": "fold_1",
+      "question": "Phó Chủ tịch Hội đồng nhân dân xã được hưởng phụ cấp chức vụ lãnh đạo so với mức lương cơ sở là bao nhiêu?",
+      "missing_gold": [
+        {
+          "doc_id": "284539",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "158910",
+      "fold": "fold_1",
+      "question": "Người đứng đầu Kho bạc Nhà nước là ai?",
+      "missing_gold": [
+        {
+          "doc_id": "153842",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "100436",
+      "fold": "fold_1",
+      "question": "Khi nào áp dụng quy định mới tại Nghị định 33/2023/NĐ-CP?",
+      "missing_gold": [
+        {
+          "doc_id": "145175",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "60842",
+      "fold": "fold_4",
+      "question": "Quy định về mức phụ cấp cho nhân viên hiện nay ra sao?",
+      "missing_gold": [
+        {
+          "doc_id": "129823",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "144324",
+      "fold": "fold_3",
+      "question": "Danh mục các khu vực được phép thực hiện phân lô bán nền do cơ quan nào công bố?",
+      "missing_gold": [
+        {
+          "doc_id": "113741",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "147098",
+      "fold": "fold_3",
+      "question": "Nộp hồ sơ ghi nhận nhà xưởng mới lên Giấy chứng nhận quyền sử dụng đất tại UBND xã để giải quyết có được không?",
+      "missing_gold": [
+        {
+          "doc_id": "113741",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "112128",
+      "fold": "fold_0",
+      "question": "Mức lương của cán bộ công chức cấp huyện loại A1 hiện nay là bao nhiêu?",
+      "missing_gold": [
+        {
+          "doc_id": "212531",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    },
+    {
+      "qid": "92254",
+      "fold": "fold_2",
+      "question": "Nhiệm vụ trọng tâm để thực hiện mục tiêu quốc gia giai đoạn 2021-2025 trong chương trình công tác năm 2023 là gì?",
+      "missing_gold": [
+        {
+          "doc_id": "254667",
+          "token_length": 512,
+          "dense_rank": null,
+          "bm25_rank": null
+        }
+      ]
+    }
+  ]
+}
