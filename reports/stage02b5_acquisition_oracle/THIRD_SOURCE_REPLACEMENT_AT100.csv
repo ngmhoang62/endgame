@@ -1,0 +1,6 @@
+﻿base_sources,challenger,per_source_depth,base_macro_recall,expanded_macro_recall,delta_macro_recall,query_rescues,full_query_rescues,gold_occurrence_rescues
+"['aiteamvn_v1', 'vnlegal_lal']",vietlegal_harrier,100,0.9886067801459019,0.9898226290945501,0.001215848948648235,11,11,11
+"['aiteamvn_v1', 'vnlegal_lal']",bm25,100,0.9886067801459019,0.9925976255185238,0.003990845372621954,34,31,37
+"['aiteamvn_v1', 'vnlegal_lal']",aiteamvn_v2,100,0.9886067801459019,0.9899537500596004,0.001346969913698537,15,13,15
+"['aiteamvn_v1', 'vnlegal_lal']",vietlegal_e5,100,0.9886067801459019,0.9900610308491871,0.0014542507032851981,14,14,14
+"['aiteamvn_v1', 'vnlegal_lal']",vietnamese_legal_embedding,100,0.9886067801459019,0.9901563915510418,0.0015496114051399834,14,13,15

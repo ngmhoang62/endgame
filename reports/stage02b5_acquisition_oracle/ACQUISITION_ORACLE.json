@@ -1,0 +1,988 @@
+{
+  "schema_version": "dsc2026.endgame.stage02b5_acquisition_oracle.v1",
+  "status": "COMPLETE",
+  "claim_boundary": "cached candidate-acquisition oracle only; no fusion/promotion",
+  "document_order_alignment": "PASS",
+  "population": {
+    "queries": 6991,
+    "documents": 8512
+  },
+  "sources_available": [
+    "aiteamvn_v1",
+    "vnlegal_lal",
+    "vietlegal_harrier",
+    "aiteamvn_v2",
+    "vietlegal_e5",
+    "vietnamese_legal_embedding",
+    "bm25"
+  ],
+  "retained_core": [
+    "aiteamvn_v1",
+    "vnlegal_lal",
+    "vietlegal_harrier",
+    "bm25"
+  ],
+  "core_at100": {
+    "sources": [
+      "aiteamvn_v1",
+      "vnlegal_lal",
+      "vietlegal_harrier",
+      "bm25"
+    ],
+    "per_source_depth": 100,
+    "macro_oracle_recall": 0.9931697897296524,
+    "full_gold_coverage_rate": 0.9898440852524675,
+    "mean_unique_pool_size": 234.3757688456587,
+    "max_nominal_pool_size": 400,
+    "gold_occurrence_coverage": 0.9893784421715185,
+    "hit_gold_occurrences": 7545,
+    "total_gold_occurrences": 7626
+  },
+  "uncovered_queries_core_at100": 71,
+  "core_union_curves": [
+    {
+      "sources": [
+        "aiteamvn_v1"
+      ],
+      "per_source_depth": 10,
+      "macro_oracle_recall": 0.9196872168979163,
+      "full_gold_coverage_rate": 0.906594192533257,
+      "mean_unique_pool_size": 10.0,
+      "max_nominal_pool_size": 10,
+      "gold_occurrence_coverage": 0.9047993705743509,
+      "hit_gold_occurrences": 6900,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1"
+      ],
+      "per_source_depth": 20,
+      "macro_oracle_recall": 0.9456491679778763,
+      "full_gold_coverage_rate": 0.9353454441424689,
+      "mean_unique_pool_size": 20.0,
+      "max_nominal_pool_size": 20,
+      "gold_occurrence_coverage": 0.9340414371885655,
+      "hit_gold_occurrences": 7123,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1"
+      ],
+      "per_source_depth": 50,
+      "macro_oracle_recall": 0.9692867019501263,
+      "full_gold_coverage_rate": 0.9625232441710772,
+      "mean_unique_pool_size": 50.0,
+      "max_nominal_pool_size": 50,
+      "gold_occurrence_coverage": 0.9607920272751115,
+      "hit_gold_occurrences": 7327,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9796619463119248,
+      "full_gold_coverage_rate": 0.9745386926047775,
+      "mean_unique_pool_size": 100.0,
+      "max_nominal_pool_size": 100,
+      "gold_occurrence_coverage": 0.973511670600577,
+      "hit_gold_occurrences": 7424,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal"
+      ],
+      "per_source_depth": 10,
+      "macro_oracle_recall": 0.9424188242025461,
+      "full_gold_coverage_rate": 0.9314833357173509,
+      "mean_unique_pool_size": 14.368044628808468,
+      "max_nominal_pool_size": 20,
+      "gold_occurrence_coverage": 0.9295830055074744,
+      "hit_gold_occurrences": 7089,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal"
+      ],
+      "per_source_depth": 20,
+      "macro_oracle_recall": 0.9655676345777905,
+      "full_gold_coverage_rate": 0.9572307252181376,
+      "mean_unique_pool_size": 29.218566728651123,
+      "max_nominal_pool_size": 40,
+      "gold_occurrence_coverage": 0.955677943876213,
+      "hit_gold_occurrences": 7288,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal"
+      ],
+      "per_source_depth": 50,
+      "macro_oracle_recall": 0.9831116197015211,
+      "full_gold_coverage_rate": 0.9775425547132027,
+      "mean_unique_pool_size": 73.82234301244458,
+      "max_nominal_pool_size": 100,
+      "gold_occurrence_coverage": 0.9765276685024915,
+      "hit_gold_occurrences": 7447,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9886067801459019,
+      "full_gold_coverage_rate": 0.984551566299528,
+      "mean_unique_pool_size": 147.75826062079818,
+      "max_nominal_pool_size": 200,
+      "gold_occurrence_coverage": 0.983739837398374,
+      "hit_gold_occurrences": 7502,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vietlegal_harrier"
+      ],
+      "per_source_depth": 10,
+      "macro_oracle_recall": 0.9423234635006914,
+      "full_gold_coverage_rate": 0.9317694178229152,
+      "mean_unique_pool_size": 14.680875411243028,
+      "max_nominal_pool_size": 20,
+      "gold_occurrence_coverage": 0.9295830055074744,
+      "hit_gold_occurrences": 7089,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vietlegal_harrier"
+      ],
+      "per_source_depth": 20,
+      "macro_oracle_recall": 0.9626043007676537,
+      "full_gold_coverage_rate": 0.9545129452152767,
+      "mean_unique_pool_size": 29.818623945072236,
+      "max_nominal_pool_size": 40,
+      "gold_occurrence_coverage": 0.9529242066614214,
+      "hit_gold_occurrences": 7267,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vietlegal_harrier"
+      ],
+      "per_source_depth": 50,
+      "macro_oracle_recall": 0.9800481571544366,
+      "full_gold_coverage_rate": 0.9746817336575597,
+      "mean_unique_pool_size": 75.30839650979831,
+      "max_nominal_pool_size": 100,
+      "gold_occurrence_coverage": 0.9733805402570155,
+      "hit_gold_occurrences": 7423,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vietlegal_harrier"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9878677347065274,
+      "full_gold_coverage_rate": 0.9838363610356172,
+      "mean_unique_pool_size": 150.5970533543127,
+      "max_nominal_pool_size": 200,
+      "gold_occurrence_coverage": 0.9830841856805664,
+      "hit_gold_occurrences": 7497,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "bm25"
+      ],
+      "per_source_depth": 10,
+      "macro_oracle_recall": 0.9507080532112716,
+      "full_gold_coverage_rate": 0.9390645115148047,
+      "mean_unique_pool_size": 17.76498355027893,
+      "max_nominal_pool_size": 20,
+      "gold_occurrence_coverage": 0.9365329137162339,
+      "hit_gold_occurrences": 7142,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "bm25"
+      ],
+      "per_source_depth": 20,
+      "macro_oracle_recall": 0.9694035188098984,
+      "full_gold_coverage_rate": 0.9600915462737806,
+      "mean_unique_pool_size": 35.55857531111429,
+      "max_nominal_pool_size": 40,
+      "gold_occurrence_coverage": 0.9581694204038814,
+      "hit_gold_occurrences": 7307,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "bm25"
+      ],
+      "per_source_depth": 50,
+      "macro_oracle_recall": 0.983266580842035,
+      "full_gold_coverage_rate": 0.9771134315548562,
+      "mean_unique_pool_size": 88.66957516807324,
+      "max_nominal_pool_size": 100,
+      "gold_occurrence_coverage": 0.9757408864411224,
+      "hit_gold_occurrences": 7441,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "bm25"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9886520764792829,
+      "full_gold_coverage_rate": 0.9841224431411815,
+      "mean_unique_pool_size": 176.18137605492777,
+      "max_nominal_pool_size": 200,
+      "gold_occurrence_coverage": 0.9836087070548125,
+      "hit_gold_occurrences": 7501,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier"
+      ],
+      "per_source_depth": 10,
+      "macro_oracle_recall": 0.9479497449101225,
+      "full_gold_coverage_rate": 0.9377771420397654,
+      "mean_unique_pool_size": 16.384494349878416,
+      "max_nominal_pool_size": 30,
+      "gold_occurrence_coverage": 0.9354838709677419,
+      "hit_gold_occurrences": 7134,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier"
+      ],
+      "per_source_depth": 20,
+      "macro_oracle_recall": 0.9681233013874982,
+      "full_gold_coverage_rate": 0.9606637104849092,
+      "mean_unique_pool_size": 33.247174939207554,
+      "max_nominal_pool_size": 60,
+      "gold_occurrence_coverage": 0.9589562024652505,
+      "hit_gold_occurrences": 7313,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier"
+      ],
+      "per_source_depth": 50,
+      "macro_oracle_recall": 0.9839460258427501,
+      "full_gold_coverage_rate": 0.978829924188242,
+      "mean_unique_pool_size": 83.69889858389358,
+      "max_nominal_pool_size": 150,
+      "gold_occurrence_coverage": 0.9777078415945449,
+      "hit_gold_occurrences": 7456,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9898226290945501,
+      "full_gold_coverage_rate": 0.9861250178801316,
+      "mean_unique_pool_size": 166.65727363753396,
+      "max_nominal_pool_size": 300,
+      "gold_occurrence_coverage": 0.9851822711775505,
+      "hit_gold_occurrences": 7513,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "bm25"
+      ],
+      "per_source_depth": 10,
+      "macro_oracle_recall": 0.9616149334859104,
+      "full_gold_coverage_rate": 0.9516521241596338,
+      "mean_unique_pool_size": 21.674724645973395,
+      "max_nominal_pool_size": 30,
+      "gold_occurrence_coverage": 0.9495148177288224,
+      "hit_gold_occurrences": 7241,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "bm25"
+      ],
+      "per_source_depth": 20,
+      "macro_oracle_recall": 0.9781886234682687,
+      "full_gold_coverage_rate": 0.9705335431268775,
+      "mean_unique_pool_size": 43.72021170075812,
+      "max_nominal_pool_size": 60,
+      "gold_occurrence_coverage": 0.9690532389194859,
+      "hit_gold_occurrences": 7390,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "bm25"
+      ],
+      "per_source_depth": 50,
+      "macro_oracle_recall": 0.9890764316025366,
+      "full_gold_coverage_rate": 0.9839794020883994,
+      "mean_unique_pool_size": 109.54398512373051,
+      "max_nominal_pool_size": 150,
+      "gold_occurrence_coverage": 0.983477576711251,
+      "hit_gold_occurrences": 7500,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "bm25"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9925976255185238,
+      "full_gold_coverage_rate": 0.9889858389357745,
+      "mean_unique_pool_size": 217.51709340580746,
+      "max_nominal_pool_size": 300,
+      "gold_occurrence_coverage": 0.9885916601101495,
+      "hit_gold_occurrences": 7539,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "per_source_depth": 10,
+      "macro_oracle_recall": 0.9607805273446812,
+      "full_gold_coverage_rate": 0.9510799599485052,
+      "mean_unique_pool_size": 21.942497496781577,
+      "max_nominal_pool_size": 30,
+      "gold_occurrence_coverage": 0.9488591660110149,
+      "hit_gold_occurrences": 7236,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "per_source_depth": 20,
+      "macro_oracle_recall": 0.9764125303962237,
+      "full_gold_coverage_rate": 0.9689600915462738,
+      "mean_unique_pool_size": 44.28579602345873,
+      "max_nominal_pool_size": 60,
+      "gold_occurrence_coverage": 0.9673485444531865,
+      "hit_gold_occurrences": 7377,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "per_source_depth": 50,
+      "macro_oracle_recall": 0.9880155437944024,
+      "full_gold_coverage_rate": 0.9832641968244886,
+      "mean_unique_pool_size": 110.91689314833357,
+      "max_nominal_pool_size": 150,
+      "gold_occurrence_coverage": 0.9822974036191975,
+      "hit_gold_occurrences": 7491,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9923353835884232,
+      "full_gold_coverage_rate": 0.9888427978829925,
+      "mean_unique_pool_size": 220.05564296953224,
+      "max_nominal_pool_size": 300,
+      "gold_occurrence_coverage": 0.9884605297665879,
+      "hit_gold_occurrences": 7538,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "per_source_depth": 10,
+      "macro_oracle_recall": 0.964356553664235,
+      "full_gold_coverage_rate": 0.9549420683736233,
+      "mean_unique_pool_size": 23.511800886854527,
+      "max_nominal_pool_size": 40,
+      "gold_occurrence_coverage": 0.9526619459742984,
+      "hit_gold_occurrences": 7265,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "per_source_depth": 20,
+      "macro_oracle_recall": 0.9795713536451628,
+      "full_gold_coverage_rate": 0.9726791589186097,
+      "mean_unique_pool_size": 47.394221141467604,
+      "max_nominal_pool_size": 80,
+      "gold_occurrence_coverage": 0.9710201940729085,
+      "hit_gold_occurrences": 7405,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "per_source_depth": 50,
+      "macro_oracle_recall": 0.9896247556382015,
+      "full_gold_coverage_rate": 0.9849806894578744,
+      "mean_unique_pool_size": 118.46788728365041,
+      "max_nominal_pool_size": 200,
+      "gold_occurrence_coverage": 0.9843954891161815,
+      "hit_gold_occurrences": 7507,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9931697897296524,
+      "full_gold_coverage_rate": 0.9898440852524675,
+      "mean_unique_pool_size": 234.3757688456587,
+      "max_nominal_pool_size": 400,
+      "gold_occurrence_coverage": 0.9893784421715185,
+      "hit_gold_occurrences": 7545,
+      "total_gold_occurrences": 7626
+    }
+  ],
+  "core_subsets_at100": [
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9931697897296524,
+      "full_gold_coverage_rate": 0.9898440852524675,
+      "mean_unique_pool_size": 234.3757688456587,
+      "max_nominal_pool_size": 400,
+      "gold_occurrence_coverage": 0.9893784421715185,
+      "hit_gold_occurrences": 7545,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "bm25"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9925976255185238,
+      "full_gold_coverage_rate": 0.9889858389357745,
+      "mean_unique_pool_size": 217.51709340580746,
+      "max_nominal_pool_size": 300,
+      "gold_occurrence_coverage": 0.9885916601101495,
+      "hit_gold_occurrences": 7539,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9923353835884232,
+      "full_gold_coverage_rate": 0.9888427978829925,
+      "mean_unique_pool_size": 220.05564296953224,
+      "max_nominal_pool_size": 300,
+      "gold_occurrence_coverage": 0.9884605297665879,
+      "hit_gold_occurrences": 7538,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9898226290945501,
+      "full_gold_coverage_rate": 0.9861250178801316,
+      "mean_unique_pool_size": 166.65727363753396,
+      "max_nominal_pool_size": 300,
+      "gold_occurrence_coverage": 0.9851822711775505,
+      "hit_gold_occurrences": 7513,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "vnlegal_lal",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9896295236732943,
+      "full_gold_coverage_rate": 0.9849806894578744,
+      "mean_unique_pool_size": 196.67400944070948,
+      "max_nominal_pool_size": 300,
+      "gold_occurrence_coverage": 0.984002098085497,
+      "hit_gold_occurrences": 7504,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "bm25"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9886520764792829,
+      "full_gold_coverage_rate": 0.9841224431411815,
+      "mean_unique_pool_size": 176.18137605492777,
+      "max_nominal_pool_size": 200,
+      "gold_occurrence_coverage": 0.9836087070548125,
+      "hit_gold_occurrences": 7501,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9886067801459019,
+      "full_gold_coverage_rate": 0.984551566299528,
+      "mean_unique_pool_size": 147.75826062079818,
+      "max_nominal_pool_size": 200,
+      "gold_occurrence_coverage": 0.983739837398374,
+      "hit_gold_occurrences": 7502,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "vnlegal_lal",
+        "bm25"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9882944738473275,
+      "full_gold_coverage_rate": 0.9829781147189244,
+      "mean_unique_pool_size": 175.73523101130024,
+      "max_nominal_pool_size": 200,
+      "gold_occurrence_coverage": 0.9820351429320745,
+      "hit_gold_occurrences": 7489,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1",
+        "vietlegal_harrier"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9878677347065274,
+      "full_gold_coverage_rate": 0.9838363610356172,
+      "mean_unique_pool_size": 150.5970533543127,
+      "max_nominal_pool_size": 200,
+      "gold_occurrence_coverage": 0.9830841856805664,
+      "hit_gold_occurrences": 7497,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9850998903351929,
+      "full_gold_coverage_rate": 0.9801172936632814,
+      "mean_unique_pool_size": 175.97568302102704,
+      "max_nominal_pool_size": 200,
+      "gold_occurrence_coverage": 0.978494623655914,
+      "hit_gold_occurrences": 7462,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "vnlegal_lal",
+        "vietlegal_harrier"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9825632956658561,
+      "full_gold_coverage_rate": 0.9772564726076384,
+      "mean_unique_pool_size": 124.04276927478186,
+      "max_nominal_pool_size": 200,
+      "gold_occurrence_coverage": 0.9760031471282454,
+      "hit_gold_occurrences": 7443,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "vnlegal_lal"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.97994087636485,
+      "full_gold_coverage_rate": 0.9738234873408669,
+      "mean_unique_pool_size": 100.0,
+      "max_nominal_pool_size": 100,
+      "gold_occurrence_coverage": 0.972724888539208,
+      "hit_gold_occurrences": 7418,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "aiteamvn_v1"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9796619463119248,
+      "full_gold_coverage_rate": 0.9745386926047775,
+      "mean_unique_pool_size": 100.0,
+      "max_nominal_pool_size": 100,
+      "gold_occurrence_coverage": 0.973511670600577,
+      "hit_gold_occurrences": 7424,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "vietlegal_harrier"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9697801935822248,
+      "full_gold_coverage_rate": 0.9635245315405522,
+      "mean_unique_pool_size": 100.0,
+      "max_nominal_pool_size": 100,
+      "gold_occurrence_coverage": 0.9617099396800419,
+      "hit_gold_occurrences": 7334,
+      "total_gold_occurrences": 7626
+    },
+    {
+      "sources": [
+        "bm25"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.8469341534353693,
+      "full_gold_coverage_rate": 0.8327850092976684,
+      "mean_unique_pool_size": 100.0,
+      "max_nominal_pool_size": 100,
+      "gold_occurrence_coverage": 0.8334644636768949,
+      "hit_gold_occurrences": 6356,
+      "total_gold_occurrences": 7626
+    }
+  ],
+  "dropped_source_marginal": [
+    {
+      "base_sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "challenger": "aiteamvn_v2",
+      "per_source_depth": 10,
+      "base_macro_recall": 0.964356553664235,
+      "expanded_macro_recall": 0.9673246555094646,
+      "delta_macro_recall": 0.0029681018452295538,
+      "query_rescues": 28,
+      "full_query_rescues": 24,
+      "gold_occurrence_rescues": 28
+    },
+    {
+      "base_sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "challenger": "vietlegal_e5",
+      "per_source_depth": 10,
+      "base_macro_recall": 0.964356553664235,
+      "expanded_macro_recall": 0.9660611262098889,
+      "delta_macro_recall": 0.0017045725456539262,
+      "query_rescues": 17,
+      "full_query_rescues": 15,
+      "gold_occurrence_rescues": 17
+    },
+    {
+      "base_sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "challenger": "vietnamese_legal_embedding",
+      "per_source_depth": 10,
+      "base_macro_recall": 0.964356553664235,
+      "expanded_macro_recall": 0.9677299384923473,
+      "delta_macro_recall": 0.0033733848281123358,
+      "query_rescues": 32,
+      "full_query_rescues": 28,
+      "gold_occurrence_rescues": 32
+    },
+    {
+      "base_sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "challenger": "aiteamvn_v2",
+      "per_source_depth": 20,
+      "base_macro_recall": 0.9795713536451628,
+      "expanded_macro_recall": 0.9808825632956658,
+      "delta_macro_recall": 0.0013112096505030202,
+      "query_rescues": 15,
+      "full_query_rescues": 13,
+      "gold_occurrence_rescues": 17
+    },
+    {
+      "base_sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "challenger": "vietlegal_e5",
+      "per_source_depth": 20,
+      "base_macro_recall": 0.9795713536451628,
+      "expanded_macro_recall": 0.9806727697515853,
+      "delta_macro_recall": 0.0011014161064225592,
+      "query_rescues": 12,
+      "full_query_rescues": 9,
+      "gold_occurrence_rescues": 12
+    },
+    {
+      "base_sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "challenger": "vietnamese_legal_embedding",
+      "per_source_depth": 20,
+      "base_macro_recall": 0.9795713536451628,
+      "expanded_macro_recall": 0.981180565488962,
+      "delta_macro_recall": 0.001609211843799252,
+      "query_rescues": 16,
+      "full_query_rescues": 14,
+      "gold_occurrence_rescues": 16
+    },
+    {
+      "base_sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "challenger": "aiteamvn_v2",
+      "per_source_depth": 50,
+      "base_macro_recall": 0.9896247556382015,
+      "expanded_macro_recall": 0.9903757211653078,
+      "delta_macro_recall": 0.0007509655271062954,
+      "query_rescues": 10,
+      "full_query_rescues": 10,
+      "gold_occurrence_rescues": 11
+    },
+    {
+      "base_sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "challenger": "vietlegal_e5",
+      "per_source_depth": 50,
+      "base_macro_recall": 0.9896247556382015,
+      "expanded_macro_recall": 0.9902684403757211,
+      "delta_macro_recall": 0.0006436847375196342,
+      "query_rescues": 6,
+      "full_query_rescues": 6,
+      "gold_occurrence_rescues": 6
+    },
+    {
+      "base_sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "challenger": "vietnamese_legal_embedding",
+      "per_source_depth": 50,
+      "base_macro_recall": 0.9896247556382015,
+      "expanded_macro_recall": 0.9907571639727268,
+      "delta_macro_recall": 0.0011324083345253255,
+      "query_rescues": 11,
+      "full_query_rescues": 10,
+      "gold_occurrence_rescues": 11
+    },
+    {
+      "base_sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "challenger": "aiteamvn_v2",
+      "per_source_depth": 100,
+      "base_macro_recall": 0.9931697897296524,
+      "expanded_macro_recall": 0.993896915081295,
+      "delta_macro_recall": 0.0007271253516425435,
+      "query_rescues": 9,
+      "full_query_rescues": 8,
+      "gold_occurrence_rescues": 9
+    },
+    {
+      "base_sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "challenger": "vietlegal_e5",
+      "per_source_depth": 100,
+      "base_macro_recall": 0.9931697897296524,
+      "expanded_macro_recall": 0.9933366709578982,
+      "delta_macro_recall": 0.00016688122824581875,
+      "query_rescues": 3,
+      "full_query_rescues": 3,
+      "gold_occurrence_rescues": 3
+    },
+    {
+      "base_sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal",
+        "vietlegal_harrier",
+        "bm25"
+      ],
+      "challenger": "vietnamese_legal_embedding",
+      "per_source_depth": 100,
+      "base_macro_recall": 0.9931697897296524,
+      "expanded_macro_recall": 0.9937657941162447,
+      "delta_macro_recall": 0.0005960043865922415,
+      "query_rescues": 6,
+      "full_query_rescues": 6,
+      "gold_occurrence_rescues": 6
+    }
+  ],
+  "third_source_replacement_at100": [
+    {
+      "base_sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal"
+      ],
+      "challenger": "vietlegal_harrier",
+      "per_source_depth": 100,
+      "base_macro_recall": 0.9886067801459019,
+      "expanded_macro_recall": 0.9898226290945501,
+      "delta_macro_recall": 0.001215848948648235,
+      "query_rescues": 11,
+      "full_query_rescues": 11,
+      "gold_occurrence_rescues": 11
+    },
+    {
+      "base_sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal"
+      ],
+      "challenger": "bm25",
+      "per_source_depth": 100,
+      "base_macro_recall": 0.9886067801459019,
+      "expanded_macro_recall": 0.9925976255185238,
+      "delta_macro_recall": 0.003990845372621954,
+      "query_rescues": 34,
+      "full_query_rescues": 31,
+      "gold_occurrence_rescues": 37
+    },
+    {
+      "base_sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal"
+      ],
+      "challenger": "aiteamvn_v2",
+      "per_source_depth": 100,
+      "base_macro_recall": 0.9886067801459019,
+      "expanded_macro_recall": 0.9899537500596004,
+      "delta_macro_recall": 0.001346969913698537,
+      "query_rescues": 15,
+      "full_query_rescues": 13,
+      "gold_occurrence_rescues": 15
+    },
+    {
+      "base_sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal"
+      ],
+      "challenger": "vietlegal_e5",
+      "per_source_depth": 100,
+      "base_macro_recall": 0.9886067801459019,
+      "expanded_macro_recall": 0.9900610308491871,
+      "delta_macro_recall": 0.0014542507032851981,
+      "query_rescues": 14,
+      "full_query_rescues": 14,
+      "gold_occurrence_rescues": 14
+    },
+    {
+      "base_sources": [
+        "aiteamvn_v1",
+        "vnlegal_lal"
+      ],
+      "challenger": "vietnamese_legal_embedding",
+      "per_source_depth": 100,
+      "base_macro_recall": 0.9886067801459019,
+      "expanded_macro_recall": 0.9901563915510418,
+      "delta_macro_recall": 0.0015496114051399834,
+      "query_rescues": 14,
+      "full_query_rescues": 13,
+      "gold_occurrence_rescues": 15
+    }
+  ]
+}

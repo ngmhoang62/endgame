@@ -1,0 +1,1532 @@
+{
+  "sources": [
+    "aiteamvn_v1",
+    "vnlegal_lal",
+    "vietlegal_harrier",
+    "bm25"
+  ],
+  "per_source_depth": 100,
+  "uncovered_query_count": 71,
+  "queries": [
+    {
+      "qid": "88654",
+      "fold": "fold_1",
+      "question": "Cấp lại thẻ bảo hiểm y tế tốn bao nhiêu tiền?",
+      "gold_count": 3,
+      "missing_gold_ids": [
+        "17754"
+      ],
+      "missing_gold_source_ranks": {
+        "17754": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "50596",
+      "fold": "fold_3",
+      "question": "Đối tượng nào được miễn chi phí giám định trong tố tụng dân sự?",
+      "gold_count": 3,
+      "missing_gold_ids": [
+        "204396"
+      ],
+      "missing_gold_source_ranks": {
+        "204396": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "34748",
+      "fold": "fold_1",
+      "question": "Mức lương của giáo viên tại các cơ sở giáo dục công lập sẽ là bao nhiêu khi tăng mức lương cơ sở?",
+      "gold_count": 3,
+      "missing_gold_ids": [
+        "276317"
+      ],
+      "missing_gold_source_ranks": {
+        "276317": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "90028",
+      "fold": "fold_3",
+      "question": "Xem xét ban hành Nghị quyết mở rộng diện áp dụng miễn thị thực đơn phương theo yêu cầu của Chính Phủ đúng không?",
+      "gold_count": 4,
+      "missing_gold_ids": [
+        "242143"
+      ],
+      "missing_gold_source_ranks": {
+        "242143": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "81590",
+      "fold": "fold_2",
+      "question": "Phân biệt tài khoản thanh toán của ngân hàng doanh nghiệp tư nhân và tài khoản ngân hàng của chủ doanh nghiệp tư nhân ra sao?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "201681"
+      ],
+      "missing_gold_source_ranks": {
+        "201681": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "124166",
+      "fold": "fold_4",
+      "question": "Thế nào là lý lịch Đảng viên?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "91240"
+      ],
+      "missing_gold_source_ranks": {
+        "91240": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "24490",
+      "fold": "fold_3",
+      "question": "Thứ tự ưu tiên đối với các hộ gia đình được vay tiền để xây dựng nhà ở phòng, tránh bão, lụt khu vực miền Trung được quy định như thế nào?",
+      "gold_count": 3,
+      "missing_gold_ids": [
+        "193654"
+      ],
+      "missing_gold_source_ranks": {
+        "193654": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "166672",
+      "fold": "fold_0",
+      "question": "Doanh nghiệp cần chuẩn bị những giấy tờ gì khi thực hiện thủ tục đề nghị cấp giấy phép kinh doanh dịch vụ lữ hành nội địa?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "228108"
+      ],
+      "missing_gold_source_ranks": {
+        "228108": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "60858",
+      "fold": "fold_2",
+      "question": "Chi cục trưởng Chi cục Thuế cần đảm bảo thêm các trình độ, chứng chỉ nào khác?",
+      "gold_count": 3,
+      "missing_gold_ids": [
+        "262254",
+        "280768"
+      ],
+      "missing_gold_source_ranks": {
+        "262254": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        },
+        "280768": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "31586",
+      "fold": "fold_3",
+      "question": "Quy định về đối tượng, điều kiện dự tuyển ngoài ngành Công an nhân dân 2023 như thế nào?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "37294",
+        "146481"
+      ],
+      "missing_gold_source_ranks": {
+        "37294": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        },
+        "146481": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "2706",
+      "fold": "fold_4",
+      "question": "Có yêu cầu trình độ tin học đối với kiểm soát viên khí tượng thủy văn hạng 4 hay không?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "280768"
+      ],
+      "missing_gold_source_ranks": {
+        "280768": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": 97,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "70410",
+      "fold": "fold_4",
+      "question": "Đăng ký khai sinh cho trẻ bị bỏ rơi được xác định như thế nào?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "259656"
+      ],
+      "missing_gold_source_ranks": {
+        "259656": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "13128",
+      "fold": "fold_3",
+      "question": "Cơ quan có thẩm quyền tiếp nhận phản ánh ý kiến như thế nào?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "162178"
+      ],
+      "missing_gold_source_ranks": {
+        "162178": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "29272",
+      "fold": "fold_1",
+      "question": "Những ai sẽ được tăng lương từ ngày 01/7/2023 khi mà tăng lương cơ sở?",
+      "gold_count": 4,
+      "missing_gold_ids": [
+        "220359",
+        "74494",
+        "304262"
+      ],
+      "missing_gold_source_ranks": {
+        "220359": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": 92,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        },
+        "74494": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        },
+        "304262": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "22884",
+      "fold": "fold_0",
+      "question": "Yêu cầu đối với cơ sở vật chất phòng thử nghiệm chế phẩm diệt khuẩn ra sao?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "270233"
+      ],
+      "missing_gold_source_ranks": {
+        "270233": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "16786",
+      "fold": "fold_2",
+      "question": "Cách tính phụ cấp ưu đãi đối với Kiểm lâm viên làm việc trên địa bàn xã có phụ cấp khu vực là 0,7 như thế nào?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "43443"
+      ],
+      "missing_gold_source_ranks": {
+        "43443": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": 36,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "79010",
+      "fold": "fold_2",
+      "question": "Lệ phí thực hiện gia hạn thời gian lưu hành tại Việt Nam cho phương tiện của Trung Quốc là bao nhiêu?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "78732"
+      ],
+      "missing_gold_source_ranks": {
+        "78732": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": 53,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": 87,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "2008",
+      "fold": "fold_0",
+      "question": "Mức trợ cấp mai táng mà thân nhân sĩ quan quân đội được nhận là bao nhiêu?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "43443"
+      ],
+      "missing_gold_source_ranks": {
+        "43443": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": 46,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "94954",
+      "fold": "fold_0",
+      "question": "Ủy viên Ủy ban thường vụ Quốc hội có nhất thiết phải tốt nghiệp đại học không?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "170733"
+      ],
+      "missing_gold_source_ranks": {
+        "170733": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": 60,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "101938",
+      "fold": "fold_4",
+      "question": "Chi Cục trưởng thuộc Bộ có quyền hạn cụ thể là gì?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "136014"
+      ],
+      "missing_gold_source_ranks": {
+        "136014": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "108738",
+      "fold": "fold_1",
+      "question": "Người dân có bắt buộc phải đóng góp tiền để làm đường liên ấp không?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "11864"
+      ],
+      "missing_gold_source_ranks": {
+        "11864": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "113068",
+      "fold": "fold_1",
+      "question": "Yêu cầu về điều kiện cơ sở vật chất, thiết bị được quy định như thế nào?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "183668"
+      ],
+      "missing_gold_source_ranks": {
+        "183668": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "7332",
+      "fold": "fold_2",
+      "question": "Bộ Tài chính hướng dẫn thực hiện Thông tư 31/2022/TT-BTC như thế nào? ",
+      "gold_count": 3,
+      "missing_gold_ids": [
+        "292706",
+        "96365"
+      ],
+      "missing_gold_source_ranks": {
+        "292706": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        },
+        "96365": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "85530",
+      "fold": "fold_2",
+      "question": "Hồ sơ xin cấp giấy phép xây dựng đối với công trình và nhà ở đô thị ở tỉnh Hà Giang bao gồm những gì?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "67691"
+      ],
+      "missing_gold_source_ranks": {
+        "67691": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "87852",
+      "fold": "fold_2",
+      "question": "Đăng ký khai tử phải chuẩn bị giấy tờ gì?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "189230"
+      ],
+      "missing_gold_source_ranks": {
+        "189230": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": 30,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "148022",
+      "fold": "fold_1",
+      "question": "Có được thanh toán hợp đồng qua tài khoản Văn phòng đại diện không?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "270895"
+      ],
+      "missing_gold_source_ranks": {
+        "270895": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": 37,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "25360",
+      "fold": "fold_0",
+      "question": "Người dân tự ý xây dựng nhà ở trên đất nông nghiệp của Ủy ban chưa thực hiện giao đất thì bị xử phạt hành chính như thế nào?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "208314"
+      ],
+      "missing_gold_source_ranks": {
+        "208314": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "107146",
+      "fold": "fold_4",
+      "question": "Pháp luật Việt Nam quy định như thế nào?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "113741"
+      ],
+      "missing_gold_source_ranks": {
+        "113741": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "68772",
+      "fold": "fold_2",
+      "question": "Cơ quan nào có thẩm quyền đóng cảng biển, cảng dầu khí ngoài khơi trong trường hợp khẩn cấp?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "160483"
+      ],
+      "missing_gold_source_ranks": {
+        "160483": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": 89,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "118820",
+      "fold": "fold_4",
+      "question": "Điều kiện, tiêu chuẩn chung về văn bằng công chức Văn phòng Quốc hội năm 2023 là gì?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "262254",
+        "280768"
+      ],
+      "missing_gold_source_ranks": {
+        "262254": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        },
+        "280768": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "43526",
+      "fold": "fold_3",
+      "question": "Đối tượng áp dụng Mẫu bảng chấm công làm thêm giờ theo Thông tư 133 và Thông tư 200 khác gì nhau?",
+      "gold_count": 3,
+      "missing_gold_ids": [
+        "287045"
+      ],
+      "missing_gold_source_ranks": {
+        "287045": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "159444",
+      "fold": "fold_3",
+      "question": "Lệ phí cấp đổi giấy phép kinh doanh dịch vụ lữ hành quốc tế là bao nhiêu?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "228108"
+      ],
+      "missing_gold_source_ranks": {
+        "228108": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "134012",
+      "fold": "fold_0",
+      "question": "Phạt nguội là gì?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "193708"
+      ],
+      "missing_gold_source_ranks": {
+        "193708": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "19100",
+      "fold": "fold_1",
+      "question": "Chỉ tiêu tuyển dụng công chức Tổng cục Hải quan năm 2022 được quy định như thế nào?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "165221"
+      ],
+      "missing_gold_source_ranks": {
+        "165221": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "95464",
+      "fold": "fold_3",
+      "question": "Mức lương của Kiểm soát viên chất lượng sản phẩm, hàng hóa hiện nay là bao nhiêu?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "284539"
+      ],
+      "missing_gold_source_ranks": {
+        "284539": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": 93,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "7602",
+      "fold": "fold_1",
+      "question": "Chi cho Luật sư trong vụ việc được xác định như thế nào?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "214907"
+      ],
+      "missing_gold_source_ranks": {
+        "214907": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "71570",
+      "fold": "fold_0",
+      "question": "Hồ sơ đề nghị cấp giấy phép thành lập văn phòng đại diện tại Việt Nam của NXB nước ngoài bao gồm những gì sau khi thay đổi?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "60683"
+      ],
+      "missing_gold_source_ranks": {
+        "60683": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "121870",
+      "fold": "fold_0",
+      "question": "Yêu cầu chung đối với kho bảo quản vũ khí, vật liệu nổ và công cụ hỗ trợ tiếp nhận thu gom là gì?",
+      "gold_count": 4,
+      "missing_gold_ids": [
+        "288597",
+        "119791",
+        "278852"
+      ],
+      "missing_gold_source_ranks": {
+        "288597": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        },
+        "119791": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        },
+        "278852": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "97114",
+      "fold": "fold_4",
+      "question": "Tổ chức khu vực cách ly trong bệnh viện được thực hiện ra sao theo quy định của pháp luật?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "77872"
+      ],
+      "missing_gold_source_ranks": {
+        "77872": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "101324",
+      "fold": "fold_1",
+      "question": "Xét thăng hạng chức danh nghề nghiệp từ Lưu trữ viên trung cấp lên Lưu trữ viên cần đáp ứng những điều kiện gì? ",
+      "gold_count": 3,
+      "missing_gold_ids": [
+        "74494"
+      ],
+      "missing_gold_source_ranks": {
+        "74494": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": 93,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "40806",
+      "fold": "fold_2",
+      "question": "Để tham gia đào tạo cán bộ quân sự Ban Chỉ huy quân sự cấp xã thì cần đáp ứng điều kiện gì?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "299764"
+      ],
+      "missing_gold_source_ranks": {
+        "299764": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": 93,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "51188",
+      "fold": "fold_4",
+      "question": "Các hội có tính chất đặc thù ở xã được xác định dựa trên cơ sở nào?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "231801"
+      ],
+      "missing_gold_source_ranks": {
+        "231801": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "96716",
+      "fold": "fold_3",
+      "question": "Kinh phí thực hiện đề án tuyên truyền nhằm hoàn thành các chỉ tiêu phát triển đối tượng tham gia BHXH như thế nào?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "25075"
+      ],
+      "missing_gold_source_ranks": {
+        "25075": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "102718",
+      "fold": "fold_1",
+      "question": "Những nội dung nào liên quan công tác hậu kiểm về an toàn thực phẩm năm 2023?",
+      "gold_count": 4,
+      "missing_gold_ids": [
+        "42184"
+      ],
+      "missing_gold_source_ranks": {
+        "42184": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "90926",
+      "fold": "fold_2",
+      "question": "Các trường hợp tinh giản biên chế cán bộ cấp huyện là các trường hợp nào?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "23402"
+      ],
+      "missing_gold_source_ranks": {
+        "23402": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "65378",
+      "fold": "fold_3",
+      "question": "Trường hợp chủ đầu tư, đơn vị thiết kế đề xuất áp dụng một số quy định mới có yêu cầu thấp hơn so với quy chuẩn, tiêu chuẩn cũ trước đây thì xử lý thế nào?",
+      "gold_count": 3,
+      "missing_gold_ids": [
+        "234931",
+        "252163"
+      ],
+      "missing_gold_source_ranks": {
+        "234931": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        },
+        "252163": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "65526",
+      "fold": "fold_1",
+      "question": "Xây dựng Luật di sản văn hóa (sửa đổi) như thế nào?",
+      "gold_count": 3,
+      "missing_gold_ids": [
+        "13927"
+      ],
+      "missing_gold_source_ranks": {
+        "13927": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "148506",
+      "fold": "fold_1",
+      "question": "Bảo đảm thuốc, vật tư y tế và việc cán bộ y tế thôi việc, bỏ việc tại các cơ sở y tế công lập?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "147934"
+      ],
+      "missing_gold_source_ranks": {
+        "147934": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "48006",
+      "fold": "fold_0",
+      "question": "Có được đồng thời làm giám đốc dự án và làm giám sát công trình không?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "201681"
+      ],
+      "missing_gold_source_ranks": {
+        "201681": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "35462",
+      "fold": "fold_1",
+      "question": "Điện sinh hoạt có được giảm thuế GTGT không? Nếu được thì giảm thuế GTGT trong bao lâu và giảm bao nhiêu?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "67321"
+      ],
+      "missing_gold_source_ranks": {
+        "67321": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "135768",
+      "fold": "fold_3",
+      "question": "10 khoản thu nhập chịu thuế TNCN năm 2023 là gì?",
+      "gold_count": 3,
+      "missing_gold_ids": [
+        "129823"
+      ],
+      "missing_gold_source_ranks": {
+        "129823": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "102928",
+      "fold": "fold_4",
+      "question": "Chính sách hỗ trợ đào tạo nghề nghiệp đối với người chấp hành án phạt tù là gì?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "56310"
+      ],
+      "missing_gold_source_ranks": {
+        "56310": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "67148",
+      "fold": "fold_4",
+      "question": "Việc triển khai thư điện tử và cổng thông tin điện tử của Trung tâm giáo dục thường xuyên phải đáp ứng những yêu cầu gì?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "273271"
+      ],
+      "missing_gold_source_ranks": {
+        "273271": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "76638",
+      "fold": "fold_4",
+      "question": "Trách nhiệm của Bộ Y tế trong việc hoàn thiện dự thảo Báo cáo tổng kết, đánh giá việc thực hiện quy định tại Nghị quyết 30/2021/QH15?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "83127"
+      ],
+      "missing_gold_source_ranks": {
+        "83127": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "74884",
+      "fold": "fold_3",
+      "question": "Đối tượng được tăng lương cơ sở từ ngày 01/7/2023?",
+      "gold_count": 4,
+      "missing_gold_ids": [
+        "304262",
+        "261198"
+      ],
+      "missing_gold_source_ranks": {
+        "304262": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        },
+        "261198": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "37626",
+      "fold": "fold_3",
+      "question": "Mẫu Chứng chỉ nghiệp vụ khai hải quan mới nhất ra sao?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "72265"
+      ],
+      "missing_gold_source_ranks": {
+        "72265": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "61070",
+      "fold": "fold_2",
+      "question": "25 dịch vụ công thiết yếu theo Đề án 06 sẽ bắt buộc phải được số hóa kể từ ngày 01 tháng 7 năm 2022?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "297470"
+      ],
+      "missing_gold_source_ranks": {
+        "297470": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "97210",
+      "fold": "fold_4",
+      "question": "Viên chức được bổ nhiệm vào các chức danh nghề nghiệp giảng viên giáo dục nghề nghiệp được áp dụng bảng lương thế nào?",
+      "gold_count": 3,
+      "missing_gold_ids": [
+        "62676"
+      ],
+      "missing_gold_source_ranks": {
+        "62676": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": 35,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "84502",
+      "fold": "fold_1",
+      "question": "Việc nhận diện giới khác với giới tính sinh học hoàn thiện đang có được đề xuất thế nào?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "270765"
+      ],
+      "missing_gold_source_ranks": {
+        "270765": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "139270",
+      "fold": "fold_2",
+      "question": "Kinh phí hỗ trợ phát triển nguồn nhân lực cho doanh nghiệp nhỏ và vừa (DNNVV) thực hiện theo văn bản quy phạm pháp luật nào?",
+      "gold_count": 4,
+      "missing_gold_ids": [
+        "261464"
+      ],
+      "missing_gold_source_ranks": {
+        "261464": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "68342",
+      "fold": "fold_2",
+      "question": "Thành phần hồ sơ đăng ký khai tử có yếu tố nước ngoài tại khu vực biên giới ở cấp xã được sửa đổi trong lĩnh vực hộ tịch năm 2023 là gì?",
+      "gold_count": 3,
+      "missing_gold_ids": [
+        "69997"
+      ],
+      "missing_gold_source_ranks": {
+        "69997": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": 67,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "151476",
+      "fold": "fold_1",
+      "question": "Liên đoàn Luật sư có trách nhiệm gì khi phát sinh các vấn đề liên quan đến việc tập sự hành nghề luật sư?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "255906"
+      ],
+      "missing_gold_source_ranks": {
+        "255906": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "109002",
+      "fold": "fold_1",
+      "question": "Doanh nghiệp có bắt buộc phải bố trí kế toán trưởng hay không?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "227118"
+      ],
+      "missing_gold_source_ranks": {
+        "227118": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "65278",
+      "fold": "fold_0",
+      "question": "Tòa án nhân dân cấp cao chỉ thị phổ biến nội dung Nghị quyết 63/2022/QH15 đến các Thẩm phán, Thẩm tra viên và Thư ký Tòa án?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "183922"
+      ],
+      "missing_gold_source_ranks": {
+        "183922": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "17994",
+      "fold": "fold_4",
+      "question": "Vụ trưởng thuộc Bộ, cơ quan ngang Bộ là ai?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "136014"
+      ],
+      "missing_gold_source_ranks": {
+        "136014": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "9940",
+      "fold": "fold_3",
+      "question": "Điều kiện của sinh viên và chủ trọ khi tham gia giao dịch về thuê nhà trọ?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "46918"
+      ],
+      "missing_gold_source_ranks": {
+        "46918": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "85300",
+      "fold": "fold_0",
+      "question": "Ai được khai thác và sử dụng cơ sở dữ liệu về thi hành án hình sự?",
+      "gold_count": 2,
+      "missing_gold_ids": [
+        "210883"
+      ],
+      "missing_gold_source_ranks": {
+        "210883": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "55508",
+      "fold": "fold_3",
+      "question": "Chủ nhiệm chuyên trách trong UBKT các cấp thuộc Đảng bộ Quân đội được hưởng phụ cấp trách nhiệm thế nào?",
+      "gold_count": 3,
+      "missing_gold_ids": [
+        "43443"
+      ],
+      "missing_gold_source_ranks": {
+        "43443": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": 37,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "157506",
+      "fold": "fold_0",
+      "question": "Phó Trưởng ban Ban Chỉ đạo Đổi mới và Phát triển doanh nghiệp phải làm những công việc nào?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "136014"
+      ],
+      "missing_gold_source_ranks": {
+        "136014": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": null,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "78056",
+      "fold": "fold_0",
+      "question": "Tình hình triển khai Chương trình phục hồi và phát triển kinh tế - xã hội như thế nào?",
+      "gold_count": 3,
+      "missing_gold_ids": [
+        "182181"
+      ],
+      "missing_gold_source_ranks": {
+        "182181": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": 67,
+          "bm25": null
+        }
+      }
+    },
+    {
+      "qid": "13006",
+      "fold": "fold_1",
+      "question": "Đảng viên được đánh giá hoàn thành xuất sắc khi đáp ứng điều kiện nào?",
+      "gold_count": 1,
+      "missing_gold_ids": [
+        "258706"
+      ],
+      "missing_gold_source_ranks": {
+        "258706": {
+          "aiteamvn_v1": null,
+          "vnlegal_lal": null,
+          "vietlegal_harrier": null,
+          "aiteamvn_v2": null,
+          "vietlegal_e5": null,
+          "vietnamese_legal_embedding": 30,
+          "bm25": null
+        }
+      }
+    }
+  ]
+}

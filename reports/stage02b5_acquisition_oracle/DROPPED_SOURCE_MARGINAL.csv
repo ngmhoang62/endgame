@@ -1,0 +1,13 @@
+﻿base_sources,challenger,per_source_depth,base_macro_recall,expanded_macro_recall,delta_macro_recall,query_rescues,full_query_rescues,gold_occurrence_rescues
+"['aiteamvn_v1', 'vnlegal_lal', 'vietlegal_harrier', 'bm25']",aiteamvn_v2,10,0.964356553664235,0.9673246555094646,0.0029681018452295538,28,24,28
+"['aiteamvn_v1', 'vnlegal_lal', 'vietlegal_harrier', 'bm25']",vietlegal_e5,10,0.964356553664235,0.9660611262098889,0.0017045725456539262,17,15,17
+"['aiteamvn_v1', 'vnlegal_lal', 'vietlegal_harrier', 'bm25']",vietnamese_legal_embedding,10,0.964356553664235,0.9677299384923473,0.0033733848281123358,32,28,32
+"['aiteamvn_v1', 'vnlegal_lal', 'vietlegal_harrier', 'bm25']",aiteamvn_v2,20,0.9795713536451628,0.9808825632956658,0.0013112096505030202,15,13,17
+"['aiteamvn_v1', 'vnlegal_lal', 'vietlegal_harrier', 'bm25']",vietlegal_e5,20,0.9795713536451628,0.9806727697515853,0.0011014161064225592,12,9,12
+"['aiteamvn_v1', 'vnlegal_lal', 'vietlegal_harrier', 'bm25']",vietnamese_legal_embedding,20,0.9795713536451628,0.981180565488962,0.001609211843799252,16,14,16
+"['aiteamvn_v1', 'vnlegal_lal', 'vietlegal_harrier', 'bm25']",aiteamvn_v2,50,0.9896247556382015,0.9903757211653078,0.0007509655271062954,10,10,11
+"['aiteamvn_v1', 'vnlegal_lal', 'vietlegal_harrier', 'bm25']",vietlegal_e5,50,0.9896247556382015,0.9902684403757211,0.0006436847375196342,6,6,6
+"['aiteamvn_v1', 'vnlegal_lal', 'vietlegal_harrier', 'bm25']",vietnamese_legal_embedding,50,0.9896247556382015,0.9907571639727268,0.0011324083345253255,11,10,11
+"['aiteamvn_v1', 'vnlegal_lal', 'vietlegal_harrier', 'bm25']",aiteamvn_v2,100,0.9931697897296524,0.993896915081295,0.0007271253516425435,9,8,9
+"['aiteamvn_v1', 'vnlegal_lal', 'vietlegal_harrier', 'bm25']",vietlegal_e5,100,0.9931697897296524,0.9933366709578982,0.00016688122824581875,3,3,3
+"['aiteamvn_v1', 'vnlegal_lal', 'vietlegal_harrier', 'bm25']",vietnamese_legal_embedding,100,0.9931697897296524,0.9937657941162447,0.0005960043865922415,6,6,6
