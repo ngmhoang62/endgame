@@ -1,0 +1,175 @@
+{
+  "model_key": "aiteamvn_v1",
+  "max_input_tokens": 2048,
+  "special_tokens_per_single_input": 2,
+  "backend_truncation_explicitly_disabled": true,
+  "long_probe_token_count": 7600,
+  "base_regions": 179737,
+  "documents": 8512,
+  "unique_gold_documents": 3099,
+  "content_token_count": {
+    "all_regions": {
+      "min": 2.0,
+      "p25": 117.0,
+      "median": 226.0,
+      "mean": 497.41940724503024,
+      "p75": 411.0,
+      "p90": 763.3999999999942,
+      "p95": 1232.0,
+      "p99": 4839.0,
+      "max": 1660530.0
+    },
+    "by_kind": {
+      "gap": {
+        "min": 23.0,
+        "p25": 237.0,
+        "median": 308.0,
+        "mean": 1353.781132518797,
+        "p75": 454.0,
+        "p90": 1848.7000000000016,
+        "p95": 4337.049999999998,
+        "p99": 14070.089999999953,
+        "max": 1660530.0
+      },
+      "article": {
+        "min": 2.0,
+        "p25": 113.0,
+        "median": 212.0,
+        "mean": 390.7075253381514,
+        "p75": 389.0,
+        "p90": 689.0,
+        "p95": 1011.0,
+        "p99": 2975.0,
+        "max": 155802.0
+      },
+      "annex": {
+        "min": 3.0,
+        "p25": 109.5,
+        "median": 449.0,
+        "mean": 1533.3972531474353,
+        "p75": 1112.0,
+        "p90": 3113.0,
+        "p95": 5575.0,
+        "p99": 19670.499999999978,
+        "max": 163703.0
+      }
+    },
+    "total": 89404672
+  },
+  "thresholds": {
+    "256": {
+      "regions_over": 80682,
+      "rate_over": 0.4488892103462281
+    },
+    "512": {
+      "regions_over": 32900,
+      "rate_over": 0.18304522719306543
+    },
+    "1024": {
+      "regions_over": 11646,
+      "rate_over": 0.0647946722155149
+    },
+    "1536": {
+      "regions_over": 6718,
+      "rate_over": 0.03737683392957488
+    },
+    "1792": {
+      "regions_over": 5593,
+      "rate_over": 0.031117688622821122
+    },
+    "2048": {
+      "regions_over": 4812,
+      "rate_over": 0.026772450858754737
+    }
+  },
+  "representations": {
+    "current_atomic_truncate_2048": {
+      "vector_count": 179737,
+      "vectors_per_document": {
+        "min": 1.0,
+        "p25": 6.0,
+        "median": 14.0,
+        "mean": 21.115718984962406,
+        "p75": 27.0,
+        "p90": 45.0,
+        "p95": 62.0,
+        "p99": 121.0,
+        "max": 839.0
+      },
+      "truncated_region_count": 4812,
+      "truncated_region_rate": 0.026772450858754737,
+      "documents_with_truncation": 3155,
+      "gold_documents_with_truncation": 1205,
+      "estimated_content_token_coverage": 0.7142343187613283,
+      "estimated_input_tokens_to_embed": 64215359,
+      "coverage_contract": "truncates oversized regions",
+      "vector_count_ratio_vs_stage02b4_atomic": 1.0
+    },
+    "atomic_split_2048": {
+      "vector_count": 195050,
+      "vectors_per_document": {
+        "min": 1.0,
+        "p25": 7.0,
+        "median": 16.0,
+        "mean": 22.914708646616543,
+        "p75": 29.0,
+        "p90": 47.0,
+        "p95": 65.0,
+        "p99": 124.0,
+        "max": 839.0
+      },
+      "split_region_count": 4812,
+      "split_region_rate": 0.026772450858754737,
+      "documents_with_split_region": 3155,
+      "gold_documents_with_split_region": 1205,
+      "estimated_content_token_coverage": 1.0,
+      "estimated_input_tokens_to_embed": 89794772,
+      "coverage_contract": "full coverage; oversized region split without overlap",
+      "vector_count_ratio_vs_stage02b4_atomic": 1.0851967040731736
+    },
+    "coarse_pack_1024": {
+      "vector_count": 109982,
+      "vectors_per_document": {
+        "min": 1.0,
+        "p25": 4.0,
+        "median": 7.0,
+        "mean": 12.920817669172932,
+        "p75": 14.0,
+        "p90": 28.0,
+        "p95": 42.0,
+        "p99": 84.0,
+        "max": 1656.0
+      },
+      "oversized_region_count": 11646,
+      "oversized_region_rate": 0.0647946722155149,
+      "documents_with_oversized_region": 5262,
+      "gold_documents_with_oversized_region": 1996,
+      "estimated_content_token_coverage": 1.0,
+      "estimated_input_tokens_to_embed": 89624636,
+      "coverage_contract": "full coverage; greedy consecutive pack; oversized split; no overlap",
+      "vector_count_ratio_vs_stage02b4_atomic": 0.6119051725576815
+    },
+    "coarse_pack_1792": {
+      "vector_count": 62790,
+      "vectors_per_document": {
+        "min": 1.0,
+        "p25": 2.0,
+        "median": 4.0,
+        "mean": 7.376644736842105,
+        "p75": 8.0,
+        "p90": 15.0,
+        "p95": 23.0,
+        "p99": 48.0,
+        "max": 946.0
+      },
+      "oversized_region_count": 5593,
+      "oversized_region_rate": 0.031117688622821122,
+      "documents_with_oversized_region": 3481,
+      "gold_documents_with_oversized_region": 1336,
+      "estimated_content_token_coverage": 1.0,
+      "estimated_input_tokens_to_embed": 89530252,
+      "coverage_contract": "full coverage; greedy consecutive pack; oversized split; no overlap",
+      "vector_count_ratio_vs_stage02b4_atomic": 0.34934376338761636
+    }
+  }
+}
