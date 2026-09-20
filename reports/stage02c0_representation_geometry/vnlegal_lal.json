@@ -1,0 +1,174 @@
+{
+  "model_key": "vnlegal_lal",
+  "max_input_tokens": 2048,
+  "special_tokens_per_single_input": 1,
+  "content_budget_at_2048": 2047,
+  "base_regions": 179737,
+  "documents": 8512,
+  "unique_gold_documents": 3099,
+  "content_token_count": {
+    "all_regions": {
+      "min": 4.0,
+      "p25": 147.0,
+      "median": 282.0,
+      "mean": 297.8831960030489,
+      "p75": 511.0,
+      "p90": 512.0,
+      "p95": 512.0,
+      "p99": 512.0,
+      "max": 512.0
+    },
+    "by_kind": {
+      "gap": {
+        "min": 25.0,
+        "p25": 346.0,
+        "median": 449.0,
+        "mean": 420.36654135338347,
+        "p75": 512.0,
+        "p90": 512.0,
+        "p95": 512.0,
+        "p99": 512.0,
+        "max": 512.0
+      },
+      "article": {
+        "min": 6.0,
+        "p25": 142.0,
+        "median": 262.0,
+        "mean": 287.6310715655822,
+        "p75": 475.0,
+        "p90": 512.0,
+        "p95": 512.0,
+        "p99": 512.0,
+        "max": 512.0
+      },
+      "annex": {
+        "min": 4.0,
+        "p25": 152.0,
+        "median": 512.0,
+        "mean": 361.80043699927165,
+        "p75": 512.0,
+        "p90": 512.0,
+        "p95": 512.0,
+        "p99": 512.0,
+        "max": 512.0
+      }
+    },
+    "total": 53540632
+  },
+  "thresholds": {
+    "256": {
+      "regions_over": 97407,
+      "rate_over": 0.5419418372399673
+    },
+    "512": {
+      "regions_over": 44876,
+      "rate_over": 0.2496759153652281
+    },
+    "1024": {
+      "regions_over": 0,
+      "rate_over": 0.0
+    },
+    "1536": {
+      "regions_over": 0,
+      "rate_over": 0.0
+    },
+    "1792": {
+      "regions_over": 0,
+      "rate_over": 0.0
+    },
+    "2048": {
+      "regions_over": 0,
+      "rate_over": 0.0
+    }
+  },
+  "representations": {
+    "current_atomic_truncate_2048": {
+      "vector_count": 179737,
+      "vectors_per_document": {
+        "min": 1.0,
+        "p25": 6.0,
+        "median": 14.0,
+        "mean": 21.115718984962406,
+        "p75": 27.0,
+        "p90": 45.0,
+        "p95": 62.0,
+        "p99": 121.0,
+        "max": 839.0
+      },
+      "truncated_region_count": 0,
+      "truncated_region_rate": 0.0,
+      "documents_with_truncation": 0,
+      "gold_documents_with_truncation": 0,
+      "estimated_content_token_coverage": 1.0,
+      "estimated_input_tokens_to_embed": 53720369,
+      "coverage_contract": "truncates oversized regions",
+      "vector_count_ratio_vs_stage02b4_atomic": 1.0
+    },
+    "atomic_split_2048": {
+      "vector_count": 179737,
+      "vectors_per_document": {
+        "min": 1.0,
+        "p25": 6.0,
+        "median": 14.0,
+        "mean": 21.115718984962406,
+        "p75": 27.0,
+        "p90": 45.0,
+        "p95": 62.0,
+        "p99": 121.0,
+        "max": 839.0
+      },
+      "split_region_count": 0,
+      "split_region_rate": 0.0,
+      "documents_with_split_region": 0,
+      "gold_documents_with_split_region": 0,
+      "estimated_content_token_coverage": 1.0,
+      "estimated_input_tokens_to_embed": 53720369,
+      "coverage_contract": "full token coverage; oversized region split without overlap",
+      "vector_count_ratio_vs_stage02b4_atomic": 1.0
+    },
+    "coarse_pack_1024": {
+      "vector_count": 71444,
+      "vectors_per_document": {
+        "min": 1.0,
+        "p25": 3.0,
+        "median": 5.0,
+        "mean": 8.393327067669173,
+        "p75": 10.0,
+        "p90": 18.0,
+        "p95": 25.0,
+        "p99": 51.0,
+        "max": 198.0
+      },
+      "oversized_region_count": 0,
+      "oversized_region_rate": 0.0,
+      "documents_with_oversized_region": 0,
+      "gold_documents_with_oversized_region": 0,
+      "estimated_content_token_coverage": 1.0,
+      "estimated_input_tokens_to_embed": 53612076,
+      "coverage_contract": "full token coverage; consecutive fitting regions greedily packed within parent; oversized regions split standalone; no overlap",
+      "vector_count_ratio_vs_stage02b4_atomic": 0.3974918909295248
+    },
+    "coarse_pack_1792": {
+      "vector_count": 37122,
+      "vectors_per_document": {
+        "min": 1.0,
+        "p25": 1.0,
+        "median": 3.0,
+        "mean": 4.361137218045113,
+        "p75": 5.0,
+        "p90": 9.0,
+        "p95": 13.0,
+        "p99": 25.0,
+        "max": 91.0
+      },
+      "oversized_region_count": 0,
+      "oversized_region_rate": 0.0,
+      "documents_with_oversized_region": 0,
+      "gold_documents_with_oversized_region": 0,
+      "estimated_content_token_coverage": 1.0,
+      "estimated_input_tokens_to_embed": 53577754,
+      "coverage_contract": "full token coverage; consecutive fitting regions greedily packed within parent; oversized regions split standalone; no overlap",
+      "vector_count_ratio_vs_stage02b4_atomic": 0.20653510406872264
+    }
+  }
+}
