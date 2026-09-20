@@ -1,0 +1,1 @@
+[2026-09-20 10:54:51,247] sentence_transformers.util.decorators WARNING: The `tokenizer_kwargs` argument was renamed and is now deprecated. Please use `processor_kwargs` instead.

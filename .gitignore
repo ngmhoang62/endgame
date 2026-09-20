@@ -20,6 +20,7 @@ Thumbs.db
 # Heavy generated caches and model weights
 cache/
 models/
+fine_tuned_models/
 *.pt
 *.pth
 *.ckpt

@@ -1,0 +1,170 @@
+{
+  "model_key": "vnlegal_lal",
+  "model_id": "darklethelong/vnlegal-lal",
+  "model_sha": "de759324ef931a2475ae8db97137b6a6cbb98aa0",
+  "parameter_count": 596049920,
+  "document_max_length": 2048,
+  "query_max_length": 2048,
+  "document_prefix": "",
+  "query_prefix": "Instruct: Given a Vietnamese legal question, retrieve relevant legal passages that answer the question\nQuery: ",
+  "query_prompt_name": null,
+  "pyvi_version": null,
+  "geometry": {
+    "regions": 179737,
+    "parents": 8512,
+    "sha256": "2006aa80768e31e758c0d83c606e0098a391c16896530845ef3d2ce48a65eac4",
+    "same_geometry_for_all_models": true,
+    "long_region_policy": "truncate, never split"
+  },
+  "runtime": {
+    "encode_wall_seconds_this_invocation": 0.29739580000023125,
+    "final_document_batch": 2,
+    "document_oom_reductions": []
+  },
+  "metrics": {
+    "curve": {
+      "1": {
+        "macro_recall": 0.5901993038668765,
+        "full_gold_coverage_rate": 0.5657273637533973
+      },
+      "5": {
+        "macro_recall": 0.8574953511657846,
+        "full_gold_coverage_rate": 0.8393648977256473
+      },
+      "10": {
+        "macro_recall": 0.9095742144662186,
+        "full_gold_coverage_rate": 0.8955800314690316
+      },
+      "20": {
+        "macro_recall": 0.9417703714299338,
+        "full_gold_coverage_rate": 0.9307681304534401
+      },
+      "50": {
+        "macro_recall": 0.9678658274924904,
+        "full_gold_coverage_rate": 0.9600915462737806
+      },
+      "100": {
+        "macro_recall": 0.97994087636485,
+        "full_gold_coverage_rate": 0.9738234873408669
+      }
+    },
+    "official_at5": {
+      "queries": 6991,
+      "recall_at_5": 0.8574953511657846,
+      "precision_at_5": 0.18274924903447293,
+      "f2_at_5": 0.4932558590606189,
+      "single_gold_recall_at_5": 0.8746894409937889,
+      "multi_gold_recall_at_5": 0.6565335753176044,
+      "mean_returned": 5.0
+    },
+    "per_fold": {
+      "fold_0": {
+        "at5": {
+          "queries": 1399,
+          "recall_at_5": 0.8381582082439838,
+          "precision_at_5": 0.1782701929949964,
+          "f2_at_5": 0.48161059465647954,
+          "single_gold_recall_at_5": 0.8563664596273292,
+          "multi_gold_recall_at_5": 0.6268768768768769,
+          "mean_returned": 5.0
+        },
+        "recall_at100": 0.9769001667857994
+      },
+      "fold_1": {
+        "at5": {
+          "queries": 1397,
+          "recall_at_5": 0.8619661178716297,
+          "precision_at_5": 0.18310665712240512,
+          "f2_at_5": 0.4949587695894169,
+          "single_gold_recall_at_5": 0.8812111801242236,
+          "multi_gold_recall_at_5": 0.6345565749235473,
+          "mean_returned": 5.0
+        },
+        "recall_at100": 0.9800763540921021
+      },
+      "fold_2": {
+        "at5": {
+          "queries": 1399,
+          "recall_at_5": 0.8632952108649035,
+          "precision_at_5": 0.1841315225160829,
+          "f2_at_5": 0.4968050539928046,
+          "single_gold_recall_at_5": 0.8804347826086957,
+          "multi_gold_recall_at_5": 0.6644144144144144,
+          "mean_returned": 5.0
+        },
+        "recall_at100": 0.9850488444126757
+      },
+      "fold_3": {
+        "at5": {
+          "queries": 1398,
+          "recall_at_5": 0.8688006676204101,
+          "precision_at_5": 0.1858369098712446,
+          "f2_at_5": 0.5007455910013144,
+          "single_gold_recall_at_5": 0.8827639751552795,
+          "multi_gold_recall_at_5": 0.7053030303030302,
+          "mean_returned": 5.0
+        },
+        "recall_at100": 0.9798521697663329
+      },
+      "fold_4": {
+        "at5": {
+          "queries": 1398,
+          "recall_at_5": 0.8552694325226513,
+          "precision_at_5": 0.18240343347639484,
+          "f2_at_5": 0.49216271692479935,
+          "single_gold_recall_at_5": 0.8726708074534162,
+          "multi_gold_recall_at_5": 0.6515151515151514,
+          "mean_returned": 5.0
+        },
+        "recall_at100": 0.9778254649499285
+      }
+    },
+    "stress": {
+      "single_gold": {
+        "n": 6440,
+        "recall_at5": 0.8746894409937889,
+        "recall_at100": 0.985248447204969
+      },
+      "multi_gold": {
+        "n": 551,
+        "recall_at5": 0.6565335753176044,
+        "recall_at100": 0.9179068360556564
+      },
+      "three_plus_gold": {
+        "n": 68,
+        "recall_at5": 0.39338235294117646,
+        "recall_at100": 0.7465686274509803
+      },
+      "empty_gold_affected_but_evaluable": {
+        "n": 2,
+        "recall_at5": 1.0,
+        "recall_at100": 1.0
+      },
+      "duplicate_content_gold_literal_ids": {
+        "n": 4,
+        "recall_at5": 0.25,
+        "recall_at100": 0.625
+      },
+      "near_duplicate_group_member": {
+        "n": 151,
+        "recall_at5": 0.9061810154525385,
+        "recall_at100": 0.9933774834437086
+      },
+      "semantic_dense_ge_0_90": {
+        "n": 354,
+        "recall_at5": 0.9001883239171373,
+        "recall_at100": 0.9887005649717514
+      },
+      "rare_gold_only": {
+        "n": 1620,
+        "recall_at5": 0.8604938271604938,
+        "recall_at100": 0.975462962962963
+      },
+      "frequent_gold_16p": {
+        "n": 1364,
+        "recall_at5": 0.8483626588465297,
+        "recall_at100": 0.9842375366568915
+      }
+    }
+  }
+}
