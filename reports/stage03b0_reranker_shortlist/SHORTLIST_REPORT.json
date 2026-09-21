@@ -1,0 +1,44 @@
+{
+  "schema_version": "dsc2026.endgame.stage03b0.shortlist.v1",
+  "status": "PASS",
+  "selector": "Stage03A-v2 all_cached6 LogisticRegression",
+  "shortlist_depths": {
+    "5": {
+      "macro_oracle_recall": 0.9358150955991037,
+      "full_gold_coverage_rate": 0.9186096409669575,
+      "gold_occurrence_coverage": 0.9154209284028324
+    },
+    "10": {
+      "macro_oracle_recall": 0.9606923186954656,
+      "full_gold_coverage_rate": 0.947933056787298,
+      "gold_occurrence_coverage": 0.946236559139785
+    },
+    "15": {
+      "macro_oracle_recall": 0.9702522290564057,
+      "full_gold_coverage_rate": 0.9600915462737806,
+      "gold_occurrence_coverage": 0.9579071597167584
+    },
+    "20": {
+      "macro_oracle_recall": 0.9760215515186192,
+      "full_gold_coverage_rate": 0.9678157631240166,
+      "gold_occurrence_coverage": 0.9655127196433254
+    },
+    "30": {
+      "macro_oracle_recall": 0.9813498307347542,
+      "full_gold_coverage_rate": 0.9735374052353025,
+      "gold_occurrence_coverage": 0.971413585103593
+    },
+    "40": {
+      "macro_oracle_recall": 0.9842273399132218,
+      "full_gold_coverage_rate": 0.9772564726076384,
+      "gold_occurrence_coverage": 0.9757408864411224
+    },
+    "50": {
+      "macro_oracle_recall": 0.9861345539503172,
+      "full_gold_coverage_rate": 0.9799742526104992,
+      "gold_occurrence_coverage": 0.978232362968791
+    }
+  },
+  "oof_top50_path": "D:\\Study\\DSC2026\\endgame\\cache\\stage03b_reranker\\oof_rank_selector_top50_idx.npy",
+  "fulltrain_model_path": "D:\\Study\\DSC2026\\endgame\\cache\\stage03b_reranker\\fulltrain_rank_selector.joblib"
+}

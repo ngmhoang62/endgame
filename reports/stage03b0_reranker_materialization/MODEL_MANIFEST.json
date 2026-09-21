@@ -1,0 +1,82 @@
+{
+  "schema_version": "dsc2026.endgame.stage03b0.reranker_materialization.v1",
+  "status": "PASS",
+  "model_id": "AITeamVN/Vietnamese_Reranker",
+  "resolved_revision_sha": "f536976248403314225d7fdfdbc87f0e9516a54e",
+  "parameter_count": 567755777,
+  "parameter_billions": 0.567755777,
+  "competition_budget_fraction": 0.14193894425,
+  "runtime": {
+    "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+    "torch": "2.7.1+cu126",
+    "transformers": "4.57.6",
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU"
+  },
+  "contract": {
+    "max_length": 512,
+    "historical_pair_packaging": "(question, selected_passage)",
+    "historical_passages_per_document": 2,
+    "scoring": "AutoModelForSequenceClassification logits"
+  },
+  "smoke_scores": [
+    -1.216796875,
+    -11.4765625
+  ],
+  "files": [
+    {
+      "path": ".cache/huggingface/.gitignore",
+      "size_bytes": 1,
+      "sha256": "684888c0ebb17f374298b65ee2807526c066094c701bcc7ebbe1c1095f494fc1"
+    },
+    {
+      "path": ".cache/huggingface/download/config.json.metadata",
+      "size_bytes": 104,
+      "sha256": "a28762042167ebde297ed6e8e72adcdd439fa6f8bd60383e4b4f511ce684d8d8"
+    },
+    {
+      "path": ".cache/huggingface/download/model.safetensors.metadata",
+      "size_bytes": 128,
+      "sha256": "5913ae5f00782c6875d593b77b52c6d1b41f4a5958d150c255bc915c7d9c8b51"
+    },
+    {
+      "path": ".cache/huggingface/download/sentencepiece.bpe.model.metadata",
+      "size_bytes": 128,
+      "sha256": "3dda6401851b38606910afbce793b24fb24c95ed7c87b27dab5763c732ea65f3"
+    },
+    {
+      "path": ".cache/huggingface/download/special_tokens_map.json.metadata",
+      "size_bytes": 104,
+      "sha256": "6d93fcf8e6adc6c5c678ab95628ca216879a817922d42256f660033e17dc2c7a"
+    },
+    {
+      "path": ".cache/huggingface/download/tokenizer_config.json.metadata",
+      "size_bytes": 104,
+      "sha256": "a334e8da07caeff9384e518fcccd1af23edbf8477d8cf35217f7d59572cf60db"
+    },
+    {
+      "path": "config.json",
+      "size_bytes": 762,
+      "sha256": "871e8e0f5fe4bf6bccf6cb9312809579ef6e8230ddb8615da84e5c5083f7e849"
+    },
+    {
+      "path": "model.safetensors",
+      "size_bytes": 2271071852,
+      "sha256": "1cecccab406ec6d3f13da8ccdc5e853a1372e51845322163655ab530d3730071"
+    },
+    {
+      "path": "sentencepiece.bpe.model",
+      "size_bytes": 5069051,
+      "sha256": "cfc8146abe2a0488e9e2a0c56de7952f7c11ab059eca145a0a727afce0db2865"
+    },
+    {
+      "path": "special_tokens_map.json",
+      "size_bytes": 964,
+      "sha256": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835"
+    },
+    {
+      "path": "tokenizer_config.json",
+      "size_bytes": 1203,
+      "sha256": "b87c8703482b0300d3da30e201519aa641f6a450f5eb5bf1e624afbf70c74d80"
+    }
+  ]
+}
