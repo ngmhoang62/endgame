@@ -1,0 +1,288 @@
+{
+  "representation": "lal_coarse_pack_1024",
+  "spec": {
+    "mode": "coarse_pack",
+    "max_input": 1024,
+    "batch_size": 4
+  },
+  "representation_geometry": {
+    "schema_version": "dsc2026.endgame.stage02c2.representation.v1",
+    "status": "PASS",
+    "contract_hash": "79539a0f712b41f0ecb535d2599e6a2be747673a0d6574a77cd1bd13412a99a5",
+    "contract": {
+      "schema": "stage02c2.lal_representation.v1",
+      "name": "lal_coarse_pack_1024",
+      "mode": "coarse_pack",
+      "max_input": 1024,
+      "content_budget": 1023,
+      "separator": "\\n\\n",
+      "overlap_tokens": 0,
+      "metadata_prefix": false,
+      "same_parent_only": true,
+      "oversized_policy": "tokenizer_id_slice_decode_no_overlap",
+      "base_geometry_sha": "2006aa80768e31e758c0d83c606e0098a391c16896530845ef3d2ce48a65eac4",
+      "model_sha": "de759324ef931a2475ae8db97137b6a6cbb98aa0",
+      "fix_mistral_regex": true,
+      "document_prefix": ""
+    },
+    "vector_count": 137943,
+    "base_region_count": 179737,
+    "oversized_base_region_count": 15702,
+    "split_piece_count": 70130,
+    "additional_regions_packed_into_existing_chunk": 96222,
+    "vectors_per_document": {
+      "min": 1.0,
+      "p25": 5.0,
+      "median": 9.0,
+      "mean": 16.205709586466167,
+      "p75": 18.0,
+      "p90": 35.0,
+      "p95": 52.0,
+      "p99": 108.0,
+      "max": 2102.0
+    },
+    "source_token_count_total": 112926062,
+    "actual_retokenized_content_tokens_total": 112928832,
+    "max_content_tokens": 1023,
+    "data_sha256": "a950432bb19a458ebbe348a5456b27ab8da4c1405afb39d7d8989595912866d5",
+    "materialize_seconds": 1393.2807850999961
+  },
+  "embedding_cache": {
+    "completed": 137943,
+    "total": 137943,
+    "current_batch_size": 4,
+    "oom_reductions": []
+  },
+  "metrics": {
+    "official_at5": {
+      "queries": 6991,
+      "recall_at_5": 0.8838506651408954,
+      "precision_at_5": 0.18807037619796885,
+      "f2_at_5": 0.5079850214750788,
+      "single_gold_recall_at_5": 0.9029503105590062,
+      "multi_gold_recall_at_5": 0.6606170598911071,
+      "mean_returned": 5.0
+    },
+    "curve": {
+      "1": {
+        "macro_recall": 0.589615219568016,
+        "full_gold_coverage_rate": 0.5657273637533973
+      },
+      "5": {
+        "macro_recall": 0.8838506651408954,
+        "full_gold_coverage_rate": 0.8653983693319983
+      },
+      "10": {
+        "macro_recall": 0.935643446335765,
+        "full_gold_coverage_rate": 0.921899585180947
+      },
+      "20": {
+        "macro_recall": 0.9619630000476804,
+        "full_gold_coverage_rate": 0.9515090831068517
+      },
+      "50": {
+        "macro_recall": 0.981535784103371,
+        "full_gold_coverage_rate": 0.9748247747103419
+      },
+      "100": {
+        "macro_recall": 0.9886449244266438,
+        "full_gold_coverage_rate": 0.9829781147189244
+      }
+    },
+    "per_fold": {
+      "fold_0": {
+        "at5": {
+          "queries": 1399,
+          "recall_at_5": 0.8783059328091494,
+          "precision_at_5": 0.18598999285203713,
+          "f2_at_5": 0.5034813150557172,
+          "single_gold_recall_at_5": 0.9021739130434783,
+          "multi_gold_recall_at_5": 0.6013513513513512,
+          "mean_returned": 5.0
+        },
+        "recall_at100": 0.9866213962354062
+      },
+      "fold_1": {
+        "at5": {
+          "queries": 1397,
+          "recall_at_5": 0.8772965879265093,
+          "precision_at_5": 0.18654259126700073,
+          "f2_at_5": 0.5040237453544962,
+          "single_gold_recall_at_5": 0.8951863354037267,
+          "multi_gold_recall_at_5": 0.665902140672783,
+          "mean_returned": 5.0
+        },
+        "recall_at100": 0.9891434025292294
+      },
+      "fold_2": {
+        "at5": {
+          "queries": 1399,
+          "recall_at_5": 0.8928401238980224,
+          "precision_at_5": 0.19042172980700497,
+          "f2_at_5": 0.513790818772402,
+          "single_gold_recall_at_5": 0.9107142857142857,
+          "multi_gold_recall_at_5": 0.6854354354354355,
+          "mean_returned": 5.0
+        },
+        "recall_at100": 0.9923159399571122
+      },
+      "fold_3": {
+        "at5": {
+          "queries": 1398,
+          "recall_at_5": 0.8890081068192656,
+          "precision_at_5": 0.18955650929899856,
+          "f2_at_5": 0.5115158463641284,
+          "single_gold_recall_at_5": 0.906055900621118,
+          "multi_gold_recall_at_5": 0.6893939393939394,
+          "mean_returned": 5.0
+        },
+        "recall_at100": 0.989508822126848
+      },
+      "fold_4": {
+        "at5": {
+          "queries": 1398,
+          "recall_at_5": 0.8817954220314735,
+          "precision_at_5": 0.18783977110157368,
+          "f2_at_5": 0.5071052664640189,
+          "single_gold_recall_at_5": 0.9006211180124224,
+          "multi_gold_recall_at_5": 0.6613636363636364,
+          "mean_returned": 5.0
+        },
+        "recall_at100": 0.985634239389604
+      }
+    },
+    "stress": {
+      "single_gold": {
+        "n": 6440,
+        "recall_at5": 0.9029503105590062,
+        "recall_at100": 0.993944099378882
+      },
+      "multi_gold": {
+        "n": 551,
+        "recall_at5": 0.6606170598911071,
+        "recall_at100": 0.9267090139140955
+      },
+      "three_plus_gold": {
+        "n": 68,
+        "recall_at5": 0.38235294117647056,
+        "recall_at100": 0.7443627450980391
+      },
+      "empty_gold_affected_but_evaluable": {
+        "n": 2,
+        "recall_at5": 1.0,
+        "recall_at100": 1.0
+      },
+      "duplicate_content_gold_literal_ids": {
+        "n": 4,
+        "recall_at5": 0.75,
+        "recall_at100": 1.0
+      },
+      "near_duplicate_group_member": {
+        "n": 151,
+        "recall_at5": 0.9260485651214126,
+        "recall_at100": 0.9933774834437086
+      },
+      "semantic_dense_ge_0_90": {
+        "n": 354,
+        "recall_at5": 0.9298493408662899,
+        "recall_at100": 0.9929378531073446
+      },
+      "rare_gold_only": {
+        "n": 1620,
+        "recall_at5": 0.878292181069959,
+        "recall_at100": 0.9872942386831275
+      },
+      "frequent_gold_16p": {
+        "n": 1364,
+        "recall_at5": 0.8539833822091886,
+        "recall_at100": 0.9886363636363636
+      }
+    }
+  },
+  "vs_lal_b4_at100": {
+    "baseline_rescue_queries": 30,
+    "candidate_rescue_queries": 94,
+    "baseline_unique_gold_occurrences": 31,
+    "candidate_unique_gold_occurrences": 96,
+    "mean_top100_jaccard": 0.5468960326993303
+  },
+  "core_union_with_aiteam_coarse1024_bm25": {
+    "20": {
+      "sources": [
+        "lal_coarse_pack_1024",
+        "aiteam_coarse_1024",
+        "bm25"
+      ],
+      "per_source_depth": 20,
+      "macro_oracle_recall": 0.9825871358413197,
+      "full_gold_coverage_rate": 0.9752538978686883,
+      "mean_unique_pool_size": 43.33500214561579,
+      "gold_occurrence_coverage": 0.9737739312877
+    },
+    "50": {
+      "sources": [
+        "lal_coarse_pack_1024",
+        "aiteam_coarse_1024",
+        "bm25"
+      ],
+      "per_source_depth": 50,
+      "macro_oracle_recall": 0.9910146378677347,
+      "full_gold_coverage_rate": 0.9861250178801316,
+      "mean_unique_pool_size": 108.45873265627235,
+      "gold_occurrence_coverage": 0.9851822711775505
+    },
+    "100": {
+      "sources": [
+        "lal_coarse_pack_1024",
+        "aiteam_coarse_1024",
+        "bm25"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9944809993801554,
+      "full_gold_coverage_rate": 0.9911314547275067,
+      "mean_unique_pool_size": 215.1610642254327,
+      "gold_occurrence_coverage": 0.990820875950695
+    }
+  },
+  "dual_aiteam_core_union": {
+    "20": {
+      "sources": [
+        "lal_coarse_pack_1024",
+        "aiteam_atomic_split_2048",
+        "aiteam_coarse_1024",
+        "bm25"
+      ],
+      "per_source_depth": 20,
+      "macro_oracle_recall": 0.9841367472464598,
+      "full_gold_coverage_rate": 0.9772564726076384,
+      "mean_unique_pool_size": 47.42111285939065,
+      "gold_occurrence_coverage": 0.9758720167846839
+    },
+    "50": {
+      "sources": [
+        "lal_coarse_pack_1024",
+        "aiteam_atomic_split_2048",
+        "aiteam_coarse_1024",
+        "bm25"
+      ],
+      "per_source_depth": 50,
+      "macro_oracle_recall": 0.9920993658513326,
+      "full_gold_coverage_rate": 0.9875554284079531,
+      "mean_unique_pool_size": 118.29824059505079,
+      "gold_occurrence_coverage": 0.9866247049567269
+    },
+    "100": {
+      "sources": [
+        "lal_coarse_pack_1024",
+        "aiteam_atomic_split_2048",
+        "aiteam_coarse_1024",
+        "bm25"
+      ],
+      "per_source_depth": 100,
+      "macro_oracle_recall": 0.9948386020121108,
+      "full_gold_coverage_rate": 0.9915605778858533,
+      "mean_unique_pool_size": 233.7461021313117,
+      "gold_occurrence_coverage": 0.991345397324941
+    }
+  }
+}
