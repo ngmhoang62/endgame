@@ -1,0 +1,7 @@
+﻿source_a,source_b,a_rescue_queries,b_rescue_queries,a_unique_gold_occurrences,b_unique_gold_occurrences,mean_top100_jaccard,union_oracle_r100
+aiteam_coarse_1024,aiteam_coarse_2048,26,13,26,13,0.5768192009268611,0.9900324226386306
+aiteam_b4,aiteam_coarse_2048,25,84,25,84,0.4994935563259728,0.989925141849044
+aiteam_atomic_split_2048,aiteam_coarse_2048,23,25,23,25,0.5473498905220712,0.9897821007962618
+aiteam_b4,aiteam_coarse_1024,9,81,9,81,0.5579658496534485,0.989686740094407
+aiteam_atomic_split_2048,aiteam_coarse_1024,8,23,8,23,0.5894162529382502,0.989615219568016
+aiteam_b4,aiteam_atomic_split_2048,2,59,2,59,0.8835879813115805,0.9871120011443284
