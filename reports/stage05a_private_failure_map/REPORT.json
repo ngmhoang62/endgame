@@ -1,0 +1,78 @@
+{
+  "schema": "dsc2026.endgame.stage05a_private_failure_map.v1",
+  "status": "PASS",
+  "private_labels_used": false,
+  "codabench_per_query_outcomes_used": false,
+  "population": {
+    "private": 2080,
+    "warmup_excluded": 103,
+    "scored": 1977
+  },
+  "current_public_score": {
+    "precision": 0.201922105,
+    "recall": 0.941915361
+  },
+  "pipeline": {
+    "rank_to_primary_set_churn": 1133,
+    "rank_to_primary_set_churn_rate": 0.5730905412240769,
+    "mean_source_disagreement_at5": 0.5947005644274233,
+    "median_ce_margin5_minus6": 0.40625
+  },
+  "archetypes": [
+    {
+      "archetype": "CONDITION",
+      "queries": 271,
+      "fraction": 0.13707637835103692,
+      "mean_source_disagreement_at5": 0.5596673109588238,
+      "mean_ce_margin5_minus6": 0.7183175245334301,
+      "ce_set_churn_rate": 0.4944649446494465,
+      "mean_top5_union_size": 11.892988929889299
+    },
+    {
+      "archetype": "DEFINITION",
+      "queries": 117,
+      "fraction": 0.05918057663125948,
+      "mean_source_disagreement_at5": 0.6332768054990277,
+      "mean_ce_margin5_minus6": 0.5613810221354166,
+      "ce_set_churn_rate": 0.5641025641025641,
+      "mean_top5_union_size": 13.88888888888889
+    },
+    {
+      "archetype": "DIRECT_REF",
+      "queries": 92,
+      "fraction": 0.04653515427415276,
+      "mean_source_disagreement_at5": 0.6032637451115712,
+      "mean_ce_margin5_minus6": 0.6170033993928329,
+      "ce_set_churn_rate": 0.532608695652174,
+      "mean_top5_union_size": 12.815217391304348
+    },
+    {
+      "archetype": "GENERAL_SEMANTIC",
+      "queries": 985,
+      "fraction": 0.49822964087000504,
+      "mean_source_disagreement_at5": 0.605170681921951,
+      "mean_ce_margin5_minus6": 0.6205564237488103,
+      "ce_set_churn_rate": 0.5756345177664974,
+      "mean_top5_union_size": 12.852791878172589
+    },
+    {
+      "archetype": "PROCEDURE",
+      "queries": 403,
+      "fraction": 0.20384420839656045,
+      "mean_source_disagreement_at5": 0.5774495516431,
+      "mean_ce_margin5_minus6": 0.6722404016158717,
+      "ce_set_churn_rate": 0.6029776674937966,
+      "mean_top5_union_size": 12.310173697270471
+    },
+    {
+      "archetype": "SANCTION",
+      "queries": 109,
+      "fraction": 0.05513404147698533,
+      "mean_source_disagreement_at5": 0.6023324110480073,
+      "mean_ce_margin5_minus6": 0.6429656142488532,
+      "ce_set_churn_rate": 0.6788990825688074,
+      "mean_top5_union_size": 12.596330275229358
+    }
+  ],
+  "claim_boundary": "label-free hypothesis generation only; validate every repair OOF"
+}

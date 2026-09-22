@@ -1,0 +1,1143 @@
+{
+  "private": 2080,
+  "warmup": 500,
+  "excluded": 103,
+  "scored": 1977,
+  "warmup_path": "D:\\Study\\DSC2026\\endgame\\data\\official_v1\\warmup.json",
+  "warmup_sha256": "fadfbcab2923c085980239396d5564c16c232714f42004a36ed2a3d93962c0f9",
+  "rows": [
+    {
+      "qid": "52596",
+      "question": "Đơn yêu cầu bắt giữ tàu biển phải bao gồm những tài liệu, chứng cứ kèm theo nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "52596"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "29034",
+      "question": "Thợ máy trực ca trên tàu biển Việt Nam có nhiệm vụ gì?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "29034"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "59724",
+      "question": "Người nộp thuế là nhà thầu nước ngoài phải tuân thủ những quy định nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "59724"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "73712",
+      "question": "Khái niệm về sổ đỏ là gì?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "73712"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "144010",
+      "question": "Những hành vi nào xâm phạm chỉ dẫn địa lý?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "144010"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "77606",
+      "question": "Tờ rơi in quảng cáo bột ngũ cốc dùng cho trẻ từ 12 đến dưới 24 tháng tuổi phải thể hiện những thông tin gì về sản phẩm?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "77606"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "146948",
+      "question": "Làm thế nào để thực hiện đăng ký bản quyền đối với logo công ty?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "146948"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "125758",
+      "question": "Trình tự hồ sơ, thủ tục giải quyết chế độ ưu đãi đối với người có công giúp đỡ cách mạng được pháp luật quy định như thế nào? ",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "125758"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "43004",
+      "question": "Tài sản không chia được khi chia liên hiệp hợp tác xã được xử lý như thế nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "43004"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "2848",
+      "question": "Thông tin hải quan được thu thập lưu trữ để phục vụ những việc gì?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "2848"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "117312",
+      "question": "Chất lượng xoài quả tươi hạng I được quy định thế nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "117312"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "131630",
+      "question": "Giá trị bản sao từ bản chính bằng đại học có thời hạn trong bao lâu?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "131630"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "16280",
+      "question": "Thời lượng Chương trình giáo dục thường xuyên cấp trung học cơ sở",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "16280"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "134140",
+      "question": "Khi có chiến tranh xảy ra thì người vận chuyển từ chối thực hiện hợp đồng vận chuyển hành khách và hành lý thì có phải bồi thường không?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "134140"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "127320",
+      "question": "Công ty trách nhiệm hữu hạn một thành viên giảm vốn điều lệ trong trường hợp nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "127320"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "83404",
+      "question": "Xây dựng các tiêu chuẩn quốc gia về sử dụng năng lượng tái tạo như thế nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "83404"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "61120",
+      "question": "UBND cấp xã, đơn vị quân đội được giao giám sát, giáo dục người chấp hành hình phạt quản chế có thẩm quyền trừ vào thu nhập của người thi hành án không?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "61120"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "13048",
+      "question": "Bộ Văn hóa Thể thao và Du lịch có trách nhiệm gì trong việc phối hợp thực hiện đưa bảo vật quốc gia đưa ra nước ngoài có thời hạn để trưng bày?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "13048"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "137848",
+      "question": "Mức chi hỗ trợ cho Ủy ban nhân dân cấp xã là bao nhiêu?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "137848"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "59746",
+      "question": "Vay vốn ưu đãi thực hiện chính sách nhà ở xã hội thì quy trình thủ tục thực hiện được quy định như thế nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "59746"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "118698",
+      "question": "Mức phụ cấp ưu đãi nghề Hải quan hiện nay là bao nhiêu?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "118698"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "69854",
+      "question": "Các mối quan hệ trong công việc của chuyên viên về hợp tác quốc tế là gì?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "69854"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "55470",
+      "question": "Việc xác định biên chế công chức dựa trên những căn cứ nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "55470"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "95876",
+      "question": "Sự cố tàu bay là gì?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "95876"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "129756",
+      "question": "Học ngành kế toán hành chính sự nghiệp trình độ cao đẳng thì khi tốt nghiệp có thể làm công việc nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "129756"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "118604",
+      "question": "Báo cáo kết quả thực hiện nhiệm vụ của thành viên Đoàn thanh tra chuyên ngành ngân hàng bao gồm những nội dung nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "118604"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "133758",
+      "question": "Chứng minh trong vụ án dân sự về bảo vệ quyền lợi người tiêu dùng được thực hiện như thế nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "133758"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "110952",
+      "question": "Cách xác định quỹ tiền lương, thù lao, tiền thưởng đối với quỹ đổi mới công nghệ quốc gia từ ngày 15/8/2022?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "110952"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "89838",
+      "question": "Chủ hộ kinh doanh có phải thực hiện các nghĩa vụ về thuế không?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "89838"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "69612",
+      "question": "Sử dụng căn hộ chung cư vào mục đích không phải để ở có bị xử phạt không?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "69612"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "91448",
+      "question": "Việc xếp lương và trả lương đối với công chức cấp trung ương loại B cần đáp ứng những nguyên tắc gì?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "91448"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "146666",
+      "question": "Viên chức có được cấp hộ chiếu công vụ không?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "146666"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "21854",
+      "question": "Hợp nhất công ty có làm chấm dứt tồn tại của công ty bị hợp nhất không?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "21854"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "69966",
+      "question": "Điều kiện của người lái xe tham gia giao thông được quy định như thế nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "69966"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "135898",
+      "question": "Đi đăng ký khai sinh cho con thì cần chuẩn bị những giấy tờ gì?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "135898"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "22928",
+      "question": "Cán bộ công chức ngành y tế vì lý do sức khỏe có được từ chức không?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "22928"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "103502",
+      "question": "Thời hạn nộp lệ phí môn bài theo quy định của pháp luật là khi nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "103502"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "116540",
+      "question": "Thủ tục nộp tiền để bảo đảm thi hành án tại ngân hàng được quy định như thế nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "116540"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "8526",
+      "question": "Về nhân viên chuyên môn của doanh nghiệp kinh doanh hoạt động thể thao",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "8526"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "151844",
+      "question": "Họp giao ban Lãnh đạo Tổng cục Thi hành án dân sự là họp về những nội dung gì?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "151844"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "11260",
+      "question": "Đối tượng hưởng chế độ ưu đãi người có công, thân nhân người có công với cách mạng được quy định như thế nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "11260"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "73544",
+      "question": "Thành viên Hội đồng quản lý có nhiệm vụ, quyền hạn gì?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "73544"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "40652",
+      "question": "Khi tổ chức thi đấu môn Bóng ném tại Việt Nam, cơ sở vật chất và trang thiết bị tập luyện được chuẩn bị như thế nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "40652"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "27490",
+      "question": "Người lao động là người nước ngoài ngưng làm việc trong vòng một tháng thì có phải đóng bảo hiểm xã hội bắt buộc không?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "27490"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "72248",
+      "question": "Bơ quả tươi bị nhăn thì có đảm bảo về độ chín khi thu hoạch hay không? ",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "72248"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "34788",
+      "question": "Không phải bồi thường thiệt hại về khả năng gây mất an toàn của sản phẩm?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "34788"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "51990",
+      "question": "Trung tâm Khoa học và Bồi dưỡng cán bộ có quyền hạn gì trong công tác quản lý và tổ chức thực hiện hoạt động khoa học công nghệ?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "51990"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "8980",
+      "question": "Cơ sở dữ liệu quốc gia về xuất cảnh, nhập cảnh của công dân Việt Nam do cơ quan nào trực tiếp quản lý?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "8980"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "6934",
+      "question": "Biện pháp chung để thực hiện dân chủ về kinh tế đời sống của Hội đồng quân nhân như thế nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "6934"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "159164",
+      "question": "Có thể cấp giấy phép môi trường cho từng giai đoạn, công trình hay không?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "159164"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "126402",
+      "question": "Quy trình tiếp nhận và xử lý phản ánh của người dân trên nền tảng quản lý tiêm chủng COVID-19",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "126402"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "125414",
+      "question": "Tổ chức ngoài trời lễ kỷ niệm ngày truyền thống của cơ quan nhà nước cấp tỉnh được trang trí như thế nào? ",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "125414"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "77724",
+      "question": "Tiêu chuẩn để tập thể được xét tặng Bằng khen của Bộ trưởng Bộ Khoa học và Công nghệ là gì?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "77724"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "113332",
+      "question": "Để dự thi chứng chỉ kiểm toán viên cần thời gian công tác thực tế về kiểm toán cần ít nhất bao lâu?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "113332"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "45194",
+      "question": "Thủ tục cấp bản sao tài liệu lưu trữ được thực hiện ra sao?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "45194"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "68730",
+      "question": "Nhiệm vụ và quyền hạn của Ban Chấp hành Hiệp hội Điều Việt Nam được quy định thế nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "68730"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "59610",
+      "question": "Gây tiếng ồn từ bao nhiêu dBA thì sẽ vi phạm pháp luật về quy định tiếng ồn?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "59610"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "138840",
+      "question": "Khấu trừ tiền trong tài khoản có phải là biện pháp cưỡng chế thi hành án dân sự không?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "138840"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "69706",
+      "question": "Nguyên tắc cung cấp, đăng tải thông tin, lựa chọn nhà đầu tư qua mạng đấu thầu được quy định như thế nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "69706"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "96112",
+      "question": "Trách nhiệm của thí sinh tham dự thi kiểm tra kết quả tập sự hành nghề luật sư như thế nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "96112"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "122046",
+      "question": "Ban chỉ đạo chống dịch bệnh truyền nhiễm bao gồm những cơ quan nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "122046"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "150432",
+      "question": "Mạng xã hội có thuộc hình thức giao dịch của sàn thương mại điện tử không? ",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "150432"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "38836",
+      "question": "Làm việc bán thời gian là gì?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "38836"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "93438",
+      "question": "Người học ngành công nghệ sinh học trình độ cao đẳng phải có khả năng học tập, nâng cao trình độ như thế nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "93438"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "166676",
+      "question": "Nhà đầu tư nước ngoài đầu tư gián tiếp vào Việt Nam có thể mở tài khoản đầu tư gián tiếp bằng ngoại tệ được hay không?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "166676"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "28844",
+      "question": "Chào bán cạnh tranh, thỏa thuận lô cổ phần kèm nợ phải thu của doanh nghiệp mua bán nợ được thực hiện như thế nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "28844"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "100386",
+      "question": "Hồ sơ đăng ký thường trú trong trường hợp con về ở với cha mẹ thì cần những giấy tờ nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "100386"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "108470",
+      "question": "Có cần đăng ký website với Bộ Công thương không?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "108470"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "80974",
+      "question": "Có bao nhiêu môn thể thao được tổ chức thi đấu tại Đại hội Thể thao học sinh Đông Nam Á lần thứ 13 năm 2023?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "80974"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "42720",
+      "question": "Tiền đặt trước và xử lý tiền đặt trước được quy định ra sao?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "42720"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "164010",
+      "question": "Thẩm định báo cáo nghiên cứu khả thi đầu tư xây dựng theo quy định pháp luật ",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "164010"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "159118",
+      "question": "Trường hợp mất thẻ hoặc lộ thông tin thẻ ngân hàng thì xử lý như thế nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "159118"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "27220",
+      "question": "Tổ chức sử dụng khu vực biển để làm vùng nước cảng biển phải nộp bao nhiêu tiền?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "27220"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "109498",
+      "question": "Thẩm quyền quyết định đầu tư vốn nhà nước để mua lại một phần doanh nghiệp thuộc về những cơ quan nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "109498"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "67196",
+      "question": "Thành viên cơ quan lãnh sự có được miễn nghĩa vụ về giấy phép lao động theo quy định của Nước tiếp nhận không?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "67196"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "110118",
+      "question": "Sửa chữa căn hộ chung cư có cần phải xin giấy phép xây dựng không?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "110118"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "130746",
+      "question": "Quy định về bảo vệ môi trường đối với hộ gia đình, cá nhân được quy định như thế nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "130746"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "14298",
+      "question": "Doanh nghiệp kinh doanh muốn có giấy phép quá cảnh hàng hóa của Trung Quốc qua lãnh thổ Việt Nam thì hồ sơ đề nghị cấp giấy phép gồm những gì?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "14298"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "154722",
+      "question": "Báo cáo Bộ Giáo dục và Đào tạo công tác quản lý nhà nước đối với kinh doanh dịch vụ tư vấn du học về những nội dung gì?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "154722"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "158676",
+      "question": "Báo cáo sự cố công trình xây dựng được thực hiện như thế nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "158676"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "102090",
+      "question": "Biên bản giao nhận người có hành vi vi phạm hành chính phải ghi rõ các nội dung gì?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "102090"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "100888",
+      "question": "Công trình xây dựng là gì?",
+      "excluded": true,
+      "same_qid": false,
+      "same_qid_same_text": false,
+      "exact_warmup_qids": [
+        "148360"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "84730",
+      "question": "Yêu cầu về kinh nghiệm đối với vị trí chuyên viên cao cấp về quản lý bản quyền tác giả như thế nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "84730"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "31430",
+      "question": "Điều kiện để hưởng bảo hiểm xã hội khi ốm đau?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "31430"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "65512",
+      "question": "Đối tượng nào được tuyển thẳng trong tuyển sinh THPT?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "65512"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "112602",
+      "question": "Ai có thẩm quyền quyết định bổ nhiệm chức danh người đứng đầu Văn phòng Ban cán sự đảng Bộ GDĐT?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "112602"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "167722",
+      "question": "Công chức là người đứng đầu cơ quan vi phạm pháp luật về phòng chống tham nhũng thì có bị xử lý kỷ luật nặng hơn người vi phạm khác không?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "167722"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "165190",
+      "question": "Theo quy định của pháp luật hiện hành, những hành vi nào bị cấm trong hoạt động thương mại điện tử?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "165190"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "29470",
+      "question": "Tổ thẩm định nhiệm vụ khoa học và công nghệ cấp Bộ của Bộ Văn hóa Thể thao và Du lịch làm việc theo nguyên tắc nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "29470"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "33688",
+      "question": "Soạn thảo văn bản quy phạm pháp luật của Bộ Giao thông vận tải theo thủ tục rút gọn trong những trường hợp nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "33688"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "164868",
+      "question": "Ai có quyền cấp chứng chỉ chuyên môn cho người điều khiển phương tiện giao thông?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "164868"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "164100",
+      "question": "Quy định mới về xử phạt vi phạm trong lĩnh vực trồng trọt khi nào có hiệu lực?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "164100"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "127244",
+      "question": "Thời hạn xác nhận hồ sơ đề nghị hỗ trợ tiền thuê nhà như thế nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "127244"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "60202",
+      "question": "Ai có quyền quyết định chỉnh sửa nội dung chứng chỉ nghiệp vụ sư phạm dạy trình độ cao đẳng, trình độ trung cấp?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "60202"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "83518",
+      "question": "Con liệt sĩ ở TP. Hồ Chí Minh sẽ được cộng lên đến 02 điểm cho kỳ thi tuyển sinh vào lớp 10 sắp tới?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "83518"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "137290",
+      "question": "Việc tổ chức nhập học đối với học viên trúng xét tuyển chương trình đào tạo sơ cấp lý luận chính trị tại Trung tâm chính trị cấp huyện là trách nhiệm của ai?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "137290"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "115984",
+      "question": "Trình tự, thủ tục xây dựng kế hoạch thanh tra của Thanh tra tỉnh được pháp luật quy định như thế nào? ",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "115984"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "77890",
+      "question": "Thủ tục cấp bản sao trích lục lại giấy đăng ký kết hôn như thế nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "77890"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "144880",
+      "question": "Ai có quyền quyết định triệu tập Đại hội nhiệm kỳ hoặc Hội nghị đại biểu hàng năm?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "144880"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "166960",
+      "question": "Quy định về việc hỗ trợ bảo vệ rừng là rừng tự nhiên trong thời gian đóng cửa rừng?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "166960"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "147366",
+      "question": "Quyền của tổ chức, cá nhân cung cấp dịch vụ hóa đơn, chứng từ điện tử là gì?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "147366"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "7230",
+      "question": "Được hưởng trợ cấp một lần, trợ cấp hàng tháng vào thời điểm nào?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "7230"
+      ],
+      "loose_only_qids": []
+    },
+    {
+      "qid": "74556",
+      "question": "Trên Giấy chứng nhận kiểm định có phải sẽ in hình xe cơ giới được kiểm định hay không?",
+      "excluded": true,
+      "same_qid": true,
+      "same_qid_same_text": true,
+      "exact_warmup_qids": [
+        "74556"
+      ],
+      "loose_only_qids": []
+    }
+  ]
+}
