@@ -1,0 +1,199 @@
+{
+  "schema": "dsc2026.endgame.stage06b0.bge_independent_reranker_dev.v1",
+  "status": "DEV_SCREEN_COMPLETE_CERT_UNTOUCHED",
+  "cert_touched": false,
+  "model": {
+    "id": "BAAI/bge-reranker-v2-m3",
+    "sha": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+    "parameter_count": 567755777,
+    "active_pipeline_params_if_promoted": 2299316226,
+    "budget": 4000000000
+  },
+  "screen_population": {
+    "dev_queries": 4195,
+    "rescuable": 153,
+    "controls": 200,
+    "screen_total": 353,
+    "baseline_screen_recall": 0.6487252124645893,
+    "oracle15_screen_recall": 0.9711992445703493
+  },
+  "rows": [
+    {
+      "max_length": 512,
+      "overlap": 0.0,
+      "title_on": false,
+      "aggregation": "ait",
+      "mean_query_auc": 0.7527439085131393,
+      "semantic_recall_at5": 0.6690273843248348,
+      "pair_count": 16374
+    },
+    {
+      "max_length": 512,
+      "overlap": 0.0,
+      "title_on": false,
+      "aggregation": "lal",
+      "mean_query_auc": 0.7575722710338096,
+      "semantic_recall_at5": 0.6758734655335221,
+      "pair_count": 16374
+    },
+    {
+      "max_length": 512,
+      "overlap": 0.0,
+      "title_on": false,
+      "aggregation": "max_raw",
+      "mean_query_auc": 0.769062419062419,
+      "semantic_recall_at5": 0.6912181303116147,
+      "pair_count": 16374
+    },
+    {
+      "max_length": 512,
+      "overlap": 0.0,
+      "title_on": false,
+      "aggregation": "mean_z",
+      "mean_query_auc": 0.7625615125615125,
+      "semantic_recall_at5": 0.6789423984891407,
+      "pair_count": 16374
+    },
+    {
+      "max_length": 512,
+      "overlap": 0.5,
+      "title_on": false,
+      "aggregation": "ait",
+      "mean_query_auc": 0.7555570497878189,
+      "semantic_recall_at5": 0.6685552407932012,
+      "pair_count": 21322
+    },
+    {
+      "max_length": 512,
+      "overlap": 0.5,
+      "title_on": false,
+      "aggregation": "lal",
+      "mean_query_auc": 0.7545813161197777,
+      "semantic_recall_at5": 0.6815391879131256,
+      "pair_count": 21322
+    },
+    {
+      "max_length": 512,
+      "overlap": 0.5,
+      "title_on": false,
+      "aggregation": "max_raw",
+      "mean_query_auc": 0.7681733508656586,
+      "semantic_recall_at5": 0.6926345609065155,
+      "pair_count": 21322
+    },
+    {
+      "max_length": 512,
+      "overlap": 0.5,
+      "title_on": false,
+      "aggregation": "mean_z",
+      "mean_query_auc": 0.7651998286613672,
+      "semantic_recall_at5": 0.6827195467422096,
+      "pair_count": 21322
+    },
+    {
+      "max_length": 1024,
+      "overlap": 0.0,
+      "title_on": false,
+      "aggregation": "ait",
+      "mean_query_auc": 0.7567223019146097,
+      "semantic_recall_at5": 0.6720963172804533,
+      "pair_count": 10320
+    },
+    {
+      "max_length": 1024,
+      "overlap": 0.0,
+      "title_on": false,
+      "aggregation": "lal",
+      "mean_query_auc": 0.7525887573964497,
+      "semantic_recall_at5": 0.6687913125590179,
+      "pair_count": 10320
+    },
+    {
+      "max_length": 1024,
+      "overlap": 0.0,
+      "title_on": false,
+      "aggregation": "max_raw",
+      "mean_query_auc": 0.7733580877811648,
+      "semantic_recall_at5": 0.692162417374882,
+      "pair_count": 10320
+    },
+    {
+      "max_length": 1024,
+      "overlap": 0.0,
+      "title_on": false,
+      "aggregation": "mean_z",
+      "mean_query_auc": 0.7625592712131173,
+      "semantic_recall_at5": 0.6770538243626062,
+      "pair_count": 10320
+    },
+    {
+      "max_length": 1024,
+      "overlap": 0.5,
+      "title_on": false,
+      "aggregation": "ait",
+      "mean_query_auc": 0.7577490885183195,
+      "semantic_recall_at5": 0.6763456090651558,
+      "pair_count": 10899
+    },
+    {
+      "max_length": 1024,
+      "overlap": 0.5,
+      "title_on": false,
+      "aggregation": "lal",
+      "mean_query_auc": 0.7548796644950491,
+      "semantic_recall_at5": 0.6754013220018886,
+      "pair_count": 10899
+    },
+    {
+      "max_length": 1024,
+      "overlap": 0.5,
+      "title_on": false,
+      "aggregation": "max_raw",
+      "mean_query_auc": 0.776489500527962,
+      "semantic_recall_at5": 0.6987724268177526,
+      "pair_count": 10899
+    },
+    {
+      "max_length": 1024,
+      "overlap": 0.5,
+      "title_on": false,
+      "aggregation": "mean_z",
+      "mean_query_auc": 0.7651998286613672,
+      "semantic_recall_at5": 0.6794145420207743,
+      "pair_count": 10899
+    },
+    {
+      "max_length": 1024,
+      "overlap": 0.5,
+      "title_on": true,
+      "aggregation": "max_raw",
+      "mean_query_auc": 0.7841053533361226,
+      "semantic_recall_at5": 0.703257790368272,
+      "pair_count": 11230
+    }
+  ],
+  "frozen": {
+    "max_length": 1024,
+    "overlap": 0.5,
+    "aggregation": "max_raw",
+    "title_on": true
+  },
+  "winner": {
+    "max_length": 1024,
+    "overlap": 0.5,
+    "title_on": true,
+    "aggregation": "max_raw",
+    "mean_query_auc": 0.7841053533361226,
+    "semantic_recall_at5": 0.703257790368272,
+    "pair_count": 11230
+  },
+  "complementarity": {
+    "baseline_screen_recall": 0.6487252124645893,
+    "bge_screen_recall": 0.703257790368272,
+    "best_of_two_oracle_recall": 0.7483474976392824,
+    "bge_wins": 44,
+    "bge_losses": 23,
+    "ties": 286
+  },
+  "historical_evidence_policy": "historical BGE results are hypothesis prior only"
+}

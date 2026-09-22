@@ -1,0 +1,25 @@
+{
+  "schema": "dsc2026.endgame.stage06b0.bge_reranker_materialization.v1",
+  "status": "PASS",
+  "model_id": "BAAI/bge-reranker-v2-m3",
+  "resolved_revision_sha": "953dc6f6f85a1b2dbfca4c34a2796e7dde08d41e",
+  "target_path": "D:\\Study\\DSC2026\\endgame\\models\\rerankers\\bge-reranker-v2-m3",
+  "parameter_count": 567755777,
+  "parameter_billions": 0.567755777,
+  "architecture": [
+    "XLMRobertaForSequenceClassification"
+  ],
+  "hidden_size": 1024,
+  "num_hidden_layers": 24,
+  "max_position_embeddings": 8194,
+  "tokenizer_model_max_length": 8192,
+  "screen_contract": {
+    "candidate_max_lengths": [
+      512,
+      1024
+    ],
+    "official_model_card_recommended_max_length": 1024,
+    "dtype": "float16"
+  },
+  "fingerprint": "7054c42e0c7bc8468a4294d00834da0290c4d90161aa02a5549ddee42a99f49e"
+}
