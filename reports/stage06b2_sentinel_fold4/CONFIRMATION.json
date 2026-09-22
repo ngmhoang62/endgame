@@ -1,0 +1,46 @@
+{
+  "schema": "dsc2026.endgame.stage06b2.sentinel.fold3.v1",
+  "status": "COMPLETE",
+  "fold": "fold_4",
+  "frozen_alpha_bge": 0.2,
+  "baseline": {
+    "queries": 1398,
+    "recall_at_5": 0.9378874582737244,
+    "precision_at_5": 0.1998569384835479,
+    "f2_at_5": 0.5394625993474299,
+    "single_gold_recall_at_5": 0.9580745341614907,
+    "multi_gold_recall_at_5": 0.7015151515151514,
+    "mean_returned": 5.0
+  },
+  "bge_lora_standalone": {
+    "queries": 1398,
+    "recall_at_5": 0.9104673342870769,
+    "precision_at_5": 0.19341917024320457,
+    "f2_at_5": 0.5228229733790698,
+    "single_gold_recall_at_5": 0.9340062111801242,
+    "multi_gold_recall_at_5": 0.6348484848484849,
+    "mean_returned": 5.0
+  },
+  "frozen_blend_a020": {
+    "queries": 1398,
+    "recall_at_5": 0.9382451120648546,
+    "precision_at_5": 0.1998569384835479,
+    "f2_at_5": 0.5395572415082475,
+    "single_gold_recall_at_5": 0.9588509316770186,
+    "multi_gold_recall_at_5": 0.6969696969696969,
+    "mean_returned": 5.0
+  },
+  "effect": {
+    "delta_recall": 0.0003576537911301747,
+    "delta_single": 0.0007763975155279379,
+    "delta_multi": -0.004545454545454519
+  },
+  "complementarity": {
+    "oracle": 0.9539222699093944,
+    "bge_wins": 27,
+    "bge_losses": 71,
+    "blend_wins": 3,
+    "blend_losses": 3
+  },
+  "decision": "ARCHIVE_WEAK_COMPLEMENT"
+}
