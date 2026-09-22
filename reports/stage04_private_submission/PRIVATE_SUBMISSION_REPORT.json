@@ -1,0 +1,51 @@
+{
+  "schema": "stage04_private_submission.v1",
+  "status": "READY_FOR_PRIVATE_SUBMISSION",
+  "private_labels_used": false,
+  "private_queries": 2080,
+  "private_sha256": "9da4e0cb84204fed924251c35744c93879556e67a440332015ea3b62f3c355bc",
+  "primary": "ENDGAME_PRIVATE_CE_LR_K5",
+  "primary_oof_recall_at5": 0.9425976255185238,
+  "active_parameter_ledger": {
+    "aiteam_embedding": 567754752,
+    "vnlegal_lal": 596049920,
+    "aiteam_reranker": 567755777,
+    "total": 1731560449,
+    "budget": 4000000000
+  },
+  "churn": {
+    "rank_to_primary": {
+      "ordered_churn": 1714,
+      "set_churn": 1198
+    },
+    "rank_to_blend": {
+      "ordered_churn": 1548,
+      "set_churn": 669
+    },
+    "blend_to_primary": {
+      "ordered_churn": 1432,
+      "set_churn": 822
+    }
+  },
+  "artifacts": {
+    "ENDGAME_PRIVATE_CE_LR_K5": {
+      "json": "submissions/endgame_20260922/ENDGAME_PRIVATE_CE_LR_K5.json",
+      "json_sha256": "8db11253012ac6439f7527e0ee2200b0fed0e87f8de767ee5dfdaf3d07f68f8e",
+      "zip": "submissions/endgame_20260922/ENDGAME_PRIVATE_CE_LR_K5.zip",
+      "zip_sha256": "59ada24eb80970e3f8c4293afe1588b35ad6f987007469d3d316ac6fa8d8f28e"
+    },
+    "ENDGAME_PRIVATE_BLEND015_K5": {
+      "json": "submissions/endgame_20260922/ENDGAME_PRIVATE_BLEND015_K5.json",
+      "json_sha256": "dd9344e0c3383db1ce20fa71b787f3c9003518e88d4ec58b632a967685123448",
+      "zip": "submissions/endgame_20260922/ENDGAME_PRIVATE_BLEND015_K5.zip",
+      "zip_sha256": "a7842184b6bf0051219cbfb726740c6ee3332655153a6d2ddb37f2ee8e84c31d"
+    },
+    "ENDGAME_PRIVATE_RANK_ONLY_K5": {
+      "json": "submissions/endgame_20260922/ENDGAME_PRIVATE_RANK_ONLY_K5.json",
+      "json_sha256": "9eebc6f8f19b1921702c5213cfd354fe91048916f9c3fb66c04d8b37b6c7cc75",
+      "zip": "submissions/endgame_20260922/ENDGAME_PRIVATE_RANK_ONLY_K5.zip",
+      "zip_sha256": "4672cf0911a64f6b78e50aab142048c542daad3d388ceb25fe3ff0b9483933d4"
+    }
+  },
+  "wall_seconds": 3232.0635624999995
+}
