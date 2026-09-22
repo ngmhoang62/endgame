@@ -1,0 +1,220 @@
+{
+  "schema": "stage06a0.dev_screen.v1",
+  "dev_folds": [
+    "fold_0",
+    "fold_1",
+    "fold_2"
+  ],
+  "cert_folds": [
+    "fold_3",
+    "fold_4"
+  ],
+  "screen": {
+    "dev_queries": 4195,
+    "rescuable": 153,
+    "controls": 200,
+    "screen_total": 353,
+    "baseline_screen_recall": 0.6487252124645893,
+    "oracle15_screen_recall": 0.9711992445703493
+  },
+  "table": [
+    {
+      "mode": "head_budget",
+      "title_on": false,
+      "aggregation": "ait",
+      "mean_query_auc": 0.7584085430239278,
+      "semantic_recall_at5": 0.6661945231350331,
+      "pair_count": 8472
+    },
+    {
+      "mode": "head_budget",
+      "title_on": false,
+      "aggregation": "lal",
+      "mean_query_auc": 0.7767226007610623,
+      "semantic_recall_at5": 0.7155335221907461,
+      "pair_count": 8472
+    },
+    {
+      "mode": "head_budget",
+      "title_on": false,
+      "aggregation": "max_raw",
+      "mean_query_auc": 0.8005165062857371,
+      "semantic_recall_at5": 0.7301699716713881,
+      "pair_count": 8472
+    },
+    {
+      "mode": "head_budget",
+      "title_on": false,
+      "aggregation": "mean_z",
+      "mean_query_auc": 0.7821005917159763,
+      "semantic_recall_at5": 0.7091595845136921,
+      "pair_count": 8472
+    },
+    {
+      "mode": "token_full_nonoverlap",
+      "title_on": false,
+      "aggregation": "ait",
+      "mean_query_auc": 0.7930413603490526,
+      "semantic_recall_at5": 0.7103399433427762,
+      "pair_count": 16374
+    },
+    {
+      "mode": "token_full_nonoverlap",
+      "title_on": false,
+      "aggregation": "lal",
+      "mean_query_auc": 0.8012202896818282,
+      "semantic_recall_at5": 0.7431539187913127,
+      "pair_count": 16374
+    },
+    {
+      "mode": "token_full_nonoverlap",
+      "title_on": false,
+      "aggregation": "max_raw",
+      "mean_query_auc": 0.8209999402307095,
+      "semantic_recall_at5": 0.7606232294617564,
+      "pair_count": 16374
+    },
+    {
+      "mode": "token_full_nonoverlap",
+      "title_on": false,
+      "aggregation": "mean_z",
+      "mean_query_auc": 0.8100058773135695,
+      "semantic_recall_at5": 0.7511803588290841,
+      "pair_count": 16374
+    },
+    {
+      "mode": "token_full_overlap50",
+      "title_on": false,
+      "aggregation": "ait",
+      "mean_query_auc": 0.7929357679357678,
+      "semantic_recall_at5": 0.7131728045325779,
+      "pair_count": 21333
+    },
+    {
+      "mode": "token_full_overlap50",
+      "title_on": false,
+      "aggregation": "lal",
+      "mean_query_auc": 0.7973310521387444,
+      "semantic_recall_at5": 0.7393767705382436,
+      "pair_count": 21333
+    },
+    {
+      "mode": "token_full_overlap50",
+      "title_on": false,
+      "aggregation": "max_raw",
+      "mean_query_auc": 0.8214746080130696,
+      "semantic_recall_at5": 0.7606232294617564,
+      "pair_count": 21333
+    },
+    {
+      "mode": "token_full_overlap50",
+      "title_on": false,
+      "aggregation": "mean_z",
+      "mean_query_auc": 0.8075657960273345,
+      "semantic_recall_at5": 0.7450424929178471,
+      "pair_count": 21333
+    },
+    {
+      "mode": "token75_overlap50",
+      "title_on": false,
+      "aggregation": "ait",
+      "mean_query_auc": 0.7914081644850874,
+      "semantic_recall_at5": 0.7188385269121813,
+      "pair_count": 28583
+    },
+    {
+      "mode": "token75_overlap50",
+      "title_on": false,
+      "aggregation": "lal",
+      "mean_query_auc": 0.7958968382045306,
+      "semantic_recall_at5": 0.7355996222851747,
+      "pair_count": 28583
+    },
+    {
+      "mode": "token75_overlap50",
+      "title_on": false,
+      "aggregation": "max_raw",
+      "mean_query_auc": 0.8169022572868727,
+      "semantic_recall_at5": 0.7563739376770539,
+      "pair_count": 28583
+    },
+    {
+      "mode": "token75_overlap50",
+      "title_on": false,
+      "aggregation": "mean_z",
+      "mean_query_auc": 0.8085509931663778,
+      "semantic_recall_at5": 0.7405571293673278,
+      "pair_count": 28583
+    },
+    {
+      "mode": "lexical220_top1",
+      "title_on": false,
+      "aggregation": "ait",
+      "mean_query_auc": 0.7611629111629112,
+      "semantic_recall_at5": 0.6949952785646836,
+      "pair_count": 8472
+    },
+    {
+      "mode": "lexical220_top1",
+      "title_on": false,
+      "aggregation": "lal",
+      "mean_query_auc": 0.7771093578785887,
+      "semantic_recall_at5": 0.7136449480642115,
+      "pair_count": 8472
+    },
+    {
+      "mode": "lexical220_top1",
+      "title_on": false,
+      "aggregation": "max_raw",
+      "mean_query_auc": 0.8044259159643775,
+      "semantic_recall_at5": 0.7415014164305949,
+      "pair_count": 8472
+    },
+    {
+      "mode": "lexical220_top1",
+      "title_on": false,
+      "aggregation": "mean_z",
+      "mean_query_auc": 0.787921124459586,
+      "semantic_recall_at5": 0.7174220963172805,
+      "pair_count": 8472
+    },
+    {
+      "mode": "token_full_overlap50",
+      "title_on": true,
+      "aggregation": "ait",
+      "mean_query_auc": 0.7662408104715798,
+      "semantic_recall_at5": 0.7053824362606232,
+      "pair_count": 23078
+    },
+    {
+      "mode": "token_full_overlap50",
+      "title_on": true,
+      "aggregation": "lal",
+      "mean_query_auc": 0.7648197955890264,
+      "semantic_recall_at5": 0.6966477809254012,
+      "pair_count": 23078
+    },
+    {
+      "mode": "token_full_overlap50",
+      "title_on": true,
+      "aggregation": "max_raw",
+      "mean_query_auc": 0.7851373697527542,
+      "semantic_recall_at5": 0.7105760151085929,
+      "pair_count": 23078
+    },
+    {
+      "mode": "token_full_overlap50",
+      "title_on": true,
+      "aggregation": "mean_z",
+      "mean_query_auc": 0.7735535831689678,
+      "semantic_recall_at5": 0.7082152974504249,
+      "pair_count": 23078
+    }
+  ],
+  "frozen": {
+    "mode": "token_full_overlap50",
+    "aggregation": "max_raw",
+    "title_on": false
+  },
+  "selection_key": "max(mean_query_auc, semantic_recall_at5, -pair_count)"
+}
