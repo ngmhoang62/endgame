@@ -1,0 +1,296 @@
+{
+  "schema": "dsc2026.endgame.stage06a0.evidence_packaging_cert.v1",
+  "status": "COMPLETE",
+  "certification_integrity": {
+    "dev_folds": [
+      "fold_0",
+      "fold_1",
+      "fold_2"
+    ],
+    "cert_folds": [
+      "fold_3",
+      "fold_4"
+    ],
+    "cert_alternatives_evaluated": 1,
+    "frozen_before_cert": {
+      "mode": "token_full_overlap50",
+      "aggregation": "max_raw",
+      "title_on": false
+    }
+  },
+  "dev_screen": {
+    "schema": "stage06a0.dev_screen.v1",
+    "dev_folds": [
+      "fold_0",
+      "fold_1",
+      "fold_2"
+    ],
+    "cert_folds": [
+      "fold_3",
+      "fold_4"
+    ],
+    "screen": {
+      "dev_queries": 4195,
+      "rescuable": 153,
+      "controls": 200,
+      "screen_total": 353,
+      "baseline_screen_recall": 0.6487252124645893,
+      "oracle15_screen_recall": 0.9711992445703493
+    },
+    "table": [
+      {
+        "mode": "head_budget",
+        "title_on": false,
+        "aggregation": "ait",
+        "mean_query_auc": 0.7584085430239278,
+        "semantic_recall_at5": 0.6661945231350331,
+        "pair_count": 8472
+      },
+      {
+        "mode": "head_budget",
+        "title_on": false,
+        "aggregation": "lal",
+        "mean_query_auc": 0.7767226007610623,
+        "semantic_recall_at5": 0.7155335221907461,
+        "pair_count": 8472
+      },
+      {
+        "mode": "head_budget",
+        "title_on": false,
+        "aggregation": "max_raw",
+        "mean_query_auc": 0.8005165062857371,
+        "semantic_recall_at5": 0.7301699716713881,
+        "pair_count": 8472
+      },
+      {
+        "mode": "head_budget",
+        "title_on": false,
+        "aggregation": "mean_z",
+        "mean_query_auc": 0.7821005917159763,
+        "semantic_recall_at5": 0.7091595845136921,
+        "pair_count": 8472
+      },
+      {
+        "mode": "token_full_nonoverlap",
+        "title_on": false,
+        "aggregation": "ait",
+        "mean_query_auc": 0.7930413603490526,
+        "semantic_recall_at5": 0.7103399433427762,
+        "pair_count": 16374
+      },
+      {
+        "mode": "token_full_nonoverlap",
+        "title_on": false,
+        "aggregation": "lal",
+        "mean_query_auc": 0.8012202896818282,
+        "semantic_recall_at5": 0.7431539187913127,
+        "pair_count": 16374
+      },
+      {
+        "mode": "token_full_nonoverlap",
+        "title_on": false,
+        "aggregation": "max_raw",
+        "mean_query_auc": 0.8209999402307095,
+        "semantic_recall_at5": 0.7606232294617564,
+        "pair_count": 16374
+      },
+      {
+        "mode": "token_full_nonoverlap",
+        "title_on": false,
+        "aggregation": "mean_z",
+        "mean_query_auc": 0.8100058773135695,
+        "semantic_recall_at5": 0.7511803588290841,
+        "pair_count": 16374
+      },
+      {
+        "mode": "token_full_overlap50",
+        "title_on": false,
+        "aggregation": "ait",
+        "mean_query_auc": 0.7929357679357678,
+        "semantic_recall_at5": 0.7131728045325779,
+        "pair_count": 21333
+      },
+      {
+        "mode": "token_full_overlap50",
+        "title_on": false,
+        "aggregation": "lal",
+        "mean_query_auc": 0.7973310521387444,
+        "semantic_recall_at5": 0.7393767705382436,
+        "pair_count": 21333
+      },
+      {
+        "mode": "token_full_overlap50",
+        "title_on": false,
+        "aggregation": "max_raw",
+        "mean_query_auc": 0.8214746080130696,
+        "semantic_recall_at5": 0.7606232294617564,
+        "pair_count": 21333
+      },
+      {
+        "mode": "token_full_overlap50",
+        "title_on": false,
+        "aggregation": "mean_z",
+        "mean_query_auc": 0.8075657960273345,
+        "semantic_recall_at5": 0.7450424929178471,
+        "pair_count": 21333
+      },
+      {
+        "mode": "token75_overlap50",
+        "title_on": false,
+        "aggregation": "ait",
+        "mean_query_auc": 0.7914081644850874,
+        "semantic_recall_at5": 0.7188385269121813,
+        "pair_count": 28583
+      },
+      {
+        "mode": "token75_overlap50",
+        "title_on": false,
+        "aggregation": "lal",
+        "mean_query_auc": 0.7958968382045306,
+        "semantic_recall_at5": 0.7355996222851747,
+        "pair_count": 28583
+      },
+      {
+        "mode": "token75_overlap50",
+        "title_on": false,
+        "aggregation": "max_raw",
+        "mean_query_auc": 0.8169022572868727,
+        "semantic_recall_at5": 0.7563739376770539,
+        "pair_count": 28583
+      },
+      {
+        "mode": "token75_overlap50",
+        "title_on": false,
+        "aggregation": "mean_z",
+        "mean_query_auc": 0.8085509931663778,
+        "semantic_recall_at5": 0.7405571293673278,
+        "pair_count": 28583
+      },
+      {
+        "mode": "lexical220_top1",
+        "title_on": false,
+        "aggregation": "ait",
+        "mean_query_auc": 0.7611629111629112,
+        "semantic_recall_at5": 0.6949952785646836,
+        "pair_count": 8472
+      },
+      {
+        "mode": "lexical220_top1",
+        "title_on": false,
+        "aggregation": "lal",
+        "mean_query_auc": 0.7771093578785887,
+        "semantic_recall_at5": 0.7136449480642115,
+        "pair_count": 8472
+      },
+      {
+        "mode": "lexical220_top1",
+        "title_on": false,
+        "aggregation": "max_raw",
+        "mean_query_auc": 0.8044259159643775,
+        "semantic_recall_at5": 0.7415014164305949,
+        "pair_count": 8472
+      },
+      {
+        "mode": "lexical220_top1",
+        "title_on": false,
+        "aggregation": "mean_z",
+        "mean_query_auc": 0.787921124459586,
+        "semantic_recall_at5": 0.7174220963172805,
+        "pair_count": 8472
+      },
+      {
+        "mode": "token_full_overlap50",
+        "title_on": true,
+        "aggregation": "ait",
+        "mean_query_auc": 0.7662408104715798,
+        "semantic_recall_at5": 0.7053824362606232,
+        "pair_count": 23078
+      },
+      {
+        "mode": "token_full_overlap50",
+        "title_on": true,
+        "aggregation": "lal",
+        "mean_query_auc": 0.7648197955890264,
+        "semantic_recall_at5": 0.6966477809254012,
+        "pair_count": 23078
+      },
+      {
+        "mode": "token_full_overlap50",
+        "title_on": true,
+        "aggregation": "max_raw",
+        "mean_query_auc": 0.7851373697527542,
+        "semantic_recall_at5": 0.7105760151085929,
+        "pair_count": 23078
+      },
+      {
+        "mode": "token_full_overlap50",
+        "title_on": true,
+        "aggregation": "mean_z",
+        "mean_query_auc": 0.7735535831689678,
+        "semantic_recall_at5": 0.7082152974504249,
+        "pair_count": 23078
+      }
+    ],
+    "frozen": {
+      "mode": "token_full_overlap50",
+      "aggregation": "max_raw",
+      "title_on": false
+    },
+    "selection_key": "max(mean_query_auc, semantic_recall_at5, -pair_count)"
+  },
+  "full_winner_pair_count": 537114,
+  "fusion": {
+    "model": "LogisticRegression C=.15 balanced",
+    "train_population": "DEV folds0-2 only",
+    "candidate_depth": 15,
+    "base_feature_dim": 45,
+    "new_feature_dim": 17,
+    "new_feature_names": [
+      "ait_ce_raw",
+      "ait_ce_z",
+      "ait_ce_gapz",
+      "ait_ce_rr10",
+      "ait_sim_raw",
+      "ait_sim_z",
+      "ait_sim_rr10",
+      "lal_ce_raw",
+      "lal_ce_z",
+      "lal_ce_gapz",
+      "lal_ce_rr10",
+      "lal_sim_raw",
+      "lal_sim_z",
+      "lal_sim_rr10",
+      "sem_max_raw",
+      "sem_mean_z",
+      "sem_absdiff"
+    ]
+  },
+  "cert": {
+    "baseline_ce_lr": {
+      "queries": 2796,
+      "recall_at_5": 0.9423581306628518,
+      "precision_at_5": 0.2012160228898426,
+      "f2_at_5": 0.5426257541204995,
+      "single_gold_recall_at_5": 0.9600155279503105,
+      "multi_gold_recall_at_5": 0.7356060606060606,
+      "mean_returned": 5.0
+    },
+    "frozen_evidence_fusion": {
+      "queries": 2796,
+      "recall_at_5": 0.9437589413447782,
+      "precision_at_5": 0.20157367668097279,
+      "f2_at_5": 0.5435175084985305,
+      "single_gold_recall_at_5": 0.9611801242236024,
+      "multi_gold_recall_at_5": 0.7397727272727272,
+      "mean_returned": 5.0
+    },
+    "delta_recall_at5": 0.0014008106819264343,
+    "delta_single_gold_recall_at5": 0.0011645962732919068
+  },
+  "next_stage_gate": {
+    "require_delta_recall_at5": 0.005,
+    "require_nonnegative_single_delta": true,
+    "decision": "KILL_OR_REDESIGN"
+  },
+  "wall_seconds": 6976.029795599985
+}
