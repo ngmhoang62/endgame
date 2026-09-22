@@ -1,0 +1,224 @@
+{
+  "schema": "dsc2026.endgame.stage07a.residual_setwise_oof.v1",
+  "status": "COMPLETE",
+  "claim_boundary": "strict 5-fold OOF",
+  "architecture": {
+    "candidate_dim": 57,
+    "query_dim": 1040,
+    "hidden": 192,
+    "heads": 8,
+    "layers": 3,
+    "seeds": [
+      276,
+      911
+    ],
+    "loss": "multi-positive listwise + hard-boundary pairwise + residual L2"
+  },
+  "baseline_ce_lr": {
+    "overall": {
+      "queries": 6991,
+      "recall_at_5": 0.9425976255185238,
+      "precision_at_5": 0.20128736947503933,
+      "f2_at_5": 0.5427930509594739,
+      "single_gold_recall_at_5": 0.9602484472049689,
+      "multi_gold_recall_at_5": 0.7362976406533576,
+      "mean_returned": 5.0
+    },
+    "per_fold": {
+      "fold_0": {
+        "queries": 1399,
+        "recall_at_5": 0.9389683106981176,
+        "precision_at_5": 0.2007147962830593,
+        "f2_at_5": 0.5409974111936298,
+        "single_gold_recall_at_5": 0.9565217391304348,
+        "multi_gold_recall_at_5": 0.7352852852852854,
+        "mean_returned": 5.0
+      },
+      "fold_1": {
+        "queries": 1397,
+        "recall_at_5": 0.9399904557384872,
+        "precision_at_5": 0.19985683607730848,
+        "f2_at_5": 0.5400183855241889,
+        "single_gold_recall_at_5": 0.9604037267080745,
+        "multi_gold_recall_at_5": 0.6987767584097858,
+        "mean_returned": 5.0
+      },
+      "fold_2": {
+        "queries": 1399,
+        "recall_at_5": 0.9493090302597095,
+        "precision_at_5": 0.20343102215868475,
+        "f2_at_5": 0.5476893891003655,
+        "single_gold_recall_at_5": 0.9642857142857143,
+        "multi_gold_recall_at_5": 0.7755255255255254,
+        "mean_returned": 5.0
+      },
+      "fold_3": {
+        "queries": 1398,
+        "recall_at_5": 0.946828803051979,
+        "precision_at_5": 0.20257510729613729,
+        "f2_at_5": 0.5457878192749487,
+        "single_gold_recall_at_5": 0.9619565217391305,
+        "multi_gold_recall_at_5": 0.7696969696969698,
+        "mean_returned": 5.0
+      },
+      "fold_4": {
+        "queries": 1398,
+        "recall_at_5": 0.9378874582737244,
+        "precision_at_5": 0.1998569384835479,
+        "f2_at_5": 0.5394625993474299,
+        "single_gold_recall_at_5": 0.9580745341614907,
+        "multi_gold_recall_at_5": 0.7015151515151514,
+        "mean_returned": 5.0
+      }
+    }
+  },
+  "residual_setwise": {
+    "overall": {
+      "queries": 6991,
+      "recall_at_5": 0.9424188242025462,
+      "precision_at_5": 0.20125876126448292,
+      "f2_at_5": 0.5427040120710117,
+      "single_gold_recall_at_5": 0.9600931677018634,
+      "multi_gold_recall_at_5": 0.7358439201451906,
+      "mean_returned": 5.0
+    },
+    "per_fold": {
+      "fold_0": {
+        "queries": 1399,
+        "recall_at_5": 0.9405170359780796,
+        "precision_at_5": 0.20100071479628306,
+        "f2_at_5": 0.5418241346338702,
+        "single_gold_recall_at_5": 0.9580745341614907,
+        "multi_gold_recall_at_5": 0.7367867867867868,
+        "mean_returned": 5.0
+      },
+      "fold_1": {
+        "queries": 1397,
+        "recall_at_5": 0.9367692674779288,
+        "precision_at_5": 0.19928418038654258,
+        "f2_at_5": 0.5383316536835788,
+        "single_gold_recall_at_5": 0.9565217391304348,
+        "multi_gold_recall_at_5": 0.7033639143730887,
+        "mean_returned": 5.0
+      },
+      "fold_2": {
+        "queries": 1399,
+        "recall_at_5": 0.9515725518227305,
+        "precision_at_5": 0.20371694067190851,
+        "f2_at_5": 0.5487064790480084,
+        "single_gold_recall_at_5": 0.967391304347826,
+        "multi_gold_recall_at_5": 0.7680180180180181,
+        "mean_returned": 5.0
+      },
+      "fold_3": {
+        "queries": 1398,
+        "recall_at_5": 0.944861707200763,
+        "precision_at_5": 0.20214592274678106,
+        "f2_at_5": 0.5446418287891587,
+        "single_gold_recall_at_5": 0.9604037267080745,
+        "multi_gold_recall_at_5": 0.7628787878787879,
+        "mean_returned": 5.0
+      },
+      "fold_4": {
+        "queries": 1398,
+        "recall_at_5": 0.9383643299952312,
+        "precision_at_5": 0.2001430615164521,
+        "f2_at_5": 0.540005634502473,
+        "single_gold_recall_at_5": 0.9580745341614907,
+        "multi_gold_recall_at_5": 0.7075757575757576,
+        "mean_returned": 5.0
+      }
+    }
+  },
+  "effect": {
+    "delta_recall": -0.00017880131597758364,
+    "delta_single": -0.00015527950310556538,
+    "delta_multi": -0.00045372050816694376,
+    "wins": 61,
+    "losses": 62
+  },
+  "fold_training": {
+    "fold_0": {
+      "train": 5592,
+      "held": 1399,
+      "seeds": [
+        {
+          "seed": 276,
+          "loss_tail": 0.548630685291507,
+          "alpha": 0.2801617980003357
+        },
+        {
+          "seed": 911,
+          "loss_tail": 0.5470873991196806,
+          "alpha": 0.2728382647037506
+        }
+      ]
+    },
+    "fold_1": {
+      "train": 5594,
+      "held": 1397,
+      "seeds": [
+        {
+          "seed": 276,
+          "loss_tail": 0.5213985951109366,
+          "alpha": 0.2779453694820404
+        },
+        {
+          "seed": 911,
+          "loss_tail": 0.5403359539129517,
+          "alpha": 0.27431800961494446
+        }
+      ]
+    },
+    "fold_2": {
+      "train": 5592,
+      "held": 1399,
+      "seeds": [
+        {
+          "seed": 276,
+          "loss_tail": 0.5210983014919541,
+          "alpha": 0.28083521127700806
+        },
+        {
+          "seed": 911,
+          "loss_tail": 0.5699716792865233,
+          "alpha": 0.27759331464767456
+        }
+      ]
+    },
+    "fold_3": {
+      "train": 5593,
+      "held": 1398,
+      "seeds": [
+        {
+          "seed": 276,
+          "loss_tail": 0.48542065952311864,
+          "alpha": 0.2813584804534912
+        },
+        {
+          "seed": 911,
+          "loss_tail": 0.5975994359363209,
+          "alpha": 0.2690449059009552
+        }
+      ]
+    },
+    "fold_4": {
+      "train": 5593,
+      "held": 1398,
+      "seeds": [
+        {
+          "seed": 276,
+          "loss_tail": 0.5735484415834601,
+          "alpha": 0.27859029173851013
+        },
+        {
+          "seed": 911,
+          "loss_tail": 0.5969295738772913,
+          "alpha": 0.2753182351589203
+        }
+      ]
+    }
+  },
+  "decision": "KILL_SETWISE",
+  "wall_seconds": 1078.3871700999734
+}
