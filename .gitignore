@@ -33,6 +33,7 @@ fine_tuned_models/
 *.pickle
 *.faiss
 *.index
+*.tar.gz
 
 # Raw official corpus files remain local.
 data/official_v1/selected-contexts/**

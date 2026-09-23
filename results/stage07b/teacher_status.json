@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "completed": 6991,
+  "total": 6991,
+  "model": "Qwen/Qwen3-Reranker-4B",
+  "training_time_teacher_only": true
+}

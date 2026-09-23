@@ -1,0 +1,328 @@
+[stage07b] unattended run; log=/content/drive/MyDrive/DSC2026/stage07b/logs/run_20260922_194025.log
+[load] Qwen/Qwen3-Reranker-4B BF16 on NVIDIA A100-SXM4-80GB 79.3GiB
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|█████     | 1/2 [00:15<00:15, 16.00s/it]Fetching 2 files: 100%|██████████| 2/2 [00:17<00:00,  7.38s/it]Fetching 2 files: 100%|██████████| 2/2 [00:17<00:00,  8.68s/it]
+Loading weights:   0%|          | 0/398 [00:00<?, ?it/s]Loading weights: 100%|██████████| 398/398 [00:00<00:00, 5770.11it/s]
+[teacher] 32/6991 q_rate=0.719/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 64/6991 q_rate=0.711/s pair_rate=14.2/s vram=45.3GiB
+[teacher] 96/6991 q_rate=0.714/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 128/6991 q_rate=0.711/s pair_rate=14.2/s vram=45.3GiB
+[teacher] 160/6991 q_rate=0.713/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 192/6991 q_rate=0.714/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 224/6991 q_rate=0.716/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 256/6991 q_rate=0.714/s pair_rate=14.3/s vram=45.3GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 288/6991 q_rate=0.711/s pair_rate=14.2/s vram=45.3GiB
+[teacher] 320/6991 q_rate=0.713/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 352/6991 q_rate=0.713/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 384/6991 q_rate=0.714/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 416/6991 q_rate=0.714/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 448/6991 q_rate=0.715/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 480/6991 q_rate=0.714/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 512/6991 q_rate=0.715/s pair_rate=14.3/s vram=45.3GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 544/6991 q_rate=0.715/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 576/6991 q_rate=0.716/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 608/6991 q_rate=0.717/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 640/6991 q_rate=0.717/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 672/6991 q_rate=0.717/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 704/6991 q_rate=0.717/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 736/6991 q_rate=0.718/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 768/6991 q_rate=0.717/s pair_rate=14.3/s vram=45.3GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 800/6991 q_rate=0.717/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 832/6991 q_rate=0.717/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 864/6991 q_rate=0.717/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 896/6991 q_rate=0.717/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 928/6991 q_rate=0.717/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 960/6991 q_rate=0.718/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 992/6991 q_rate=0.718/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1024/6991 q_rate=0.718/s pair_rate=14.4/s vram=45.3GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 1056/6991 q_rate=0.718/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1088/6991 q_rate=0.717/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 1120/6991 q_rate=0.717/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 1152/6991 q_rate=0.717/s pair_rate=14.3/s vram=45.3GiB
+[teacher] 1184/6991 q_rate=0.718/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1216/6991 q_rate=0.718/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1248/6991 q_rate=0.718/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1280/6991 q_rate=0.718/s pair_rate=14.4/s vram=45.3GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 1312/6991 q_rate=0.719/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1344/6991 q_rate=0.718/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1376/6991 q_rate=0.718/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1408/6991 q_rate=0.719/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1440/6991 q_rate=0.719/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1472/6991 q_rate=0.719/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1504/6991 q_rate=0.719/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1536/6991 q_rate=0.719/s pair_rate=14.4/s vram=45.3GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 1568/6991 q_rate=0.719/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1600/6991 q_rate=0.719/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1632/6991 q_rate=0.719/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1664/6991 q_rate=0.719/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1696/6991 q_rate=0.719/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1728/6991 q_rate=0.719/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1760/6991 q_rate=0.719/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1792/6991 q_rate=0.719/s pair_rate=14.4/s vram=45.3GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 1824/6991 q_rate=0.719/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1856/6991 q_rate=0.719/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1888/6991 q_rate=0.719/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1920/6991 q_rate=0.719/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1952/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 1984/6991 q_rate=0.719/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2016/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2048/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 2080/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2112/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2144/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2176/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2208/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2240/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2272/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2304/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 2336/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2368/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2400/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2432/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2464/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2496/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2528/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2560/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 2592/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2624/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2656/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2688/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2720/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2752/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2784/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2816/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 2848/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2880/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2912/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2944/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 2976/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3008/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3040/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3072/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 3104/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3136/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3168/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3200/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3232/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3264/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3296/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3328/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 3360/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3392/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3424/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3456/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3488/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3520/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3552/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3584/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 3616/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3648/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3680/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3712/6991 q_rate=0.720/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3744/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3776/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3808/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3840/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 3872/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3904/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3936/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 3968/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4000/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4032/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4064/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4096/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 4128/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4160/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4192/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4224/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4256/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4288/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4320/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4352/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 4384/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4416/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4448/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4480/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4512/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4544/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4576/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4608/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 4640/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4672/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4704/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4736/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4768/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4800/6991 q_rate=0.721/s pair_rate=14.4/s vram=45.3GiB
+[teacher] 4832/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 4864/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 4896/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 4928/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 4960/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 4992/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5024/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5056/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5088/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5120/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 5152/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5184/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5216/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5248/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5280/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5312/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5344/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5376/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 5408/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5440/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5472/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5504/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5536/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5568/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5600/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5632/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 5664/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5696/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5728/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5760/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5792/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5824/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5856/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5888/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 5920/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5952/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 5984/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6016/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6048/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6080/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6112/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6144/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 6176/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6208/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6240/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6272/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6304/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6336/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6368/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6400/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 6432/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6464/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6496/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6528/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6560/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6592/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6624/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6656/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 6688/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6720/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6752/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6784/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6816/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6848/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6880/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6912/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+[teacher] 6944/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6976/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[teacher] 6991/6991 q_rate=0.721/s pair_rate=14.4/s vram=50.7GiB
+[drive] teacher snapshot saved -> /content/drive/MyDrive/DSC2026/stage07b
+TEACHER TARGETS COMPLETE. No teacher evaluation performed.
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/310 [00:00<?, ?it/s]Loading weights: 100%|██████████| 310/310 [00:00<00:00, 6054.39it/s]
+Traceback (most recent call last):
+  File "/content/stage07b/run_qwen06b_student_portable_a100.py", line 143, in main
+    try:sall=score_pairs(model,tok,yes_id,no_id,pairs)
+             ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/stage07b/run_qwen06b_student_portable_a100.py", line 43, in score_pairs
+    return C.last_score(model,batch,yes_id,no_id)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/content/stage07b/stage07b_portable_common.py", line 53, in last_score
+    out=decoder(**batch,return_dict=True)
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/generic.py", line 1068, in wrapper
+    output = func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/utils/output_capturing.py", line 262, in wrapper
+    outputs = func(self, *args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py", line 413, in forward
+    hidden_states = decoder_layer(
+        hidden_states,
+    ...<5 lines>...
+        **kwargs,
+    )
+  File "/usr/local/lib/python3.13/dist-packages/transformers/modeling_layers.py", line 114, in __call__
+    return super().__call__(*args, **kwargs)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py", line 307, in forward
+    hidden_states, _ = self.self_attn(
+                       ~~~~~~~~~~~~~~^
+        hidden_states=hidden_states,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        **kwargs,
+        ^^^^^^^^^
+    )
+    ^
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py", line 252, in forward
+    query_states = self.q_norm(self.q_proj(hidden_states).view(hidden_shape)).transpose(1, 2)
+                   ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1779, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/dist-packages/torch/nn/modules/module.py", line 1790, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/usr/local/lib/python3.13/dist-packages/transformers/models/qwen3/modeling_qwen3.py", line 64, in forward
+    return self.weight * hidden_states.to(input_dtype)
+                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 174.00 MiB. GPU 0 has a total capacity of 79.25 GiB of which 54.81 MiB is free. Including non-PyTorch memory, this process has 79.19 GiB memory in use. Of the allocated memory 78.52 GiB is allocated by PyTorch, and 170.82 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://docs.pytorch.org/docs/stable/notes/cuda.html#optimizing-memory-usage-with-pytorch-cuda-alloc-conf)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/content/stage07b/run_qwen06b_student_portable_a100.py", line 231, in <module>
+    if __name__=="__main__":main()
+                            ~~~~^^
+  File "/content/stage07b/run_qwen06b_student_portable_a100.py", line 145, in main
+    raise RuntimeError(f"OOM: rerun with --batch-queries {max(1,args.batch_queries//2)}")
+RuntimeError: OOM: rerun with --batch-queries 2
+[stage07b] student failed status=1
+[stage07b] finished status=1; shutting down runtime to stop compute-unit burn.

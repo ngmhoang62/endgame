@@ -1,0 +1,15 @@
+{
+  "schema": "dsc2026.endgame.stage07b.student_resume.v5",
+  "alpha": 0.37918001413345337,
+  "loss_tail": 0.583202011163036,
+  "train_queries": 5592,
+  "held_queries": 1399,
+  "base_recall": 0.9389683106981176,
+  "student_recall": 0.943971884679533,
+  "delta_recall": 0.005003573981415377,
+  "microbatch_queries": 2,
+  "grad_accum": 2,
+  "effective_query_batch": 4,
+  "use_cache": false,
+  "peak_reserved_gib": 66.361328125
+}
