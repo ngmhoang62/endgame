@@ -1,0 +1,138 @@
+{
+  "schema": "stage07ac.safe_switch_router.v1",
+  "teacher_used": false,
+  "distillation_used": false,
+  "base_R": 0.9505364039479332,
+  "arm_oracle": 0.9561984539031982,
+  "routed_R": 0.9505721926689148,
+  "delta": 3.578872098164432e-05,
+  "wins": 6,
+  "losses": 5,
+  "arms": [
+    {
+      "signal": "L",
+      "beta": -0.15
+    },
+    {
+      "signal": "L",
+      "beta": -0.1
+    },
+    {
+      "signal": "L",
+      "beta": -0.05
+    },
+    {
+      "signal": "L",
+      "beta": 0.05
+    },
+    {
+      "signal": "L",
+      "beta": 0.1
+    },
+    {
+      "signal": "L",
+      "beta": 0.15
+    },
+    {
+      "signal": "S",
+      "beta": -0.15
+    },
+    {
+      "signal": "S",
+      "beta": -0.1
+    },
+    {
+      "signal": "S",
+      "beta": -0.05
+    },
+    {
+      "signal": "S",
+      "beta": 0.05
+    },
+    {
+      "signal": "S",
+      "beta": 0.1
+    },
+    {
+      "signal": "S",
+      "beta": 0.15
+    }
+  ],
+  "folds": {
+    "fold_0": {
+      "threshold": {
+        "threshold": 0.39813172817230225,
+        "inner_gain": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "switches": 0
+      },
+      "held_switches": 0,
+      "held_wins": 0,
+      "held_losses": 0,
+      "held_R": 0.9438527822494507,
+      "base_R": 0.9438527822494507,
+      "delta_R": 0.0
+    },
+    "fold_1": {
+      "threshold": {
+        "threshold": 0.044740325864404504,
+        "inner_gain": 2.979382043122314e-05,
+        "wins": 3,
+        "losses": 3,
+        "switches": 140
+      },
+      "held_switches": 32,
+      "held_wins": 2,
+      "held_losses": 1,
+      "held_R": 0.9467908143997192,
+      "base_R": 0.946432888507843,
+      "delta_R": 0.00035790979745797813
+    },
+    "fold_2": {
+      "threshold": {
+        "threshold": 0.26786792278289795,
+        "inner_gain": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "switches": 0
+      },
+      "held_switches": 0,
+      "held_wins": 0,
+      "held_losses": 0,
+      "held_R": 0.9581248164176941,
+      "base_R": 0.9581248164176941,
+      "delta_R": 0.0
+    },
+    "fold_3": {
+      "threshold": {
+        "threshold": 0.2717677056789398,
+        "inner_gain": 0.0,
+        "wins": 0,
+        "losses": 0,
+        "switches": 0
+      },
+      "held_switches": 1,
+      "held_wins": 0,
+      "held_losses": 0,
+      "held_R": 0.9579160213470459,
+      "base_R": 0.9579160213470459,
+      "delta_R": 0.0
+    },
+    "fold_4": {
+      "threshold": {
+        "threshold": 0.0071724656969308805,
+        "inner_gain": 0.0007449788390658796,
+        "wins": 11,
+        "losses": 6,
+        "switches": 839
+      },
+      "held_switches": 215,
+      "held_wins": 4,
+      "held_losses": 4,
+      "held_R": 0.9461731314659119,
+      "base_R": 0.946351945400238,
+      "delta_R": -0.00017882690008264035
+    }
+  }
+}
