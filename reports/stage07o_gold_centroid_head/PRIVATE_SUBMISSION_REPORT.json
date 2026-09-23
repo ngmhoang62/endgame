@@ -1,0 +1,17 @@
+{
+  "schema": "dsc2026.endgame.stage07o.private.v1",
+  "status": "READY_FOR_PRIVATE_SUBMISSION",
+  "private_sha256": "9da4e0cb84204fed924251c35744c93879556e67a440332015ea3b62f3c355bc",
+  "queries": 2080,
+  "checkpoint_sha256": "2fa9490c26d21230412f633e50b943c0ded0754e01a600969d71596ab9bf36d8",
+  "centroid_sha256": "660827c01e605e79c1b2b3dcdb94f58162364361439ffec791660d6116b37b53",
+  "oof_recall_at5": 0.9473537405235303,
+  "private_baseline_prediction_parity": true,
+  "teacher_used": false,
+  "distillation_used": false,
+  "json": "submissions/endgame_20260923/GOLD_CENTROID_HEAD_K5.json",
+  "json_sha256": "f373b4fe3b460b636703ed7f78bd2420bcc7cb6cf556589b29cdaaee5f498842",
+  "zip": "submissions/endgame_20260923/GOLD_CENTROID_HEAD_K5.zip",
+  "zip_sha256": "32746f2fef16fb3b10510a2ff8c73415ee319ca3fd5c76e34ac790a9e7e274a4",
+  "set_churn_vs_ce_lr": 533
+}

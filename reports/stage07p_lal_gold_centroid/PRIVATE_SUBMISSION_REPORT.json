@@ -1,0 +1,18 @@
+{
+  "schema": "stage07p.private.v1",
+  "private_sha256": "9da4e0cb84204fed924251c35744c93879556e67a440332015ea3b62f3c355bc",
+  "queries": 2080,
+  "teacher_used": false,
+  "distillation_used": false,
+  "oof_decision": "PROMOTE_LAL",
+  "lal_checkpoint_sha256": "46e44eca5cc5cceef9b532f39742f6e968b0c8df220a2c256913fcd745a20f33",
+  "lal_centroid_sha256": "ed213b7c6b48ef2bbaf46c9722a5de068904d500bab64b20d56fec393046ddda",
+  "submissions": {
+    "GOLD_LAL_CENTROID_K5": {
+      "zip": "submissions/endgame_20260923/GOLD_LAL_CENTROID_K5.zip",
+      "zip_sha256": "ab736122d97fb19fc44eecf7f15783c00eb8f7311e70a0d7c47e4bca5c99eb2a",
+      "json_sha256": "8f6224d2099f07d486f595553a81a7060774086ba331da15442ec16beaf505d4",
+      "set_churn_vs_baseline": 597
+    }
+  }
+}

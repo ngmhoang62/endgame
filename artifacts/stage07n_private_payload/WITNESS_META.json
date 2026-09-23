@@ -1,0 +1,43 @@
+{
+  "contract_hash": "3ee67105ef1b1103cfb6dc345da7079aa6ff413fc2abba7681599fa2a2741f91",
+  "contract": {
+    "schema": "stage07n.private_witness.v1",
+    "private_sha256": "9da4e0cb84204fed924251c35744c93879556e67a440332015ea3b62f3c355bc",
+    "shortlist_sha256": "e766c7ecd08782499fb5e35bcc12584f8296664272cd4d134f637507f1e9300f",
+    "query_aiteam_sha256": "64e7967cfc0666ff28a5aa5735e24d3b861d7239a4bc94e882d7c16d0742e96b",
+    "query_lal_sha256": "a24492268b18c7c5ce9157e741b116ed8e0186a01ca659df0a44ec3c1f7a11ac",
+    "depth": 20,
+    "views": {
+      "ait_atomic": {
+        "chunks_sha256": "d802fb15e1f087760c44469ecf0c98064e9f58736f873fd7c16329f0e3085254",
+        "embedding_shape": [
+          196117,
+          1024
+        ]
+      },
+      "ait_coarse": {
+        "chunks_sha256": "f88cc2b572fed95ae4b03df00601811f77a7a2711182cc8942ffee4035116656",
+        "embedding_shape": [
+          112899,
+          1024
+        ]
+      },
+      "lal_atomic": {
+        "chunks_sha256": "d8b82f6bd0919283cc122404bdc264d872a1b513632ac156683fe0448d018f82",
+        "embedding_shape": [
+          201019,
+          1024
+        ]
+      },
+      "lal_coarse": {
+        "chunks_sha256": "a950432bb19a458ebbe348a5456b27ab8da4c1405afb39d7d8989595912866d5",
+        "embedding_shape": [
+          137943,
+          1024
+        ]
+      }
+    }
+  },
+  "status": "PASS",
+  "completed": 2080
+}

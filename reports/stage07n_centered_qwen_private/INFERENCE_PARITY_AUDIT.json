@@ -1,0 +1,25 @@
+{
+  "schema": "stage07n.l4_checkpoint_parity_audit.v1",
+  "original_l4_dev_recall": 0.953862660944206,
+  "a100_reload_fold3_recall": 0.9461134954697187,
+  "a100_reload_base_recall": 0.9471864568431092,
+  "a100_reload_centered_recall": 0.9453981878874583,
+  "a100_reload_parity": false,
+  "score_quantiles": [
+    -6.8125,
+    -1.6875,
+    -0.4375,
+    1.25,
+    9.75
+  ],
+  "score_row_mean_quantiles": [
+    -2.6937499046325684,
+    -0.8915625035762786,
+    -0.33125001192092896,
+    0.32078125178813927,
+    3.323437452316284
+  ],
+  "decision": "HOLD_CENTERED_SUBMISSION_UNTIL_L4_RELOAD_CHECK",
+  "l4_original_report_url": "https://drive.google.com/file/d/19HvmnvOy6zrZ-3gc5z_XIkgkrrZjin9J/view",
+  "a100_export_report_url": "https://drive.google.com/file/d/1tPYufQBjF6Uiumg700H41aqLNXOjeQyC/view"
+}

@@ -1,0 +1,157 @@
+{
+  "schema": "stage07v.fixed_clean_three_signal.v1",
+  "teacher_used": false,
+  "distillation_used": false,
+  "weights": {
+    "gold_document_propensity": 0.3333333333333333,
+    "pointwise_raw_embedding": 0.3333333333333333,
+    "setwise_raw_embedding": 0.3333333333333333
+  },
+  "sources": {
+    "gold_document_propensity": "reports/stage07r_gold_doc_propensity/propensity_oof_scores30.f32.npy",
+    "pointwise_raw_embedding": "cache/stage07o_gold_centroid_head/gold_head_oof_scores30.f32.npy",
+    "setwise_raw_embedding": "cache/stage07u_gold_embedding_setwise/setwise_centroid_oof_scores30.f32.npy"
+  },
+  "metrics": {
+    "overall": {
+      "queries": 6991,
+      "recall_at_5": 0.9477709435941448,
+      "precision_at_5": 0.20271778000286078,
+      "f2_at_5": 0.5462453833348967,
+      "single_gold_recall_at_5": 0.9636645962732919,
+      "multi_gold_recall_at_5": 0.7620084694494857,
+      "mean_returned": 5.0
+    },
+    "per_fold": {
+      "fold_0": {
+        "queries": 1399,
+        "recall_at_5": 0.9390874434119609,
+        "precision_at_5": 0.2007147962830593,
+        "f2_at_5": 0.541029047066548,
+        "single_gold_recall_at_5": 0.9565217391304348,
+        "multi_gold_recall_at_5": 0.7367867867867868,
+        "mean_returned": 5.0
+      },
+      "fold_1": {
+        "queries": 1397,
+        "recall_at_5": 0.9460749224528751,
+        "precision_at_5": 0.20171796707229775,
+        "f2_at_5": 0.5443414228634066,
+        "single_gold_recall_at_5": 0.9635093167701864,
+        "multi_gold_recall_at_5": 0.7400611620795107,
+        "mean_returned": 5.0
+      },
+      "fold_2": {
+        "queries": 1399,
+        "recall_at_5": 0.9568143912318323,
+        "precision_at_5": 0.20528949249463901,
+        "f2_at_5": 0.5523818735118877,
+        "single_gold_recall_at_5": 0.9704968944099379,
+        "multi_gold_recall_at_5": 0.798048048048048,
+        "mean_returned": 5.0
+      },
+      "fold_3": {
+        "queries": 1398,
+        "recall_at_5": 0.9521936099189319,
+        "precision_at_5": 0.20400572246065804,
+        "f2_at_5": 0.5492906138477043,
+        "single_gold_recall_at_5": 0.9658385093167702,
+        "multi_gold_recall_at_5": 0.7924242424242425,
+        "mean_returned": 5.0
+      },
+      "fold_4": {
+        "queries": 1398,
+        "recall_at_5": 0.944682880305198,
+        "precision_at_5": 0.20185979971387696,
+        "f2_at_5": 0.5441786827516061,
+        "single_gold_recall_at_5": 0.9619565217391305,
+        "multi_gold_recall_at_5": 0.7424242424242423,
+        "mean_returned": 5.0
+      }
+    },
+    "stress": {
+      "single_gold": {
+        "queries": 6440,
+        "recall_at_5": 0.9636645962732919,
+        "precision_at_5": 0.19273291925465835,
+        "f2_at_5": 0.5353692201518288,
+        "single_gold_recall_at_5": 0.9636645962732919,
+        "multi_gold_recall_at_5": 0.0,
+        "mean_returned": 5.0
+      },
+      "multi_gold": {
+        "queries": 551,
+        "recall_at_5": 0.7620084694494857,
+        "precision_at_5": 0.3194192377495463,
+        "f2_at_5": 0.596661039075407,
+        "single_gold_recall_at_5": 0.0,
+        "multi_gold_recall_at_5": 0.7620084694494857,
+        "mean_returned": 5.0
+      },
+      "three_plus_gold": {
+        "queries": 68,
+        "recall_at_5": 0.4980392156862745,
+        "precision_at_5": 0.3176470588235294,
+        "f2_at_5": 0.44724142428590064,
+        "single_gold_recall_at_5": 0.0,
+        "multi_gold_recall_at_5": 0.4980392156862745,
+        "mean_returned": 5.0
+      },
+      "empty_gold_affected_but_evaluable": {
+        "queries": 2,
+        "recall_at_5": 1.0,
+        "precision_at_5": 0.2,
+        "f2_at_5": 0.5555555555555556,
+        "single_gold_recall_at_5": 1.0,
+        "multi_gold_recall_at_5": 0.0,
+        "mean_returned": 5.0
+      },
+      "duplicate_content_gold_literal_ids": {
+        "queries": 4,
+        "recall_at_5": 0.75,
+        "precision_at_5": 0.2,
+        "f2_at_5": 0.48387096774193544,
+        "single_gold_recall_at_5": 1.0,
+        "multi_gold_recall_at_5": 0.5,
+        "mean_returned": 5.0
+      },
+      "near_duplicate_group_member": {
+        "queries": 151,
+        "recall_at_5": 0.9790286975717438,
+        "precision_at_5": 0.20662251655629135,
+        "f2_at_5": 0.560197371883575,
+        "single_gold_recall_at_5": 0.9929078014184397,
+        "multi_gold_recall_at_5": 0.7833333333333333,
+        "mean_returned": 5.0
+      },
+      "semantic_dense_ge_0_90": {
+        "queries": 354,
+        "recall_at_5": 0.9679849340866289,
+        "precision_at_5": 0.20508474576271185,
+        "f2_at_5": 0.555041908814416,
+        "single_gold_recall_at_5": 0.9847560975609756,
+        "multi_gold_recall_at_5": 0.7564102564102563,
+        "mean_returned": 5.0
+      },
+      "rare_gold_only": {
+        "queries": 1620,
+        "recall_at_5": 0.9434156378600823,
+        "precision_at_5": 0.1928395061728395,
+        "f2_at_5": 0.530471775062078,
+        "single_gold_recall_at_5": 0.9487017099430018,
+        "multi_gold_recall_at_5": 0.7398373983739837,
+        "mean_returned": 5.0
+      },
+      "frequent_gold_16p": {
+        "queries": 1364,
+        "recall_at_5": 0.9437316715542522,
+        "precision_at_5": 0.2126099706744868,
+        "f2_at_5": 0.5591627025247382,
+        "single_gold_recall_at_5": 0.9726495726495726,
+        "multi_gold_recall_at_5": 0.7693298969072165,
+        "mean_returned": 5.0
+      }
+    }
+  },
+  "decision": "KILL"
+}

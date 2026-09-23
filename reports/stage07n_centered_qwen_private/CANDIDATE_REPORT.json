@@ -1,0 +1,16 @@
+{
+  "schema": "stage07n.centered_private_candidate.v1",
+  "status": "CANDIDATE_AWAITING_HELD_FOLD_VALIDATION",
+  "hypothesis": "remove arbitrary per-query Qwen logit offset before top20-only fusion",
+  "teacher_used": false,
+  "distillation_used": false,
+  "private_sha256": "9da4e0cb84204fed924251c35744c93879556e67a440332015ea3b62f3c355bc",
+  "queries": 2080,
+  "alpha": 0.28595682978630066,
+  "changed_top5_sets_vs_raw": 650,
+  "raw_top5_outside20": 1038,
+  "centered_top5_outside20": 22,
+  "original_public_recall": 0.946889227,
+  "zip": "submissions/endgame_20260923/GOLD_QWEN06B_CENTERED_PRIVATE_K5.zip",
+  "zip_sha256": "f9c87da363a5be030399ca9efd84c74b9e756334b9e38e576213f93da51a8fc7"
+}
