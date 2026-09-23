@@ -1,0 +1,93 @@
+{
+  "schema": "stage07z.last_shot_clean_trifusion.v1",
+  "teacher_used": false,
+  "distillation_used": false,
+  "signals": [
+    "gold_document_propensity",
+    "AIT_raw_centroid_gold_head",
+    "LAL_raw_centroid_gold_head"
+  ],
+  "robust_best": {
+    "w_prop": 0.75,
+    "w_ait": 0.25,
+    "w_lal": 0.0,
+    "R": 0.9505364039479332,
+    "multi": 0.7680580762250454,
+    "folds": {
+      "fold_0": 0.9438527519656896,
+      "fold_1": 0.9464328322596038,
+      "fold_2": 0.9581248510841077,
+      "fold_3": 0.9579160705770149,
+      "fold_4": 0.9463519313304721
+    },
+    "robust_obj": 0.9483721080249913
+  },
+  "raw_best": {
+    "w_prop": 0.75,
+    "w_ait": 0.25,
+    "w_lal": 0.0,
+    "R": 0.9505364039479332,
+    "multi": 0.7680580762250454,
+    "folds": {
+      "fold_0": 0.9438527519656896,
+      "fold_1": 0.9464328322596038,
+      "fold_2": 0.9581248510841077,
+      "fold_3": 0.9579160705770149,
+      "fold_4": 0.9463519313304721
+    },
+    "robust_obj": 0.9483721080249913
+  },
+  "nested": [
+    {
+      "held": "fold_0",
+      "weights": [
+        0.725,
+        0.25,
+        0.025
+      ],
+      "held_R": 0.942423159399571
+    },
+    {
+      "held": "fold_1",
+      "weights": [
+        0.8,
+        0.2,
+        -0.0
+      ],
+      "held_R": 0.945001193032689
+    },
+    {
+      "held": "fold_2",
+      "weights": [
+        0.75,
+        0.25,
+        0.0
+      ],
+      "held_R": 0.9581248510841077
+    },
+    {
+      "held": "fold_3",
+      "weights": [
+        0.75,
+        0.25,
+        0.0
+      ],
+      "held_R": 0.9579160705770149
+    },
+    {
+      "held": "fold_4",
+      "weights": [
+        0.75,
+        0.25,
+        0.0
+      ],
+      "held_R": 0.9463519313304721
+    }
+  ],
+  "nested_weighted_R": 0.9499642397368044,
+  "w75_reference": {
+    "R": 0.9505364039479332,
+    "nested_R": 0.9502503218423687
+  },
+  "promote_over_w75": false
+}
