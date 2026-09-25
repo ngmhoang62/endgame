@@ -1,0 +1,64 @@
+{
+  "schema": "stage07ad.qwen_w75_lastshot.v1",
+  "teacher_used": false,
+  "distillation_used": false,
+  "alpha": 0.25259047746658325,
+  "qwen": {
+    "fold3": {
+      "queries": 1398,
+      "recall_at_5": 0.9556509298998569,
+      "precision_at_5": 0.20457796852646637,
+      "single_gold_recall_at_5": 0.9704968944099379,
+      "multi_gold_recall_at_5": 0.7818181818181819
+    },
+    "fold4": {
+      "queries": 1398,
+      "recall_at_5": 0.9440271816881259,
+      "precision_at_5": 0.20157367668097279,
+      "single_gold_recall_at_5": 0.9619565217391305,
+      "multi_gold_recall_at_5": 0.7340909090909091
+    }
+  },
+  "w75": {
+    "fold3": 0.9579160705770149,
+    "fold4": 0.9463519313304721,
+    "weighted_mean": 0.9521340009537436
+  },
+  "best_mean": {
+    "anchor": 0,
+    "w_qwen": 0.5,
+    "fold3": 0.9597639484978541,
+    "fold4": 0.9468884120171673,
+    "mean": 0.9533261802575107,
+    "worst_delta": 0.0005364806866952065
+  },
+  "best_safe": {
+    "anchor": 0,
+    "w_qwen": 0.45,
+    "fold3": 0.9590486409155937,
+    "fold4": 0.9470672389127325,
+    "mean": 0.9530579399141631,
+    "worst_delta": 0.0007153075822603494
+  },
+  "cross": {
+    "select3": {
+      "anchor": 0,
+      "w_qwen": 0.5,
+      "fold3": 0.9597639484978541,
+      "fold4": 0.9468884120171673,
+      "mean": 0.9533261802575107,
+      "worst_delta": 0.0005364806866952065
+    },
+    "select4": {
+      "anchor": 0,
+      "w_qwen": 0.25,
+      "fold3": 0.9583333333333334,
+      "fold4": 0.9479017644253697,
+      "mean": 0.9531175488793515,
+      "worst_delta": 0.00041726275631848164
+    },
+    "cross_mean": 0.9526108726752504
+  },
+  "pass_gate": true,
+  "private_zip": "/content/drive/MyDrive/DSC2026/stage07x_qwen_persistence_probe/GOLD_LASTSHOT_W75_QWEN_A0_W50_K5.zip"
+}

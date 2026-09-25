@@ -1,0 +1,24 @@
+{
+  "schema": "stage07n.private_submission.ungated.v1",
+  "status": "READY_FOR_SUBMISSION_LOCAL_DEV_CERT_PENDING",
+  "validation_status": "L4_DEV_CERT_PENDING_AT_MATERIALIZATION",
+  "teacher_used": false,
+  "distillation_used": false,
+  "model_id": "Qwen/Qwen3-Reranker-0.6B",
+  "training_folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "private_sha256": "9da4e0cb84204fed924251c35744c93879556e67a440332015ea3b62f3c355bc",
+  "queries": 2080,
+  "mean_returned": 5,
+  "alpha": 0.28595682978630066,
+  "score_contract_sha256": "60baa682824b2622b3444d887e31d6227598ed50ac3866509fa8252c5462695e",
+  "json": "/content/drive/MyDrive/DSC2026/stage07n_full_gold_qwen_a100/private_inference/GOLD_QWEN06B_FULLTRAIN_PRIVATE_K5.json",
+  "json_sha256": "3566abaf5d7011eeb4683eb8d1a7ea89246a59c8715131d99c4ac85014ae1f2f",
+  "zip": "/content/drive/MyDrive/DSC2026/stage07n_full_gold_qwen_a100/private_inference/GOLD_QWEN06B_FULLTRAIN_PRIVATE_K5.zip",
+  "zip_sha256": "d213fd17ff26e2adf991703299dc520d3fee530ef786d0180bde230f96041f5a"
+}

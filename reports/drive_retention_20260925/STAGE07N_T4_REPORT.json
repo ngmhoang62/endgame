@@ -1,0 +1,81 @@
+{
+  "schema": "dsc2026.endgame.stage07n.t4_gold_qwen.v1",
+  "status": "CERT_COMPLETE",
+  "eligibility": {
+    "base_model": "Qwen/Qwen3-Reranker-0.6B",
+    "teacher_used": false,
+    "teacher_targets_used": false,
+    "distillation_used": false,
+    "training_type": "supervised full fine-tuning on competition gold labels"
+  },
+  "precision": "FP32 params + BF16 autocast",
+  "partition": {
+    "train_folds": [
+      0,
+      1,
+      2
+    ],
+    "dev_fold": 3,
+    "cert_fold": 4
+  },
+  "alpha": 0.25203922390937805,
+  "dev": {
+    "baseline": {
+      "queries": 1398,
+      "recall_at_5": 0.9471864568431092,
+      "precision_at_5": 0.2027181688125894,
+      "single_gold_recall_at_5": 0.9619565217391305,
+      "multi_gold_recall_at_5": 0.7742424242424243
+    },
+    "gold_qwen": {
+      "queries": 1398,
+      "recall_at_5": 0.953862660944206,
+      "precision_at_5": 0.20443490701001427,
+      "single_gold_recall_at_5": 0.967391304347826,
+      "multi_gold_recall_at_5": 0.7954545454545454
+    },
+    "delta_recall": 0.0066762041010968165,
+    "wins": 20,
+    "losses": 8
+  },
+  "cert": {
+    "baseline": {
+      "queries": 1398,
+      "recall_at_5": 0.9375298044825943,
+      "precision_at_5": 0.19971387696709583,
+      "single_gold_recall_at_5": 0.9580745341614907,
+      "multi_gold_recall_at_5": 0.6969696969696969
+    },
+    "gold_qwen": {
+      "queries": 1398,
+      "recall_at_5": 0.9438483547925608,
+      "precision_at_5": 0.20185979971387696,
+      "single_gold_recall_at_5": 0.9604037267080745,
+      "multi_gold_recall_at_5": 0.75
+    },
+    "delta_recall": 0.006318550309966531,
+    "wins": 23,
+    "losses": 9
+  },
+  "config": {
+    "epochs": 1,
+    "grad_accum": 4,
+    "maxlen": 1024,
+    "lr": 0.000008,
+    "alpha_lr": 0.0008,
+    "weight_decay": 0.01,
+    "hard_negs": 4,
+    "max_negs": 4,
+    "listwise_weight": 0.55,
+    "pair_weight": 0.25,
+    "bce_weight": 0.2,
+    "resid_l2": 0.0005,
+    "gold_temp": 1,
+    "margin": 0.4,
+    "hard_query_bonus": 1.25,
+    "multi_bonus": 0.15,
+    "dev_min_delta": 0.002,
+    "seed": 276
+  },
+  "decision": "PROMOTE_TO_FULLTRAIN"
+}

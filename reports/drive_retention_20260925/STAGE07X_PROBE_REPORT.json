@@ -1,0 +1,37 @@
+{
+  "schema": "stage07x.qwen_persistence_probe.v1",
+  "status": "COMPLETE",
+  "teacher_used": false,
+  "distillation_used": false,
+  "baseline": {
+    "queries": 1398,
+    "recall_at_5": 0.9471864568431092,
+    "precision_at_5": 0.2027181688125894,
+    "single_gold_recall_at_5": 0.9619565217391305,
+    "multi_gold_recall_at_5": 0.7742424242424243
+  },
+  "alpha": 0.25259047746658325,
+  "sample_diag": {
+    "sample_queries": 128,
+    "max_abs_raw_diff": 0,
+    "mean_abs_raw_diff": 0,
+    "corr": 1
+  },
+  "inmemory_fold3": {
+    "queries": 1398,
+    "recall_at_5": 0.9556509298998569,
+    "precision_at_5": 0.20457796852646637,
+    "single_gold_recall_at_5": 0.9704968944099379,
+    "multi_gold_recall_at_5": 0.7818181818181819
+  },
+  "reloaded_fold3": {
+    "queries": 1398,
+    "recall_at_5": 0.9556509298998569,
+    "precision_at_5": 0.20457796852646637,
+    "single_gold_recall_at_5": 0.9704968944099379,
+    "multi_gold_recall_at_5": 0.7818181818181819
+  },
+  "delta_inmemory_vs_baseline": 0.00846447305674769,
+  "delta_reloaded_vs_baseline": 0.00846447305674769,
+  "recommendation": "KILL_PERSISTENCE_HYPOTHESIS"
+}
