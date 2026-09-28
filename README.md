@@ -177,12 +177,21 @@ or the selected weight differs. Reading the committed historical report is
 and disk; keep `cache/`, `models/`, and `submissions/` untracked.
 
 **Exactness limit (2026-09-28):** The historical OOF arrays pass the exact
-check, but exact replay from source has **not** been demonstrated. In a
-controlled Stage07O retrain using the original local centroid and upstream
-cache, the centroid-head Recall@5 was `0.9463762933295189` rather than the
-historical `0.9473537405235303`; the recomputed robust fusion chose `0.80`
-and reached `0.9501072807895867`. A fresh centroid build also differed at
-floating-point byte level. The GPU aggregation/training path is not
-bitwise-deterministic, so the current repository supplies a complete
-provenance-checked replay route and a fail-closed exact metric test, **not** a
-verified guarantee of the exact historical CV result on a clean clone.
+check, but exact replay from source has **not** been demonstrated. Stage07R
+propensity retraining reproduced its historical OOF array byte-for-byte.
+Stage07O's title-IDF feature builder sums over unordered Python `set`s, while
+the original command did not set `PYTHONHASHSEED`. The recorded NumPy/PyTorch
+seed `276` cannot recover that process's unrecorded Python hash seed. With
+`PYTHONHASHSEED=0` and the original local centroid, two independent full
+Stage07O runs produced the same OOF SHA-256
+`9aa3871f2a14940569767cbd5be05c43fe5d7b31c13a8d98df9b18b175d6e475`,
+but the resulting W75 fusion Recall@5 was `0.950393362895151`, not the
+historical `0.9505364039479332`. The original centroid was produced by GPU
+`index_add_`; two new builds from the same region embeddings had different
+SHA-256 values. Two CPU builds were byte-identical, but their W75 local CV was
+`0.9497496781576313`. No per-fold Stage07O checkpoints or original hash seed
+were saved. `src/stage07_local/audit_gold_head_determinism.py` traces input,
+initial-weight, gradient, and OOF hashes without overwriting historical files.
+Thus the repository has a fail-closed historical metric check, **not** a
+verified source-only guarantee of that exact historical CV result. Do not
+present the committed report as proof of fresh reproduction.
