@@ -55,6 +55,7 @@ LEGAL_INSTRUCTION = (
 CANDIDATES = {
     "vnlegal_lal": {
         "repo": "darklethelong/vnlegal-lal",
+        "revision": "de759324ef931a2475ae8db97137b6a6cbb98aa0",
         "target": "vnlegal-lal",
         "expected_max_seq_length": 2048,
         "trust_remote_code": False,
@@ -211,10 +212,12 @@ def materialize_one(key: str, force: bool) -> dict[str, Any]:
     report_dir = (OUT / key).resolve()
     report_dir.mkdir(parents=True, exist_ok=True)
 
-    info = HfApi().model_info(spec["repo"], revision="main")
+    info = HfApi().model_info(spec["repo"], revision=spec.get("revision", "main"))
     resolved_sha = str(info.sha)
     if len(resolved_sha) < 20:
         raise RuntimeError(f"Could not resolve immutable SHA: {resolved_sha!r}")
+    if spec.get("revision") and resolved_sha != spec["revision"]:
+        raise RuntimeError(f"Pinned model revision drift: {resolved_sha}")
 
     if target.exists():
         if not force:
@@ -230,8 +233,8 @@ def materialize_one(key: str, force: bool) -> dict[str, Any]:
             if old.get("resolved_revision_sha") != resolved_sha:
                 raise FileExistsError(
                     f"{target} is pinned to {old.get('resolved_revision_sha')}, "
-                    f"Hub main now resolves to {resolved_sha}. "
-                    "Use --force only if you intentionally want the new revision."
+                    f"Requested revision is {resolved_sha}. "
+                    "Use --force only to replace this local snapshot."
                 )
             print(f"[{key}] existing immutable snapshot accepted", flush=True)
         else:

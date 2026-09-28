@@ -16,7 +16,7 @@ Outputs:
 No new foundation model.
 """
 from __future__ import annotations
-import json, sys, zipfile
+import argparse, json, sys, zipfile
 from pathlib import Path
 import joblib
 import numpy as np
@@ -122,6 +122,9 @@ def private_ait_score(pqids,pdocs,pshort,PX45,PX57,pqe,pcent):
     return s.astype(np.float32)
 
 def main():
+    ap=argparse.ArgumentParser()
+    ap.add_argument("--oof-only",action="store_true",help="audit GOLD local CV without private scoring or ZIP output")
+    args=ap.parse_args()
     OUT.mkdir(parents=True,exist_ok=True);CACHE.mkdir(parents=True,exist_ok=True)
     for p in (P_PROP,P_AIT):
         if not p.exists():raise FileNotFoundError(p)
@@ -170,6 +173,9 @@ def main():
             "grid":rows,"robust_choice":best,"nested":nested,"nested_weighted_R":nested_R}
     (OUT/"FUSION_AUDIT.json").write_text(json.dumps(report,indent=2)+"\n")
     print("[OOF] nested weighted R",nested_R,flush=True)
+
+    if args.oof_only:
+        return
 
     print("[private] build propensity",flush=True)
     pqids,pdocs,pshort,pps,PX45,PX57,pqe,pcent=private_propensity()

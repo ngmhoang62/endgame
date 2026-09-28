@@ -55,6 +55,7 @@ OUT = ROOT / "reports" / "stage02b3_vietnamese_model_materialization"
 CANDIDATES = {
     "aiteamvn_vietnamese_embedding": {
         "repo": "AITeamVN/Vietnamese_Embedding",
+        "revision": "dea33aa1ab339f38d66ae0a40e6c40e0a9249568",
         "dirname": "aiteamvn-vietnamese-embedding",
         "trust_remote_code": False,
         "fix_mistral_regex": False,
@@ -168,9 +169,11 @@ def materialize(key, spec, force=False):
     report_dir = OUT / key
     report_dir.mkdir(parents=True, exist_ok=True)
 
-    sha = str(HfApi().model_info(spec["repo"], revision="main").sha)
+    sha = str(HfApi().model_info(spec["repo"], revision=spec.get("revision", "main")).sha)
     if len(sha) < 20:
         raise RuntimeError(f"Could not resolve SHA for {spec['repo']}")
+    if spec.get("revision") and sha != spec["revision"]:
+        raise RuntimeError(f"Pinned model revision drift for {spec['repo']}: {sha}")
 
     if target.exists():
         local_manifest = target / "_ENDGAME_MODEL_MANIFEST.json"
@@ -314,13 +317,15 @@ def existing_anchor(path, report_path, key):
 def main():
     import argparse
     p = argparse.ArgumentParser()
+    p.add_argument("--candidate", choices=["all", *CANDIDATES], default="all")
     p.add_argument("--force", action="store_true")
     args = p.parse_args()
 
     OUT.mkdir(parents=True, exist_ok=True)
     passed, failed = {}, {}
 
-    for key, spec in CANDIDATES.items():
+    selected = CANDIDATES if args.candidate == "all" else {args.candidate: CANDIDATES[args.candidate]}
+    for key, spec in selected.items():
         try:
             m = materialize(key, spec, args.force)
             passed[key] = {

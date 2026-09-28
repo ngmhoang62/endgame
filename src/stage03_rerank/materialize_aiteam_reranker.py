@@ -8,6 +8,7 @@ ROOT=Path(__file__).resolve().parents[2]
 TARGET=ROOT/"models/rerankers/aiteamvn-vietnamese-reranker"
 OUT=ROOT/"reports/stage03b0_reranker_materialization"
 MODEL_ID="AITeamVN/Vietnamese_Reranker"
+REVISION="f536976248403314225d7fdfdbc87f0e9516a54e"
 
 def sha256(p):
     h=hashlib.sha256()
@@ -17,8 +18,9 @@ def sha256(p):
 
 def main():
     from huggingface_hub import HfApi, snapshot_download
-    info=HfApi().model_info(MODEL_ID)
+    info=HfApi().model_info(MODEL_ID,revision=REVISION)
     revision=str(info.sha)
+    if revision!=REVISION:raise RuntimeError(f"reranker revision drift: {revision}")
     TARGET.mkdir(parents=True,exist_ok=True); OUT.mkdir(parents=True,exist_ok=True)
     print(f"[download] {MODEL_ID}@{revision} -> {TARGET}",flush=True)
     snapshot_download(

@@ -76,7 +76,7 @@ def normalize_f32(vectors):
 def main() -> int:
     p = argparse.ArgumentParser()
     p.add_argument("--model-id", default="mainguyen9/vietlegal-e5")
-    p.add_argument("--revision", default="main")
+    p.add_argument("--revision", default="a814728d93e14566f9634b50a054e67699ea8818")
     p.add_argument("--target", type=Path, default=ROOT / "models" / "vietlegal-e5")
     p.add_argument(
         "--report-dir",
@@ -102,13 +102,23 @@ def main() -> int:
     resolved_sha = str(info.sha)
     if not resolved_sha or len(resolved_sha) < 20:
         raise RuntimeError(f"Could not resolve immutable revision: {resolved_sha!r}")
+    if len(args.revision) == 40 and resolved_sha != args.revision:
+        raise RuntimeError(f"Pinned model revision drift: {resolved_sha}")
 
     if target.exists():
         if not args.force:
-            raise FileExistsError(
-                f"Target already exists: {target}\n"
-                "Refusing to mix/overwrite model files. Remove it explicitly or pass --force."
-            )
+            local_manifest = target / "_ENDGAME_MODEL_MANIFEST.json"
+            if not local_manifest.is_file():
+                raise FileExistsError(f"Target exists without provenance manifest: {target}")
+            previous = json.loads(local_manifest.read_text(encoding="utf-8"))
+            inventory = [row for row in file_inventory(target)
+                         if row["path"] != "_ENDGAME_MODEL_MANIFEST.json"]
+            if (previous.get("status") != "PASS"
+                    or previous.get("resolved_revision_sha") != resolved_sha
+                    or previous.get("content_fingerprint") != canonical_hash(inventory)):
+                raise FileExistsError(f"Existing model snapshot differs from pinned revision: {target}")
+            print(f"Existing immutable model snapshot verified: {target}", flush=True)
+            return 0
         shutil.rmtree(target)
 
     target.parent.mkdir(parents=True, exist_ok=True)
